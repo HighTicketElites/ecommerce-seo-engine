@@ -1,4 +1,4 @@
-export default '<h2>Why the Torque Sensor Is Important on a Cargo Bike</h2>
+export default `<h2>Why the Torque Sensor Is Important on a Cargo Bike</h2>
 <p>A torque sensor measures how much force the rider applies to the pedals and adjusts assist accordingly. That matters on a cargo platform because abrupt power delivery can feel uncomfortable when a rider is balancing extra weight at low speed. With a torque-sensing system, starts can feel more progressive and the bike can deliver more support when the rider pushes harder.</p>
 <p>This also helps preserve a more bicycle-like ride. Riders who intend to pedal regularly instead of relying primarily on the throttle may find the HovCart easier to modulate around traffic, intersections, parking lots, and crowded paths.</p>
 
@@ -18,4 +18,4 @@ export default '<h2>Why the Torque Sensor Is Important on a Cargo Bike</h2>
 <p>Within that context, the rating gives the HovCart enough headroom for many real household tasks: groceries, work bags, sports gear, camping supplies, child-carrying accessories, or other approved passenger setups.</p>
 <p>If family hauling is your primary use case, compare the HovCart with the models in <a href="https://wattwheelz.com/collections/best-e-bikes-for-carrying-kids-cargo">WattWheelz\'s Best E-Bikes for Carrying Kids &amp; Cargo collection</a>. The right choice depends as much on passenger arrangement and storage as it does on motor output.</p>
 
-';
+`;
