@@ -1,4 +1,4 @@
-export default "<h2>Compact 20-Inch Wheels and Low-Speed Stability</h2>
+export default `<h2>Compact 20-Inch Wheels and Low-Speed Stability</h2>
 <p>The HovCart runs 20 x 3-inch tires. Smaller-diameter wheels help keep the cargo deck and overall center of gravity lower than on many full-size 26-inch utility bikes. For family and cargo use, that can make a meaningful difference when mounting, stopping, walking the bike, or balancing at low speed.</p>
 <p>The 3-inch tire width also gives the bike a larger contact patch than a narrow commuter tire without becoming as bulky as some 4-inch fat-tire setups. The result is a cargo platform designed to feel stable and planted while still remaining compact enough for neighborhood riding and storage.</p>
 
@@ -19,4 +19,4 @@ export default "<h2>Compact 20-Inch Wheels and Low-Speed Stability</h2>
 <h2>HOVSCO App and Display</h2>
 <p>The HovCart includes an LCD display and HOVSCO app support. The display covers basic ride information such as battery status, speed, odometer data, and assist level, while the app can support ride data and connected features. These functions are useful, but they should be treated as secondary to the bike's mechanical fit and cargo configuration.</p>
 
-";
+`;
