@@ -1,4 +1,4 @@
-export default '<h2>What the HovCart Is Like for Family Use</h2>
+export default `<h2>What the HovCart Is Like for Family Use</h2>
 <p>The HovCart\'s design priorities line up well with family use: low step-thru access, a compact wheel format, hydraulic brakes, a high published payload, and a rear section intended for configurable accessories. HOVSCO also markets family-kit configurations with passenger-oriented components.</p>
 <p>The key is to build the configuration around the passengers you actually intend to carry. Child seating, cushions, running boards, baskets, and other hardware should be approved for the HovCart and installed correctly. Do not assume a generic accessory is safe simply because it physically bolts to the rack.</p>
 <p>For families deciding between several layouts, WattWheelz\'s <a href="https://wattwheelz.com/pages/find-my-ebike">Find My E-Bike quiz</a> can help narrow the use case before choosing a model.</p>
@@ -16,4 +16,4 @@ export default '<h2>What the HovCart Is Like for Family Use</h2>
 <p>It also makes sense for buyers who value torque-sensing pedal assist. If you want the motor to respond more naturally to your pedaling rather than simply turning assistance on and off, the torque sensor is an important advantage.</p>
 <p>You can browse the rest of WattWheelz\'s <a href="https://wattwheelz.com/collections/vendors?q=hovsco">HOVSCO lineup</a> if you like the brand but do not need the HovCart\'s cargo-specific format.</p>
 
-';
+`;
