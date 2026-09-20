@@ -1,4 +1,4 @@
-export default '<h2>HOVSCO HovCart FAQ</h2>
+export default `<h2>HOVSCO HovCart FAQ</h2>
 <h3>How powerful is the HOVSCO HovCart?</h3><p>HOVSCO publishes a 750W sustained rear hub motor with up to 1,300W peak output and up to 90 N·m of torque. That output is intended to support cargo-oriented starts, hills, and everyday utility riding.</p>
 <h3>What is the HovCart\'s maximum payload?</h3><p>The published payload rating is up to 450 lb. Buyers should follow HOVSCO\'s guidance for how that load is distributed across the rider, rear system, passenger accessories, and cargo configuration.</p>
 <h3>How far can the HovCart go on one charge?</h3><p>HOVSCO publishes about 40–60 miles depending on conditions. Real-world range changes with load, terrain, assist level, speed, temperature, wind, tire pressure, and throttle use.</p>
@@ -13,4 +13,4 @@ export default '<h2>HOVSCO HovCart FAQ</h2>
 <p>Its biggest limitation is also common to almost every cargo e-bike: range and handling depend heavily on how much weight you add and where you ride. Buyers who set expectations around their real route and real load—not the maximum brochure number—are much more likely to be happy with the result.</p>
 <p>See current pricing, configurations, and availability on the <a href="https://wattwheelz.com/products/hovsco%E2%84%A2-hovcart-20-step-thru-electric-fat-tire-cargo-bike">HOVSCO HovCart product page</a>, or compare it with other <a href="https://wattwheelz.com/collections/best-e-bikes-for-carrying-kids-cargo">cargo and family e-bikes at WattWheelz</a>.</p>
 
-';
+`;
