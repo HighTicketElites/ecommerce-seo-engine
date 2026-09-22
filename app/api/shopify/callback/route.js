@@ -46,9 +46,9 @@ export async function GET(request) {
     const result = await runDraftJob(auth);
     const headers = new Headers({'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'});
     headers.append('Set-Cookie','ww_oauth_state=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
-    return new Response(resultPage('HOVSCO HovCart Draft Job', result, result.pass), { status: result.pass ? 200 : 409, headers });
+    return new Response(resultPage('HOVSCO HovBeta Draft Job', result, result.pass), { status: result.pass ? 200 : 409, headers });
   } catch (error) {
     const payload = { error: error?.message || String(error), safety: 'No publication action was executed.' };
-    return new Response(resultPage('HOVSCO HovCart Draft Job - Stopped Safely', payload, false), { status:500, headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'} });
+    return new Response(resultPage('HOVSCO HovBeta Draft Job - Stopped Safely', payload, false), { status:500, headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'} });
   }
 }
