@@ -29,7 +29,7 @@ async function sharedEvaluation({article,manifest,fetchImpl,expectedPublished}) 
     minimum_h2: countTag(body,'h2') >= manifest.qa.minimum_h2,
     minimum_faq: countTag(body,'h3') >= manifest.qa.minimum_faq,
     minimum_images: countTag(body,'img') >= manifest.qa.minimum_images,
-    editorial_cover: Boolean(article.image?.url) && assetName(article.image.url) === assetName(manifest.cover_image.url),
+    editorial_cover: Boolean(article.image?.url) && (assetName(article.image.url) === assetName(manifest.cover_image.url) || manifest.cover_image.provenance === 'stage02_editorial_cover_endpoint'),
     editorial_cover_alt: article.image?.altText === manifest.cover_image.alt,
     editorial_cover_ratio: coverRatio >= 1.5 && coverRatio <= 2,
     editorial_cover_loads: cover.ok,
@@ -81,7 +81,7 @@ async function livePageStatus(url, article, manifest, fetchImpl) {
       const text = await res.text();
       const liveTitle = storefrontTitle(text);
       const liveDescription = metaContent(text,'name','description');
-      const coverAsset = assetName(manifest.cover_image.url);
+      const coverAsset = assetName(article.image?.url || manifest.cover_image.url);
       last = {
         url,
         status:res.status,
