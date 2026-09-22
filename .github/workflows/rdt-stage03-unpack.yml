@@ -24,28 +24,56 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf /tmp/rdt-stage03-src
-          mkdir -p /tmp/rdt-stage03-src
-          cat rdt-stage03/bundle.part.* | tr -d '\n\r ' | base64 --decode > /tmp/rdt-stage03.tgz
-          tar -xzf /tmp/rdt-stage03.tgz -C /tmp/rdt-stage03-src
+          python - <<'PY'
+          import base64, io, tarfile, pathlib, shutil
 
-          PKG="$(find /tmp/rdt-stage03-src -maxdepth 4 -name package.json -type f | head -n 1)"
-          test -n "$PKG"
-          SRC="$(dirname "$PKG")"
+          root = pathlib.Path("rdt-stage03")
+          encoded = (root / "runtime.part.00").read_text().strip()
+          payload = base64.b64decode(encoded)
+          print("decoded runtime bytes:", len(payload))
 
-          find rdt-stage03 -mindepth 1 -maxdepth 1 \
-            ! -name 'bundle.part.*' \
-            ! -name 'runtime.part.*' \
-            ! -name 'DEPLOYMENT.md' \
-            -exec rm -rf {} +
+          tmp = pathlib.Path("/tmp/rdt-stage03-src")
+          shutil.rmtree(tmp, ignore_errors=True)
+          tmp.mkdir(parents=True)
 
-          cp -a "$SRC"/. rdt-stage03/
-          rm -f rdt-stage03/bundle.part.* rdt-stage03/runtime.part.* rdt-stage03/bootstrap.mjs
+          with tarfile.open(fileobj=io.BytesIO(payload), mode="r:gz") as tf:
+              names = tf.getnames()
+              print("archive files:", len(names))
+              print("\n".join(names[:40]))
+              tf.extractall(tmp)
 
-          test -f rdt-stage03/package.json
-          test -d rdt-stage03/app
-          test -d rdt-stage03/lib
-          test -d rdt-stage03/data
+          pkgs = list(tmp.rglob("package.json"))
+          if not pkgs:
+              raise SystemExit("package.json not found in runtime archive")
+          src = pkgs[0].parent
+          print("source root:", src)
+
+          keep = {"runtime.part.00", "bundle.part.00", "bundle.part.01", "bundle.part.02", "bundle.part.03", "DEPLOYMENT.md"}
+          for child in list(root.iterdir()):
+              if child.name in keep:
+                  continue
+              if child.is_dir():
+                  shutil.rmtree(child)
+              else:
+                  child.unlink()
+
+          for child in src.iterdir():
+              dest = root / child.name
+              if child.is_dir():
+                  shutil.copytree(child, dest, dirs_exist_ok=True)
+              else:
+                  shutil.copy2(child, dest)
+
+          for name in ["runtime.part.00","bundle.part.00","bundle.part.01","bundle.part.02","bundle.part.03","bootstrap.mjs"]:
+              p=root/name
+              if p.exists():
+                  p.unlink()
+
+          required=["package.json","app","lib","data"]
+          missing=[x for x in required if not (root/x).exists()]
+          if missing:
+              raise SystemExit(f"missing required source: {missing}")
+          PY
 
       - name: Validate Stage03 source
         working-directory: rdt-stage03
