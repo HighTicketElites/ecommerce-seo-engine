@@ -1,0 +1,24 @@
+{
+  "id":"fire-bowl-vs-fire-water-bowl",
+  "title":"Fire Bowl vs Fire and Water Bowl: Which Does Your Pool Project Need?",
+  "handle":"fire-bowl-vs-fire-and-water-bowl",
+  "blog_title":"Fire Features Guides",
+  "blog_handle":"fire-features-guides",
+  "draft_readiness":"approved",
+  "publish_readiness":"pilot_approved",
+  "primary_keyword":"fire bowl vs fire and water bowl",
+  "seo_title":"Fire Bowl vs Fire & Water Bowl: Which Fits Your Pool?",
+  "meta_description":"Compare fire bowls and fire and water bowls by visual effect, utilities, installation complexity, maintenance, pool integration, and project fit.",
+  "excerpt":"A practical decision guide for choosing between a flame-only fire bowl and a fire-and-water bowl for a pool, patio, or outdoor-living project.",
+  "tags":["Fire Bowls","Fire and Water Bowls","The Outdoor Plus","Pool Design","Fire Features"],
+  "product_handles":["the-outdoor-plus-cazo-powdercoated-steel-fire-bowl","the-outdoor-plus-cazo-powdercoated-steel-fire-water-bowl","the-outdoor-plus-maya-powdercoated-steel-fire-water-bowl"],
+  "required_internal_links":["https://resideterra.com/collections/fire-bowls","https://resideterra.com/collections/fire-water-bowls","https://resideterra.com/blogs/fire-features-guides/fire-and-water-bowls-for-pools","https://resideterra.com/collections/the-outdoor-plus"],
+  "source_urls":["https://theoutdoorplus.com/product-category/bowls/fire-bowls/","https://theoutdoorplus.com/product-category/bowls/fire-water-bowls/","https://resideterra.com/collections/fire-bowls","https://resideterra.com/collections/fire-water-bowls","https://resideterra.com/blogs/fire-features-guides/fire-and-water-bowls-for-pools"],
+  "image_slots":[
+    {"id":"cazo-fire","product_handle":"the-outdoor-plus-cazo-powdercoated-steel-fire-bowl","media_index":0,"alt":"The Outdoor Plus Cazo powder-coated steel fire bowl","caption":"Current ResideTerra product media for the flame-only Cazo powder-coated steel fire bowl."},
+    {"id":"cazo-fire-water","product_handle":"the-outdoor-plus-cazo-powdercoated-steel-fire-water-bowl","media_index":0,"alt":"The Outdoor Plus Cazo powder-coated steel fire and water bowl","caption":"Current ResideTerra product media for the Cazo fire-and-water version."},
+    {"id":"maya-fire-water","product_handle":"the-outdoor-plus-maya-powdercoated-steel-fire-water-bowl","media_index":0,"alt":"The Outdoor Plus Maya powder-coated steel fire and water bowl","caption":"Current ResideTerra product media for the square Maya fire-and-water bowl."}
+  ],
+  "cover_image":{"url":"https://resideterra-seo-draft-generator.vercel.app/api/cover","alt":"Fire bowl versus fire and water bowl decision guide cover","asset_kind":"editorial_cover","provenance":"stage02_editorial_cover_endpoint","aspect_ratio":"16:9"},
+  "qa":{"minimum_words":2000,"minimum_h2":12,"minimum_faq":8,"minimum_images":3}
+}
