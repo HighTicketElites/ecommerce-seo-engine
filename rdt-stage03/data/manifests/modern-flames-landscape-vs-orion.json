@@ -1,0 +1,21 @@
+{
+  "id":"modern-flames-landscape-vs-orion",
+  "title":"Modern Flames Landscape Pro Multi vs Orion Multi: Which Three-Sided Fireplace Fits Your Project?",
+  "handle":"modern-flames-landscape-pro-multi-vs-orion-multi",
+  "blog_title":"Electric Fireplace Guides",
+  "blog_handle":"electric-fireplaces",
+  "draft_readiness":"approved",
+  "publish_readiness":"locked",
+  "lock_reason":"already_published_and_live_qa_passed",
+  "primary_keyword":"Landscape Pro Multi vs Orion Multi",
+  "seo_title":"Landscape Pro Multi vs Orion Multi Comparison",
+  "meta_description":"Compare Modern Flames Landscape Pro Multi and Orion Multi fireplaces by installation format, visual experience, project fit, and buyer priorities.",
+  "excerpt":"A project-focused comparison of two Modern Flames multi-sided fireplace lines, built to help homeowners and design professionals choose the right platform.",
+  "tags":["Modern Flames","Landscape Pro Multi","Orion Multi","Comparisons"],
+  "product_handles":["modern-flames-landscape-pro-multi-built-in-electric-fireplace","modern-flames-orion-multi-3-sided-built-in-wall-mounted-electric-fireplace"],
+  "required_internal_links":["https://resideterra.com/collections/modern-flames","https://resideterra.com/collections/modern-flames-landscape-pro-series","https://resideterra.com/collections/modern-flames-orion-series","https://resideterra.com/products/modern-flames-landscape-pro-multi-built-in-electric-fireplace","https://resideterra.com/products/modern-flames-orion-multi-3-sided-built-in-wall-mounted-electric-fireplace"],
+  "source_urls":["https://resideterra.com/products/modern-flames-landscape-pro-multi-built-in-electric-fireplace","https://resideterra.com/products/modern-flames-orion-multi-3-sided-built-in-wall-mounted-electric-fireplace","https://www.modernflames.com/resources/"],
+  "image_slots":[{"id":"landscape-room","product_handle":"modern-flames-landscape-pro-multi-built-in-electric-fireplace","media_index":13,"alt":"Modern Flames Landscape Pro Multi three-sided fireplace in a contemporary living room","caption":"Authentic Landscape Pro Multi three-sided installation."}],
+  "cover_image":{"url":"https://cdn.shopify.com/s/files/1/0892/4862/9058/articles/resideterra-modern-flames-landscape-vs-orion-cover-v1.jpg?v=1789159640","alt":"Modern Flames Landscape Pro Multi and Orion Multi fireplaces in a luxury interior comparison","asset_kind":"editorial_cover","provenance":"generated_editorial_composite_from_two_authentic_shopify_product_images","aspect_ratio":"16:9"},
+  "qa":{"minimum_words":1800,"minimum_h2":10,"minimum_faq":7,"minimum_images":4}
+}
