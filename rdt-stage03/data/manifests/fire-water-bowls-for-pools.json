@@ -1,0 +1,21 @@
+{
+  "id":"fire-water-bowls-for-pools",
+  "title":"Fire and Water Bowls for Pools: Sizing, Placement, Water Flow, Fuel, and Ignition Planning",
+  "handle":"fire-and-water-bowls-for-pools",
+  "blog_title":"Fire Feature Guides",
+  "blog_handle":"fire-features-guides",
+  "draft_readiness":"research_required",
+  "publish_readiness":"locked",
+  "lock_reason":"already_published_and_live_qa_passed",
+  "primary_keyword":"fire and water bowls for pools",
+  "seo_title":"Fire and Water Bowls for Pools: Planning Guide",
+  "meta_description":"Plan fire and water bowls for a pool with guidance on size, placement, water flow, ignition, gas type, materials, controls, and project coordination.",
+  "excerpt":"A planning guide for homeowners, pool builders, and designers evaluating fire and water bowls for a pool or luxury outdoor project.",
+  "tags":["Fire and Water Bowls","The Outdoor Plus","Pool Design","Fire Features"],
+  "product_handles":["the-outdoor-plus-maya-concrete-fire-bowl","the-outdoor-plus-cazo-concrete-fire-bowl","the-outdoor-plus-sedona-concrete-fire-bowl"],
+  "required_internal_links":["https://resideterra.com/collections/fire-water-bowls","https://resideterra.com/collections/fire-bowls","https://resideterra.com/collections/the-outdoor-plus"],
+  "source_urls":["https://resideterra.com/collections/fire-water-bowls","https://theoutdoorplus.com/product-category/bowls/fire-water-bowls/","https://theoutdoorplus.com/manuals-and-documents/"],
+  "image_slots":[{"id":"maya-product","product_handle":"the-outdoor-plus-maya-concrete-fire-bowl","media_index":0,"alt":"The Outdoor Plus Maya fire bowl","caption":"Authentic The Outdoor Plus Maya product image."}],
+  "cover_image":{"status":"required","alt":"Fire and water bowls installed beside a luxury residential pool","asset_kind":"editorial_cover","provenance":"pending","aspect_ratio":"16:9"},
+  "qa":{"minimum_words":2000,"minimum_h2":9,"minimum_faq":5,"minimum_images":2}
+}
