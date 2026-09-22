@@ -1,0 +1,100 @@
+branch=resideterra-stage03
+parts:
+-rw-r--r-- 1 runner runner 18000 Sep 22 21:23 rdt-stage03/bundle.part.00
+-rw-r--r-- 1 runner runner 18000 Sep 22 21:23 rdt-stage03/bundle.part.01
+-rw-r--r-- 1 runner runner 18000 Sep 22 21:23 rdt-stage03/bundle.part.02
+-rw-r--r-- 1 runner runner 18000 Sep 22 21:23 rdt-stage03/bundle.part.03
+base64_decode=0
+-rw-r--r-- 1 runner runner 53K Sep 22 21:23 /tmp/rdt-stage03.tgz
+gzip_test=1
+tar_list=2
+tar listing:
+stage03_next/
+stage03_next/package.json
+stage03_next/.gitignore
+stage03_next/STAGE03_VALIDATION.md
+stage03_next/lib/
+stage03_next/lib/qa.js
+stage03_next/lib/shopify.js
+stage03_next/lib/security.js
+stage03_next/lib/result-page.js
+stage03_next/lib/fingerprint.js
+stage03_next/lib/manifest.js
+stage03_next/lib/publish.js
+stage03_next/lib/config.js
+stage03_next/lib/html.js
+stage03_next/scripts/
+stage03_next/scripts/validate-manifests.mjs
+stage03_next/scripts/verify-manifest-links.mjs
+stage03_next/scripts/validate-package.mjs
+stage03_next/README.md
+stage03_next/app/
+stage03_next/app/page.js
+stage03_next/app/api/
+stage03_next/app/api/publish/
+stage03_next/app/api/publish/execute/
+stage03_next/app/api/publish/execute/route.js
+stage03_next/app/api/health/
+stage03_next/app/api/health/route.js
+stage03_next/app/api/shopify/
+stage03_next/app/api/shopify/install/
+stage03_next/app/api/shopify/install/route.js
+stage03_next/app/api/shopify/callback/
+stage03_next/app/api/shopify/callback/route.js
+stage03_next/app/api/shopify/start/
+stage03_next/app/api/shopify/start/route.js
+stage03_next/app/layout.js
+stage03_next/next.config.mjs
+stage03_next/test/
+stage03_next/test/config.test.js
+stage03_next/test/publish.test.js
+stage03_next/test/manifest.test.js
+stage03_next/test/fingerprint.test.js
+stage03_next/test/live-qa.test.js
+stage03_next/test/security.test.js
+stage03_next/test/result-page.test.js
+stage03_next/data/
+stage03_next/data/bodies/
+stage03_next/data/bodies/fire-water-bowls-for-pools.html
+stage03_next/data/bodies/modern-flames-landscape-vs-orion.html
+stage03_next/data/bodies/fire-magic-echelon-vs-aurora-vs-choice.html
+stage03_next/data/bodies/dimplex-ignitexl-review.html
+stage03_next/data/bodies/fire-bowl-vs-fire-water-bowl.html
+
+gzip: stdin: unexpected end of file
+tar: Unexpected EOF in archive
+tar: Error is not recoverable: exiting now
+tar_extract=2
+package candidates:
+/tmp/rdt-stage03-src/stage03_next/package.json
+pkg=/tmp/rdt-stage03-src/stage03_next/package.json
+src=/tmp/rdt-stage03-src/stage03_next
+src listing:
+/tmp/rdt-stage03-src/stage03_next/.gitignore
+/tmp/rdt-stage03-src/stage03_next/README.md
+/tmp/rdt-stage03-src/stage03_next/STAGE03_VALIDATION.md
+/tmp/rdt-stage03-src/stage03_next/app/layout.js
+/tmp/rdt-stage03-src/stage03_next/app/page.js
+/tmp/rdt-stage03-src/stage03_next/lib/config.js
+/tmp/rdt-stage03-src/stage03_next/lib/fingerprint.js
+/tmp/rdt-stage03-src/stage03_next/lib/html.js
+/tmp/rdt-stage03-src/stage03_next/lib/manifest.js
+/tmp/rdt-stage03-src/stage03_next/lib/publish.js
+/tmp/rdt-stage03-src/stage03_next/lib/qa.js
+/tmp/rdt-stage03-src/stage03_next/lib/result-page.js
+/tmp/rdt-stage03-src/stage03_next/lib/security.js
+/tmp/rdt-stage03-src/stage03_next/lib/shopify.js
+/tmp/rdt-stage03-src/stage03_next/next.config.mjs
+/tmp/rdt-stage03-src/stage03_next/package.json
+/tmp/rdt-stage03-src/stage03_next/scripts/validate-manifests.mjs
+/tmp/rdt-stage03-src/stage03_next/scripts/validate-package.mjs
+/tmp/rdt-stage03-src/stage03_next/scripts/verify-manifest-links.mjs
+/tmp/rdt-stage03-src/stage03_next/test/config.test.js
+/tmp/rdt-stage03-src/stage03_next/test/fingerprint.test.js
+/tmp/rdt-stage03-src/stage03_next/test/live-qa.test.js
+/tmp/rdt-stage03-src/stage03_next/test/manifest.test.js
+/tmp/rdt-stage03-src/stage03_next/test/publish.test.js
+/tmp/rdt-stage03-src/stage03_next/test/result-page.test.js
+/tmp/rdt-stage03-src/stage03_next/test/security.test.js
+source_shape=valid
+materialized=yes
