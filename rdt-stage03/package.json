@@ -5,11 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node bootstrap.mjs && next build",
     "start": "next start",
     "test": "node --test",
-    "validate": "node scripts/validate-package.mjs && node scripts/validate-manifests.mjs",
-    "postinstall": "node bootstrap.mjs"
+    "validate": "node scripts/validate-package.mjs && node scripts/validate-manifests.mjs"
   },
   "dependencies": {
     "next": "15.5.21",
