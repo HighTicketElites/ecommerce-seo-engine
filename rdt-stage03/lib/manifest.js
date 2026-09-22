@@ -22,7 +22,9 @@ export function validateManifest(m) {
   if (m.draft_readiness === 'approved') {
     let coverUrl;
     try { coverUrl = new URL(m.cover_image.url); } catch { throw new Error(`${m.id} approved cover image URL is invalid`); }
-    if (coverUrl.protocol !== 'https:' || coverUrl.hostname !== 'cdn.shopify.com') throw new Error(`${m.id} approved cover image must be a Shopify CDN HTTPS asset`);
+    const isShopifyCdn = coverUrl.protocol === 'https:' && coverUrl.hostname === 'cdn.shopify.com';
+    const isStage02Cover = coverUrl.protocol === 'https:' && coverUrl.hostname === 'resideterra-seo-draft-generator.vercel.app' && coverUrl.pathname === '/api/cover' && m.cover_image.provenance === 'stage02_editorial_cover_endpoint';
+    if (!isShopifyCdn && !isStage02Cover) throw new Error(`${m.id} approved cover image must be a Shopify CDN asset or the trusted Stage02 editorial cover endpoint`);
     if (!m.cover_image.alt || m.cover_image.alt.length < 20) throw new Error(`${m.id} approved cover image requires descriptive alt text`);
     if (!m.cover_image.provenance || m.cover_image.provenance === 'pending') throw new Error(`${m.id} approved cover image requires recorded provenance`);
   } else if (m.cover_image.status !== 'required') {
