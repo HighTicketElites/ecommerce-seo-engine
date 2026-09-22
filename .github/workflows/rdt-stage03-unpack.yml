@@ -1,0 +1,69 @@
+name: RDT Stage03 Unpack and Validate
+
+on:
+  push:
+    branches:
+      - resideterra-stage03
+    paths:
+      - ".github/workflows/rdt-stage03-unpack.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: resideterra-stage03
+          fetch-depth: 0
+
+      - name: Unpack Stage03 source
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/rdt-stage03-src
+          mkdir -p /tmp/rdt-stage03-src
+          cat rdt-stage03/bundle.part.* | tr -d '\n\r ' | base64 --decode > /tmp/rdt-stage03.tgz
+          tar -xzf /tmp/rdt-stage03.tgz -C /tmp/rdt-stage03-src
+
+          PKG="$(find /tmp/rdt-stage03-src -maxdepth 4 -name package.json -type f | head -n 1)"
+          test -n "$PKG"
+          SRC="$(dirname "$PKG")"
+
+          find rdt-stage03 -mindepth 1 -maxdepth 1 \
+            ! -name 'bundle.part.*' \
+            ! -name 'runtime.part.*' \
+            ! -name 'DEPLOYMENT.md' \
+            -exec rm -rf {} +
+
+          cp -a "$SRC"/. rdt-stage03/
+          rm -f rdt-stage03/bundle.part.* rdt-stage03/runtime.part.* rdt-stage03/bootstrap.mjs
+
+          test -f rdt-stage03/package.json
+          test -d rdt-stage03/app
+          test -d rdt-stage03/lib
+          test -d rdt-stage03/data
+
+      - name: Validate Stage03 source
+        working-directory: rdt-stage03
+        run: |
+          npm install
+          npm test
+          npm run validate
+
+      - name: Commit unpacked source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rdt-stage03
+          if git diff --cached --quiet; then
+            echo "No source changes to commit."
+            exit 0
+          fi
+          git commit -m "Materialize RDT Stage03 source for Vercel"
+          git push origin HEAD:resideterra-stage03
