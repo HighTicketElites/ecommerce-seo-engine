@@ -1,0 +1,20 @@
+{
+  "id":"dimplex-ignitexl-review",
+  "title":"Dimplex IgniteXL Review: Sizes, Features, Heat Output, and Best Uses",
+  "handle":"dimplex-ignitexl-review",
+  "blog_title":"Electric Fireplace Guides",
+  "blog_handle":"electric-fireplaces",
+  "draft_readiness":"approved",
+  "publish_readiness":"locked",
+  "primary_keyword":"Dimplex IgniteXL review",
+  "seo_title":"Dimplex IgniteXL Review: Sizes and Best Uses",
+  "meta_description":"Compare Dimplex IgniteXL sizes, installation needs, flame presentation, heating features, and the projects each model is best suited to serve.",
+  "excerpt":"A buyer-focused guide to the Dimplex IgniteXL series, including size selection, installation planning, heat, design fit, and buyer considerations.",
+  "tags":["Dimplex","IgniteXL","Electric Fireplaces","Reviews"],
+  "product_handles":["dimplex-ignitexl-50-inch-built-in-electric-fireplace-xlf50","dimplex-ignitexl-60-inch-built-in-electric-fireplace-xlf60","dimplex-ignitexl-74-inch-built-in-electric-fireplace-xlf74","dimplex-ignitexl-100-inch-built-in-electric-fireplace-xlf100"],
+  "required_internal_links":["https://resideterra.com/collections/dimplex","https://resideterra.com/collections/dimplex-ignitexl-series","https://resideterra.com/collections/electric-fireplaces"],
+  "source_urls":["https://www.dimplex.com/en-us/ignite-xl-50in-linear-electric-fireplace","https://resideterra.com/collections/dimplex-ignitexl-series"],
+  "image_slots":[{"id":"xl50-room","product_handle":"dimplex-ignitexl-50-inch-built-in-electric-fireplace-xlf50","media_index":1,"alt":"Dimplex IgniteXL 50-inch electric fireplace in a finished room","caption":"Authentic current image of the Dimplex IgniteXL XLF50."}],
+  "cover_image":{"url":"https://cdn.shopify.com/s/files/1/0892/4862/9058/files/resideterra-dimplex-ignitexl-review-cover-v1.png?v=1788534425","alt":"Dimplex IgniteXL electric fireplace installed in a contemporary feature wall","asset_kind":"editorial_cover","provenance":"generated_contextual_from_authentic_product_asset","aspect_ratio":"16:9"},
+  "qa":{"minimum_words":1800,"minimum_h2":8,"minimum_faq":5,"minimum_images":1}
+}
