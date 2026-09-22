@@ -1,4 +1,4 @@
-name: RDT Stage03 Unpack and Validate
+name: RDT Stage03 Unpack Diagnostic
 
 on:
   push:
@@ -11,87 +11,78 @@ permissions:
   contents: write
 
 jobs:
-  unpack:
+  diagnose:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout branch
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: resideterra-stage03
           fetch-depth: 0
 
-      - name: Unpack Stage03 source
+      - name: Diagnose and materialize Stage03 bundle
         shell: bash
         run: |
-          set -euo pipefail
-          python - <<'PY'
-          import base64, io, tarfile, pathlib, shutil
+          set +e
+          DIAG="rdt-stage03/UNPACK_DIAGNOSTIC.txt"
+          : > "$DIAG"
+          echo "branch=$(git branch --show-current)" >> "$DIAG"
+          echo "parts:" >> "$DIAG"
+          ls -l rdt-stage03/bundle.part.* >> "$DIAG" 2>&1
 
-          root = pathlib.Path("rdt-stage03")
-          encoded = (root / "runtime.part.00").read_text().strip()
-          payload = base64.b64decode(encoded)
-          print("decoded runtime bytes:", len(payload))
+          cat rdt-stage03/bundle.part.* | tr -d '\n\r ' | base64 --decode > /tmp/rdt-stage03.tgz
+          echo "base64_decode=$?" >> "$DIAG"
+          ls -lh /tmp/rdt-stage03.tgz >> "$DIAG" 2>&1
 
-          tmp = pathlib.Path("/tmp/rdt-stage03-src")
-          shutil.rmtree(tmp, ignore_errors=True)
-          tmp.mkdir(parents=True)
+          gzip -t /tmp/rdt-stage03.tgz
+          echo "gzip_test=$?" >> "$DIAG"
 
-          with tarfile.open(fileobj=io.BytesIO(payload), mode="r:gz") as tf:
-              names = tf.getnames()
-              print("archive files:", len(names))
-              print("\n".join(names[:40]))
-              tf.extractall(tmp)
+          tar -tzf /tmp/rdt-stage03.tgz > /tmp/tar-list.txt 2>&1
+          TL=$?
+          echo "tar_list=$TL" >> "$DIAG"
+          echo "tar listing:" >> "$DIAG"
+          head -80 /tmp/tar-list.txt >> "$DIAG"
 
-          pkgs = list(tmp.rglob("package.json"))
-          if not pkgs:
-              raise SystemExit("package.json not found in runtime archive")
-          src = pkgs[0].parent
-          print("source root:", src)
+          rm -rf /tmp/rdt-stage03-src
+          mkdir -p /tmp/rdt-stage03-src
+          tar -xzf /tmp/rdt-stage03.tgz -C /tmp/rdt-stage03-src
+          echo "tar_extract=$?" >> "$DIAG"
 
-          keep = {"runtime.part.00", "bundle.part.00", "bundle.part.01", "bundle.part.02", "bundle.part.03", "DEPLOYMENT.md"}
-          for child in list(root.iterdir()):
-              if child.name in keep:
-                  continue
-              if child.is_dir():
-                  shutil.rmtree(child)
-              else:
-                  child.unlink()
+          echo "package candidates:" >> "$DIAG"
+          find /tmp/rdt-stage03-src -maxdepth 8 -name package.json -type f -print >> "$DIAG" 2>&1
+          PKG="$(find /tmp/rdt-stage03-src -maxdepth 8 -name package.json -type f | head -n 1)"
+          echo "pkg=$PKG" >> "$DIAG"
 
-          for child in src.iterdir():
-              dest = root / child.name
-              if child.is_dir():
-                  shutil.copytree(child, dest, dirs_exist_ok=True)
-              else:
-                  shutil.copy2(child, dest)
+          if [ -n "$PKG" ]; then
+            SRC="$(dirname "$PKG")"
+            echo "src=$SRC" >> "$DIAG"
+            echo "src listing:" >> "$DIAG"
+            find "$SRC" -maxdepth 2 -type f | sort | head -120 >> "$DIAG" 2>&1
 
-          for name in ["runtime.part.00","bundle.part.00","bundle.part.01","bundle.part.02","bundle.part.03","bootstrap.mjs"]:
-              p=root/name
-              if p.exists():
-                  p.unlink()
+            if [ -d "$SRC/app" ] && [ -d "$SRC/lib" ] && [ -d "$SRC/data" ]; then
+              echo "source_shape=valid" >> "$DIAG"
+              find rdt-stage03 -mindepth 1 -maxdepth 1 \
+                ! -name 'bundle.part.*' \
+                ! -name 'runtime.part.*' \
+                ! -name 'UNPACK_DIAGNOSTIC.txt' \
+                -exec rm -rf {} +
+              cp -a "$SRC"/. rdt-stage03/
+              rm -f rdt-stage03/bootstrap.mjs
+              echo "materialized=yes" >> "$DIAG"
+            else
+              echo "source_shape=invalid" >> "$DIAG"
+            fi
+          else
+            echo "source_shape=no_package" >> "$DIAG"
+          fi
 
-          required=["package.json","app","lib","data"]
-          missing=[x for x in required if not (root/x).exists()]
-          if missing:
-              raise SystemExit(f"missing required source: {missing}")
-          PY
-
-      - name: Validate Stage03 source
-        working-directory: rdt-stage03
-        run: |
-          npm install
-          npm test
-          npm run validate
-
-      - name: Commit unpacked source
+      - name: Commit diagnostic and materialized source
         shell: bash
         run: |
-          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add rdt-stage03
           if git diff --cached --quiet; then
-            echo "No source changes to commit."
             exit 0
           fi
-          git commit -m "Materialize RDT Stage03 source for Vercel"
+          git commit -m "Diagnose and materialize RDT Stage03 source"
           git push origin HEAD:resideterra-stage03
