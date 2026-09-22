@@ -4,12 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "preinstall": "node bootstrap.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "test": "node --test",
-    "validate": "node scripts/validate-package.mjs && node scripts/validate-manifests.mjs"
+    "validate": "node scripts/validate-package.mjs && node scripts/validate-manifests.mjs",
+    "postinstall": "node bootstrap.mjs"
   },
   "dependencies": {
     "next": "15.5.21",
