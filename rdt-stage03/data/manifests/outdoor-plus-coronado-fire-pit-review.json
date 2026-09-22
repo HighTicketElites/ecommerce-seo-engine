@@ -1,0 +1,21 @@
+{
+  "id":"outdoor-plus-coronado-fire-pit-review",
+  "title":"The Outdoor Plus Coronado Fire Pit Review: Sizes, Finishes, and Buyer Guide",
+  "handle":"outdoor-plus-coronado-fire-pit-review",
+  "blog_title":"Fire Feature Guides",
+  "blog_handle":"fire-features-guides",
+  "draft_readiness":"approved",
+  "publish_readiness":"locked",
+  "lock_reason":"already_published_and_live_qa_passed",
+  "primary_keyword":"Outdoor Plus Coronado Fire Pit review",
+  "seo_title":"Outdoor Plus Coronado Fire Pit Review and Guide",
+  "meta_description":"Review the Outdoor Plus Coronado Fire Pit by size, finish, fuel, ignition, heat output, installation needs, and ideal outdoor-space fit.",
+  "excerpt":"A configuration-aware guide to choosing the right size, material, fuel, and ignition system for The Outdoor Plus Coronado metal fire pit.",
+  "tags":["The Outdoor Plus","Coronado","Fire Pits","Fire Pit Tables","Buyer Guides"],
+  "product_handles":["the-outdoor-plus-coronado-metal-fire-pit"],
+  "required_internal_links":["https://resideterra.com/products/the-outdoor-plus-coronado-metal-fire-pit","https://resideterra.com/collections/fire-pit-tables","https://resideterra.com/collections/the-outdoor-plus"],
+  "source_urls":["https://resideterra.com/products/the-outdoor-plus-coronado-metal-fire-pit","https://theoutdoorplus.com/product/coronado-fire-pit-metal-collection/"],
+  "image_slots":[{"id":"coronado-hero","product_handle":"the-outdoor-plus-coronado-metal-fire-pit","media_index":0,"alt":"The Outdoor Plus Coronado rectangular metal fire pit","caption":"Authentic Coronado metal fire pit product image."}],
+  "cover_image":{"url":"https://cdn.shopify.com/s/files/1/0892/4862/9058/articles/resideterra-coronado-fire-pit-review-cover-v1.jpg","alt":"The Outdoor Plus Coronado metal fire pit in a luxury poolside patio setting","asset_kind":"editorial_cover","provenance":"generated_editorial_composite_from_authentic_shopify_product_image","aspect_ratio":"16:9"},
+  "qa":{"minimum_words":1900,"minimum_h2":11,"minimum_faq":8,"minimum_images":5}
+}
