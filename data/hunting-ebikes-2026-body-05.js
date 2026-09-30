@@ -9,6 +9,9 @@ export default `
 <li><strong>Long outings:</strong> prioritize the dual-battery-capable X6, X7, X8 or FAT-AWD 3.0 and plan conservatively around real terrain.</li>
 </ul>
 
+<p>For the broader brand lineup, browse the <a href="https://wattwheelz.com/collections/eunorau">EUNORAU collection at WattWheelz</a> or compare more fat-tire options in our <a href="https://wattwheelz.com/collections/fat-tire-bikes">Fat Tire Bikes collection</a>.</p>
+<p>For more context before choosing a hunting setup, read our <a href="https://wattwheelz.com/blogs/e-bike-rider-guides/hunting-in-stealth-the-rise-of-the-electric-dirt-bike">guide to hunting with electric dirt bikes</a> and the <a href="https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026">Best EUNORAU Electric Bikes of 2026</a>.</p>
+
 <h2>Can You Use a Hunting E-Bike on Public Land?</h2>
 <p><strong>Do not assume that a bike marketed as a hunting e-bike is legal on every hunting road or trail.</strong> Land-manager rules, state hunting regulations and local route designations can all matter.</p>
 <p>The Bureau of Land Management currently defines an e-bike as a bicycle with fully operable pedals and a motor of no more than 750 watts that fits within Class 1, 2 or 3 parameters. BLM's FAQ states that electric vehicles above 750W or providing assistance above 28 mph fall outside that e-bike definition and are managed as off-highway vehicles under BLM rules.</p>
