@@ -15,6 +15,6 @@ const manifest={
     "https://wattwheelz.com/products/fat-hs",
     "https://wattwheelz.com/products/fat-awd-3-0"
   ],
-  qa:{minimum_words:2800,minimum_h2:16,minimum_faq:10,minimum_images:5}
+  qa:{minimum_words:2800,minimum_h2:16,minimum_faq:10,minimum_images:5,minimum_product_links:1,minimum_collection_links:1,minimum_blog_links:1}
 };
 export default manifest;
