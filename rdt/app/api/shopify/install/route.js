@@ -6,7 +6,7 @@ const SCOPES=['write_content','read_products'].join(',');
 export async function GET(request){
   try{
     const session=verifySession(cookieValue(request.headers.get('cookie'),'rdt_run_session'));
-    if(session.job!=='fire-bowl-vs-fire-water-bowl') throw new Error('Unexpected run session job');
+    if(session.job!=='how-many-fire-bowls-pool') throw new Error('Unexpected run session job');
     const shop=normalizedShop();
     const clientId=process.env.RDT_SHOPIFY_CLIENT_ID;
     if(!clientId) throw new Error('RDT_SHOPIFY_CLIENT_ID is missing');
