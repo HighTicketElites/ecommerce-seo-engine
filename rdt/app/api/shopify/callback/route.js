@@ -19,7 +19,7 @@ export async function GET(request){
     const runSession=verifySession(cookieValue(request.headers.get('cookie'),'rdt_run_session'));
     const secret=process.env.RDT_SHOPIFY_CLIENT_SECRET;
     if(!code||!shop||!state) throw new Error('OAuth callback is missing required parameters');
-    if(runSession.job!=='fire-bowl-vs-fire-water-bowl') throw new Error('Run session job mismatch');
+    if(runSession.job!=='how-many-fire-bowls-pool') throw new Error('Run session job mismatch');
     if(shop!==normalizedShop()) throw new Error(`Unexpected Shopify shop: ${shop}`);
     if(!expectedState||state!==expectedState) throw new Error('OAuth state validation failed');
     if(!secret||!validShopifyHmac(url,secret)) throw new Error('OAuth HMAC validation failed');
@@ -28,9 +28,9 @@ export async function GET(request){
     const headers=new Headers({'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex','x-frame-options':'DENY'});
     headers.append('Set-Cookie','rdt_oauth_state=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
     headers.append('Set-Cookie','rdt_run_session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
-    return new Response(page('Fire Bowl vs Fire & Water Bowl Draft Job',result,result.pass),{status:result.pass?200:409,headers});
+    return new Response(page('How Many Fire Bowls Does a Pool Need? Draft Job',result,result.pass),{status:result.pass?200:409,headers});
   }catch(error){
     const payload={error:error?.message||String(error),safety:'No publication action was executed.'};
-    return new Response(page('Fire Bowl vs Fire & Water Bowl Draft Job - Stopped Safely',payload,false),{status:500,headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex','x-frame-options':'DENY'}});
+    return new Response(page('How Many Fire Bowls Does a Pool Need? Draft Job - Stopped Safely',payload,false),{status:500,headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex','x-frame-options':'DENY'}});
   }
 }
