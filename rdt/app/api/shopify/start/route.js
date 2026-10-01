@@ -2,7 +2,7 @@ import { appUrl } from '../../../../lib/config.js';
 import { randomToken, signSession } from '../../../../lib/security.js';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
-const JOB="fire-bowl-vs-fire-water-bowl";
+const JOB="how-many-fire-bowls-pool";
 function begin(){
   const session=signSession({job:JOB,nonce:randomToken(),exp:Date.now()+10*60*1000});
   const headers=new Headers({Location:new URL('/api/shopify/install',appUrl()).toString(),'Cache-Control':'no-store'});
