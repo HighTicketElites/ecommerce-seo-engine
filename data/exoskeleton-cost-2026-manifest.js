@@ -15,6 +15,11 @@ const manifest={
     "https://wattwheelz.com/blogs/exoskeleton-reviews-guides/powered-exoskeleton-for-walking-ascentiz-h-pro-guide",
     "https://wattwheelz.com/blogs/exoskeleton-reviews-guides/best-hiking-exoskeleton-ascentiz-h-ultra-vs-hypershell-dnsys"
   ],
+  commercial_destinations:[
+    "https://wattwheelz.com/collections/powered-exoskeletons",
+    "https://wattwheelz.com/products/ascentiz-h-pro-powered-exoskeleton",
+    "https://wattwheelz.com/products/ascentiz-h-ultra-powered-exoskeleton"
+  ],
   incoming_link_targets:[
     "gid://shopify/Article/595541917882",
     "gid://shopify/Article/595541950650"
