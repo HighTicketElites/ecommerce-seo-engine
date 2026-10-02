@@ -4,7 +4,9 @@ import { cookieValue, randomToken, verifySession } from '../../../../lib/securit
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
-const SCOPES = ['write_content','read_products','write_online_store_pages'].join(',');
+
+const SCOPES = ['write_content','read_products'].join(',');
+const EXPECTED_RDT_CLIENT_ID = 'd906cc861efd02a18d7368be97d129c2';
 
 export async function GET(request) {
   try {
@@ -13,6 +15,9 @@ export async function GET(request) {
     const shop = normalizedShop();
     const clientId = process.env.RDT_PUBLISH_CLIENT_ID;
     if (!clientId) throw new Error('RDT_PUBLISH_CLIENT_ID is missing');
+    if (clientId !== EXPECTED_RDT_CLIENT_ID) {
+      throw new Error('RDT_PUBLISH_CLIENT_ID does not match the approved Resideterra Shopify app');
+    }
     const state = randomToken();
     const redirectUri = `${appUrl()}/api/shopify/callback`;
     const authUrl = new URL(`https://${shop}/admin/oauth/authorize`);
@@ -20,11 +25,21 @@ export async function GET(request) {
     authUrl.searchParams.set('scope',SCOPES);
     authUrl.searchParams.set('redirect_uri',redirectUri);
     authUrl.searchParams.set('state',state);
+
+    console.info('RDT Stage03 OAuth redirect prepared', {
+      shop,
+      client_id: clientId,
+      redirect_uri: redirectUri,
+      scopes: SCOPES,
+      job: session.job,
+    });
+
     const response = NextResponse.redirect(authUrl,307);
     response.cookies.set('rdt_pub_oauth_state',state,{httpOnly:true,secure:true,sameSite:'lax',path:'/',maxAge:600});
     response.cookies.set('rdt_pub_job_id',session.job,{httpOnly:true,secure:true,sameSite:'lax',path:'/',maxAge:600});
     return response;
   } catch (error) {
+    console.error('RDT Stage03 OAuth preparation refused', { error: error?.message || String(error) });
     return NextResponse.json({error:error.message,safety:'No Shopify publication action was executed.'},{status:401,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}});
   }
 }
