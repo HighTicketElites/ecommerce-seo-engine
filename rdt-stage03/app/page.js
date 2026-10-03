@@ -22,7 +22,7 @@ export default function Home() {
           <select id="job" name="job" style={{width:'100%',padding:10,margin:'6px 0 14px'}}>
             {eligibleJobs.map(job => <option key={job.id} value={job.id}>{job.title}</option>)}
           </select>
-          <button type="submit" style={{padding:'12px 18px',background:'#111827',color:'#fff',border:0,borderRadius:7,fontWeight:700}}>Authorize and prepare publishing approval</button>
+          <button type="submit" style={{padding:'12px 18px',background:'#111827',color:'#fff',border:0,borderRadius:7,fontWeight:700}}>Prepare final publishing approval</button>
         </form>
         : <p style={{margin:0,padding:'12px 14px',background:'#f8fafc',borderRadius:7}}><strong>No jobs are ready for publishing approval.</strong> New jobs appear here only after draft QA, editorial-cover verification, and explicit Stage 03 approval.</p>}
       {completedJobs.length ? <details style={{marginTop:18}}>
