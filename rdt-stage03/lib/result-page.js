@@ -132,3 +132,32 @@ export function renderPublicationErrorPage(error) {
   const body = `<section class="card"><header class="hero"><div class="status"><span class="dot"></span>Publishing stopped</div><h1>The publishing operation was not completed</h1><p>${escapeHtml(message)}</p></header><div class="content"><div class="notice">Publication was refused or the article was returned to draft. Confirm its current Shopify state before retrying.</div><div class="actions"><a class="button primary" href="/">Return to publishing control</a></div></div></section>`;
   return documentShell({title: 'Publishing stopped', tone: 'error', body});
 }
+
+
+export function renderApprovalPage(result) {
+  const article = result?.article || {};
+  const approval = result?.approval || {};
+  const expires = approval.exp ? new Date(approval.exp).toISOString() : 'Not available';
+  const products = result?.products || [];
+  const body = `<section class="card">
+    <header class="hero"><div class="status"><span class="dot"></span>Final approval required</div><h1>${escapeHtml(article.title || 'Resideterra article')}</h1><p><strong>No publication has occurred.</strong> Shopify authorization is already established server-to-server. Review this exact locked record before publishing.</p></header>
+    <div class="content">
+      <div class="grid">
+        <div class="panel"><span class="key">Handle</span><span class="value">${escapeHtml(article.handle || 'Not available')}</span></div>
+        <div class="panel"><span class="key">Blog</span><span class="value">${escapeHtml(article.blog?.title || article.blog?.handle || 'Not available')}</span></div>
+        <div class="panel"><span class="key">Current state</span><span class="value">${article.isPublished ? 'Published' : 'Draft / unpublished'}</span></div>
+        <div class="panel"><span class="key">Approval expires</span><span class="value">${escapeHtml(expires)}</span></div>
+        <div class="panel"><span class="key">Products revalidated</span><span class="value">${escapeHtml(products.length)}</span></div>
+        <div class="panel"><span class="key">Shopify auth</span><span class="value">Server-to-server</span></div>
+      </div>
+      <span class="key" style="margin-top:24px">Locked content fingerprint</span><code class="fingerprint">${escapeHtml(approval.fingerprint || 'Not available')}</code>
+      <div class="notice">If the article, products, links, metadata, images, or publication state changes before your click, Stage 03 will refuse publication. Critical live-QA failure triggers automatic rollback to draft.</div>
+      <form method="post" action="/api/publish/execute" style="margin-top:24px">
+        <input type="hidden" name="approval_nonce" value="${escapeHtml(approval.nonce || '')}">
+        <button type="submit" style="padding:14px 20px;background:#991b1b;color:#fff;border:0;border-radius:9px;font-weight:800;cursor:pointer">Publish this exact article and run live QA</button>
+      </form>
+      <div class="actions"><a class="button secondary" href="/">Cancel and return</a></div>
+    </div>
+  </section>`;
+  return documentShell({title:'Final publishing approval',tone:'warning',body});
+}
