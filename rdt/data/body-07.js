@@ -1,1 +1,44 @@
-export default "\n<h3>Can a small pool have four fire bowls?</h3>\n<p>It can be physically possible, but that does not mean it will be visually or technically appropriate. Four bowls require enough edge length, negative space, gas capacity, safe circulation, and service access. On a compact pool, fewer larger or better-positioned bowls often create a stronger result.</p>\n\n<h3>Does a larger pool automatically need more fire bowls?</h3>\n<p>No. A larger pool may support a larger bowl diameter instead of a larger quantity. The choice should be based on the architecture, sightlines, focal points, and desired visual rhythm rather than pool size alone.</p>\n\n<h3>Do fire-and-water bowls require a different quantity plan?</h3>\n<p>Yes, because every additional combination bowl adds a water feature as well as a flame feature. The pool professional should account for water supply, balancing, return, spill behavior, controls, and equipment capacity in addition to the gas and ignition plan.</p>\n\n<h3>Should fire bowls line up with the pool corners?</h3>\n<p>Not automatically. Corner alignment can work on formal layouts, but the stronger reference may be a spa, entry steps, a raised wall, a house window, or the primary viewing axis. Use the most important architectural line, not the nearest corner by default.</p>\n\n<h3>Can I add more fire bowls later?</h3>\n<p>Potentially, but retrofitting can be much more disruptive if new gas, electrical/control, structural bases, or water plumbing are required after the deck and landscaping are finished. If future expansion is realistic, discuss spare capacity and routing during the original rough-in.</p>\n\n<h2>Sources &amp; Verification</h2>\n<p>This guide separates manufacturer-controlled installation requirements from design guidance. Exact clearances, gas requirements, ignition requirements, and installation details must come from the current documentation for the exact ordered SKU.</p>\n<ul>\n<li><a href=\"https://theoutdoorplus.com/manuals-certifications/\">The Outdoor Plus — manuals and certifications</a></li>\n<li><a href=\"https://theoutdoorplus.com/product/cazo-fire-bowl/\">The Outdoor Plus — Cazo GFRC fire bowl</a></li>\n<li><a href=\"https://theoutdoorplus.com/product/cazo-fire-bowl-powder-coated-steel/\">The Outdoor Plus — Cazo powder-coated steel fire bowl</a></li>\n<li><a href=\"https://theoutdoorplus.com/product/maya-fire-bowl-powder-coated-steel/\">The Outdoor Plus — Maya powder-coated steel fire bowl</a></li>\n<li><a href=\"https://resideterra.com/collections/fire-bowls\">ResideTerra — Fire Bowls collection</a></li>\n<li><a href=\"https://resideterra.com/blogs/fire-features-guides/fire-and-water-bowls-for-pools\">ResideTerra — Fire and Water Bowls for Pools planning guide</a></li>\n<li><a href=\"https://resideterra.com/blogs/fire-features-guides/fire-bowl-vs-fire-and-water-bowl\">ResideTerra — Fire Bowl vs Fire and Water Bowl decision guide</a></li>\n</ul>\n\n<h2>Next step: lay out the pool before choosing the bowls</h2>\n<p>Start by marking the main viewing axis, focal point, usable wall length, circulation paths, and utility routes. Then test one, two, three, and four-bowl compositions using the actual dimensions of the bowls you are considering. Once the layout is visually resolved, verify the exact product manuals and have the appropriate trades confirm gas, electrical/control, structural, drainage, and hydraulic requirements before permanent work begins.</p>\n\n<p>Browse the current <a href=\"https://resideterra.com/collections/fire-bowls\">ResideTerra fire bowl collection</a> to compare shapes and sizes, or explore <a href=\"https://resideterra.com/collections/fire-water-bowls\">fire-and-water bowls</a> if moving water is part of the pool design.</p>\n";
+export default `
+<h2>Frequently asked questions</h2>
+
+<h3>Is GFRC better than metal for a fire bowl?</h3>
+<p>Not universally. GFRC is usually better when the design calls for an architectural concrete appearance and broad masonry-compatible finish options. Metal can be better when a thinner visual profile, controlled color, or natural metal character is more important.</p>
+
+<h3>Does a copper fire bowl turn green?</h3>
+<p>Copper can develop green or blue-green patina as part of its natural weathering, but the progression and final appearance vary with climate and exposure. Brown and darkened stages are also common. Patina should be expected rather than treated as a guaranteed defect.</p>
+
+<h3>Will powder-coated steel rust?</h3>
+<p>The coating is intended to protect the steel surface, but damage that exposes bare steel can create a path for corrosion. Keep the coating intact and address chips or deep scratches promptly according to the manufacturer’s recommendations.</p>
+
+<h3>Does GFRC crack outdoors?</h3>
+<p>GFRC is designed as a durable reinforced architectural material, but no exterior cementitious product should be described as immune to every form of cracking or surface change. Proper handling, support, installation, drainage, climate exposure, and manufacturer care instructions all matter.</p>
+
+<h3>Which fire-bowl material is easiest to match to a house?</h3>
+<p>Powder coat is usually easiest when you need a specific controlled color that coordinates with frames, railings, kitchens, or furniture. GFRC is often easiest when you want the bowl to coordinate with masonry and stone. Copper is best when deliberate material contrast is the goal.</p>
+
+<h3>Which material is most expensive?</h3>
+<p>Within comparable current Maya configurations, hammered copper is generally the highest-priced of these three materials, with powder-coated steel in the middle and GFRC typically lower. Exact price depends on size and ignition, so compare equivalent SKUs.</p>
+
+<h3>Can GFRC, copper, and powder-coated bowls use electronic ignition?</h3>
+<p>Current The Outdoor Plus Maya families are offered with match-lit and electronic-ignition configurations depending on the exact model and size. Confirm the specific SKU before designing controls, power, or automation.</p>
+
+<h3>Which material is best if I want four matching bowls?</h3>
+<p>Any of the three can work, but finish consistency becomes especially important in a repeated set. Powder coat offers controlled color, GFRC provides architectural repetition with handmade variation, and copper creates a coordinated set that may patina at slightly different rates depending on exposure.</p>
+
+<h3>Should I choose the material before deciding the number of bowls?</h3>
+<p>Develop the decisions together. Quantity affects visual density, utilities, and budget, while material changes visual weight and cost. Use the layout process in <a href="https://resideterra.com/blogs/fire-features-guides/how-many-fire-bowls-does-a-pool-need">How Many Fire Bowls Does a Pool Need?</a> and then compare exact material options at the chosen size.</p>
+
+<h2>Sources &amp; Verification</h2>
+<p>This guide uses current manufacturer product families and ResideTerra’s live catalog. Exact dimensions, weights, fuel requirements, ignition requirements, finishes, and installation details must be verified against the current specification sheet and manual for the ordered SKU.</p>
+<ul>
+<li><a href="https://theoutdoorplus.com/spec-sheets/">The Outdoor Plus — specification sheets</a></li>
+<li><a href="https://theoutdoorplus.com/product-category/bowls/fire-bowls/">The Outdoor Plus — fire bowls</a></li>
+<li><a href="https://theoutdoorplus.com/product/maya-copper-fire-bowl/">The Outdoor Plus — Maya hammered copper fire bowl</a></li>
+<li><a href="https://theoutdoorplus.com/product/cazo-fire-bowl-powder-coated-steel/">The Outdoor Plus — Cazo powder-coated steel fire bowl</a></li>
+<li><a href="https://resideterra.com/collections/fire-bowls">ResideTerra — Fire Bowls</a></li>
+<li><a href="https://resideterra.com/collections/the-outdoor-plus">ResideTerra — The Outdoor Plus</a></li>
+</ul>
+
+<h2>Bottom line</h2>
+<p>Choose GFRC when the fire bowl should feel like part of the architecture. Choose hammered copper when natural material character and patina are worth the premium. Choose powder-coated steel when a crisp metal form and controlled color matter most. Then validate the exact size, ignition, support, and installation requirements before the project is roughed in.</p>
+`
