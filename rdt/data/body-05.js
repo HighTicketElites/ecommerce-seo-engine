@@ -1,1 +1,35 @@
-export default "\n<h2>Clearances, wind, traffic, and seating can eliminate locations</h2>\n<p>A bowl position is not valid simply because it looks balanced. The exact installation must satisfy the selected product's manual and applicable local requirements. Beyond that, the design should account for how people move through the space.</p>\n\n<p>Do not place a bowl where swimmers routinely climb out, where a narrow path forces guests close to the flame, where furniture will naturally migrate into the heat zone, or where a door creates constant traffic beside the burner. Wind exposure matters as well because wind can change flame behavior and comfort even when the feature is installed correctly.</p>\n\n<p>These practical constraints are one reason the ideal count often drops during detailed design. Four conceptual locations may become three or two once circulation, serviceability, utilities, and real field conditions are overlaid.</p>\n\n<h2>Use symmetry intentionally, not automatically</h2>\n<p>Symmetry is powerful around formal pools, but symmetry should reinforce something. Two bowls flanking a spa make sense because the spa is the center. Three bowls across a raised wall work when the center bowl aligns with an architectural axis. Four bowls can work as two mirrored pairs.</p>\n\n<p>What does not work is placing extra bowls simply to make the count even or odd. Negative space is part of the composition. The empty center between two bowls can be just as important as the bowls themselves.</p>\n\n<h2>Four example layouts and why they work</h2>\n<p><strong>Example 1: compact pool with one raised corner.</strong> A single statement bowl can be enough when the goal is to create one visual anchor. Adding a second bowl may force symmetry where the landscape itself is asymmetrical.</p>\n\n<p><strong>Example 2: rectangular pool with centered spa.</strong> Two matching bowls on either side of the spa create a strong, legible composition. The spa remains the centerpiece and the bowls frame it rather than compete with it.</p>\n\n<p><strong>Example 3: long raised wall with a central axis.</strong> Three bowls can work well when one is centered and the other two are spaced evenly on the wall. The center bowl should align with a meaningful feature such as the center of the pool, a window axis, or a water feature.</p>\n\n<p><strong>Example 4: long resort-style edge.</strong> Four or more bowls can create a repeated rhythm when the wall is long enough and the infrastructure is designed for the count from the beginning. The bowls should read as one system, not as individually placed decorations.</p>\n\n<p>These examples are design frameworks, not prescribed formulas. The same pool may support more than one successful layout depending on the bowl size, architecture, utilities, and the view the homeowner wants to create.</p>\n\n<h2>Same-category examples: Cazo, Maya, and Avalon</h2>\n<p>ResideTerra's current <a href=\"https://resideterra.com/collections/fire-bowls\">fire bowl collection</a> includes multiple The Outdoor Plus families that illustrate how shape and scale affect the layout. The <strong>{{title:the-outdoor-plus-cazo-powdercoated-steel-fire-bowl}}</strong> uses a rounded profile, the <strong>{{title:the-outdoor-plus-maya-powdercoated-steel-fire-bowl}}</strong> uses a square architectural form, and the <strong>{{title:the-outdoor-plus-avalon-hammered-copper-fire-bowl}}</strong> introduces a different material and silhouette.</p>\n\n<p>The current starting prices are {{price:the-outdoor-plus-cazo-powdercoated-steel-fire-bowl}}, {{price:the-outdoor-plus-maya-powdercoated-steel-fire-bowl}}, and {{price:the-outdoor-plus-avalon-hammered-copper-fire-bowl}}, respectively, before configuration choices. Price is not the reason to choose the count, but multiple bowls multiply the cost of the vessels, ignition options, gas work, controls, bases, freight, installation, and future maintenance. That makes layout discipline financially useful as well as visually useful.</p>\n\n<!-- RDT_IMAGE:avalon-fire -->\n";
+export default `
+<h2>Compare the same Maya size before comparing price</h2>
+<p>Price comparisons are meaningful only when the material, bowl size, and ignition system are held as constant as possible. Looking at a 24-inch match-lit GFRC bowl against a 36-inch electronically ignited copper bowl tells you very little about the material premium.</p>
+
+<table>
+<thead><tr><th>Maya example</th><th>24-inch match-lit current RDT price</th><th>Material role</th></tr></thead>
+<tbody>
+<tr><td>{{title:the-outdoor-plus-maya-concrete-fire-bowl}}</td><td>{{price:the-outdoor-plus-maya-concrete-fire-bowl}}</td><td>Architectural concrete form</td></tr>
+<tr><td>{{title:the-outdoor-plus-maya-powdercoated-steel-fire-bowl}}</td><td>{{price:the-outdoor-plus-maya-powdercoated-steel-fire-bowl}}</td><td>Controlled-color metal</td></tr>
+<tr><td>{{title:the-outdoor-plus-maya-copper-fire-bowl}}</td><td>{{price:the-outdoor-plus-maya-copper-fire-bowl}}</td><td>Premium natural metal</td></tr>
+</tbody>
+</table>
+
+<p>Use current PDP pricing at the time of purchase because manufacturer programs, freight, configurations, and pricing can change. The table is meant to establish the relative material tiers, not promise a permanent dollar difference.</p>
+
+<h2>Ignition choice can cost more than the material jump</h2>
+<p>One of the most useful findings from comparing these products is that ignition configuration can materially change the final price. Current Maya listings offer match-lit and 12V electronic ignition configurations. On some sizes, moving from match-lit to electronic ignition adds more than the difference between GFRC and powder-coated steel.</p>
+
+<p>That means the material decision should not consume the entire budget conversation. A project may prefer electronic ignition because it supports a broader control strategy, while another project may accept match-lit operation and spend the difference on copper. Decide material, size, fuel, and ignition together.</p>
+
+<h2>Material does not change the need for proper gas planning</h2>
+<p>GFRC, copper, and powder-coated steel are vessel choices. They do not eliminate the need for correct gas supply, ignition installation, clearances, drainage, fire media, or service access. The selected model’s burner and ignition requirements still govern.</p>
+
+<p>If you are still deciding between a flame-only vessel and a combination feature with a water spill, review <a href="https://resideterra.com/blogs/fire-features-guides/fire-bowl-vs-fire-and-water-bowl">Fire Bowl vs Fire and Water Bowl</a> first. Material selection should come after you know what the feature must actually do.</p>
+
+<h2>Maintenance comparison</h2>
+<table>
+<thead><tr><th>Material</th><th>Routine mindset</th><th>Avoid</th></tr></thead>
+<tbody>
+<tr><td>GFRC</td><td>Gentle finish-appropriate cleaning; inspect surface condition</td><td>Aggressive masonry chemicals unless approved</td></tr>
+<tr><td>Copper</td><td>Accept or intentionally manage patina; gentle cleaning</td><td>Assuming exterior copper will remain factory-bright</td></tr>
+<tr><td>Powder-coated steel</td><td>Keep coating clean and intact; repair damage promptly</td><td>Abrasive cleaning and leaving exposed chips untreated</td></tr>
+</tbody>
+</table>
+`
