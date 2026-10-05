@@ -11,7 +11,7 @@ export const PUBLISH_ARTICLE = `mutation PublishArticle($id: ID!, $article: Arti
 
 function requiredScopes(scope) {
   const set = new Set(String(scope || '').split(',').map(value=>value.trim()).filter(Boolean));
-  for (const required of ['write_content','read_products','write_online_store_pages']) if (!set.has(required)) throw new Error(`Token missing ${required}`);
+  for (const required of ['write_content','read_products']) if (!set.has(required)) throw new Error(`Token missing ${required}`);
 }
 
 function exactArticle(data, handle) {
