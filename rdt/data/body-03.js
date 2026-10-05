@@ -1,25 +1,25 @@
 export default `
-<h2>How copper patina should affect the buying decision</h2>
-<p>If you want copper, buy it because you are comfortable with material evolution. Trying to preserve a permanently bright, newly polished look on an exterior fire bowl can create an ongoing maintenance expectation that defeats much of copper’s natural appeal. Patina can move through brown, darker brown, and green/blue tones over time depending on conditions.</p>
+<h2>100–300 cigars: large desktop or small furniture humidor</h2>
+<p>Once you regularly hold more than 100 cigars, physical organization starts to matter almost as much as raw count. Larger desktop humidors may still work, but furniture-style units provide drawers, shelving, easier access, and more visual separation between everyday cigars and long-term aging stock.</p>
 
-<p>If your project requires every bowl to remain a tightly controlled, consistent color for years, powder coat may be the more predictable visual choice. If you want the bowl to become more individual with age, copper can be exceptional.</p>
+<p>Humidor Supreme furniture pieces in this range include end-table formats, which are useful when cigar storage needs to live naturally inside a den, office, lounge, or living space instead of looking like commercial equipment.</p>
 
-<!-- RDT_IMAGE:maya-copper -->
+<h2>300–1,000 cigars: furniture and cabinet humidors become practical</h2>
+<p>This is where many serious collectors move from “a humidor” to a true storage system. Boxes begin to stack up, different blends need organization, and access to cigars at the back of a deep desktop box becomes inconvenient.</p>
 
-<h2>What powder-coated steel brings to a fire bowl</h2>
-<p>Powder-coated steel uses a metal vessel with a factory-applied coating that provides the final color and exterior finish. The Outdoor Plus currently offers numerous powder-coat colors, including black, white, gray, pewter, silver vein, copper vein, military green, mist, soft white, and onyx black. That gives designers far more color control than bare metal while keeping the crisp visual language of a fabricated metal bowl.</p>
+<p>Furniture humidors, display cabinets, and smaller towers give the collection vertical space. They can also provide electrical outlets or room for active humidification depending on the model. Before purchase, confirm whether humidification equipment is included or sold separately; some large furniture humidors are designed to accept an active system but do not include one by default.</p>
 
-<p>Powder-coated steel is often the easiest of these three materials to integrate into a highly controlled contemporary palette. If window frames, railings, outdoor kitchens, furniture, lighting, or architectural metalwork are already black, gray, white, or another specified tone, the fire bowls can become part of that system.</p>
+<h2>Around 1,000 cigars: consider a mini tower or powered cabinet</h2>
+<p>The current <a href="https://resideterra.com/products/quality-importers-1000-cigar-mini-tower-humidor">{{title:quality-importers-1000-cigar-mini-tower-humidor}}</a> is an example of the point where a vertical cabinet becomes more practical than multiple desktop boxes. A mini tower can consolidate the collection into one footprint and make shelves or trays easier to access.</p>
 
-<h2>Powder coat is a coating, so protect the coating</h2>
-<p>The most important ownership distinction is that the visible surface is a protective finish over steel. Avoid dragging tools, abrasive cleaning, or impacts that chip or deeply scratch the coating. If the coating is damaged to bare metal, prompt repair is preferable to leaving the steel exposed to moisture.</p>
+<!-- RDT_IMAGE:mini-tower -->
 
-<p>That does not make powder-coated steel fragile. Properly fabricated and finished outdoor metal products can perform very well. It simply means the maintenance logic differs from copper. Copper is expected to transform naturally; powder coat is chosen because you want the applied finish to remain intact.</p>
+<p>At this capacity, think about where the unit will live, door swing, floor footprint, freight access, whether the cabinet is moved loaded or empty, and whether the humidification system needs power. A 1,000-cigar cabinet is furniture or equipment, not a portable desktop accessory.</p>
 
-<!-- RDT_IMAGE:maya-powdercoat -->
+<h2>1,000–1,600 cigars: electronic control becomes attractive</h2>
+<p>The current <a href="https://resideterra.com/products/humidor-supreme-1500-cigar-electronic-humidor">{{title:humidor-supreme-1500-cigar-electronic-humidor}}</a> sits in this class. Quality Importers' current catalog describes the 9100 electronic series as roughly a 1,000–1,600-cigar system with independent temperature and humidity control, cedar cabinetry, shelves, a drawer, air circulation, and a UV-protected glass door.</p>
 
-<h2>Which material is lightest?</h2>
-<p>Weight varies by model and size, so do not use a generic internet weight figure to design a pedestal or raised bond beam. The manufacturer’s exact specification sheet for the chosen SKU should control. In general project planning, fabricated metal bowls tend to feel less visually massive than concrete-form products, while GFRC is specifically engineered to achieve a concrete form without the bulk of traditional solid cast concrete.</p>
+<!-- RDT_IMAGE:electronic-1500 -->
 
-<p>The practical takeaway is not to guess structural loads. Pick the exact material, size, and ignition package first, then provide its current specification sheet to the builder or structural professional responsible for the support condition.</p>
+<p>Electronic control is useful when the room itself experiences more temperature variation or when the owner wants a single cabinet to manage a large valuable collection. It also changes the project requirements: the cabinet needs reliable power, ventilation around the appliance as specified, and room to service the water reservoir or other maintenance points.</p>
 `
