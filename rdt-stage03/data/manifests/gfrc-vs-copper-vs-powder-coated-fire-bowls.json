@@ -1,0 +1,78 @@
+{
+  "id": "gfrc-vs-copper-vs-powder-coated-fire-bowls",
+  "title": "GFRC vs Copper vs Powder-Coated Steel Fire Bowls: Which Material Is Best?",
+  "handle": "gfrc-vs-copper-vs-powder-coated-steel-fire-bowls",
+  "blog_title": "Fire Features Guides",
+  "blog_handle": "fire-features-guides",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "primary_keyword": "gfrc vs copper vs powder coated steel fire bowls",
+  "seo_title": "GFRC vs Copper vs Steel Fire Bowls: Material Guide",
+  "meta_description": "Compare GFRC concrete, hammered copper, and powder-coated steel fire bowls by durability, weight, maintenance, finish, price, and project fit.",
+  "excerpt": "A practical material comparison for choosing between GFRC concrete, hammered copper, and powder-coated steel fire bowls based on appearance, weight, weathering, maintenance, price, and project fit.",
+  "tags": [
+    "Fire Bowls",
+    "The Outdoor Plus",
+    "GFRC",
+    "Copper",
+    "Powder Coated Steel",
+    "Fire Features"
+  ],
+  "product_handles": [
+    "the-outdoor-plus-maya-concrete-fire-bowl",
+    "the-outdoor-plus-maya-copper-fire-bowl",
+    "the-outdoor-plus-maya-powdercoated-steel-fire-bowl"
+  ],
+  "required_internal_links": [
+    "https://resideterra.com/collections/fire-bowls",
+    "https://resideterra.com/collections/the-outdoor-plus",
+    "https://resideterra.com/blogs/fire-features-guides/how-many-fire-bowls-does-a-pool-need",
+    "https://resideterra.com/blogs/fire-features-guides/fire-bowl-vs-fire-and-water-bowl"
+  ],
+  "source_urls": [
+    "https://theoutdoorplus.com/spec-sheets/",
+    "https://theoutdoorplus.com/product-category/bowls/fire-bowls/",
+    "https://theoutdoorplus.com/product/maya-copper-fire-bowl/",
+    "https://theoutdoorplus.com/product/cazo-fire-bowl-powder-coated-steel/",
+    "https://resideterra.com/collections/fire-bowls",
+    "https://resideterra.com/collections/the-outdoor-plus",
+    "https://resideterra.com/blogs/fire-features-guides/how-many-fire-bowls-does-a-pool-need",
+    "https://resideterra.com/blogs/fire-features-guides/fire-bowl-vs-fire-and-water-bowl"
+  ],
+  "image_slots": [
+    {
+      "id": "maya-gfrc",
+      "product_handle": "the-outdoor-plus-maya-concrete-fire-bowl",
+      "media_index": 0,
+      "alt": "The Outdoor Plus Maya GFRC concrete fire bowl",
+      "caption": "Current ResideTerra product media for the Maya GFRC concrete fire bowl."
+    },
+    {
+      "id": "maya-copper",
+      "product_handle": "the-outdoor-plus-maya-copper-fire-bowl",
+      "media_index": 0,
+      "alt": "The Outdoor Plus Maya hammered copper fire bowl",
+      "caption": "Current ResideTerra product media for the Maya hammered copper fire bowl."
+    },
+    {
+      "id": "maya-powdercoat",
+      "product_handle": "the-outdoor-plus-maya-powdercoated-steel-fire-bowl",
+      "media_index": 0,
+      "alt": "The Outdoor Plus Maya powder-coated steel fire bowl",
+      "caption": "Current ResideTerra product media for the Maya powder-coated steel fire bowl."
+    }
+  ],
+  "cover_image": {
+    "url": "https://resideterra-seo-draft-generator.vercel.app/api/cover",
+    "alt": "GFRC versus copper versus powder-coated steel fire bowl material guide cover",
+    "asset_kind": "editorial_cover",
+    "provenance": "stage02_editorial_cover_endpoint",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 2800,
+    "minimum_h2": 18,
+    "minimum_faq": 8,
+    "minimum_images": 3
+  }
+}
