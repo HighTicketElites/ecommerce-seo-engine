@@ -1,31 +1,31 @@
 export default {
-  id:'gfrc-vs-copper-vs-powder-coated-fire-bowls',
-  title:'GFRC vs Copper vs Powder-Coated Steel Fire Bowls: Which Material Is Best?',
-  handle:'gfrc-vs-copper-vs-powder-coated-steel-fire-bowls',
-  blog_handle:'fire-features-guides',
-  excerpt:'A practical material comparison for choosing between GFRC concrete, hammered copper, and powder-coated steel fire bowls based on appearance, weight, weathering, maintenance, price, and project fit.',
-  tags:['Fire Bowls','The Outdoor Plus','GFRC','Copper','Powder Coated Steel','Fire Features'],
-  seo_title:'GFRC vs Copper vs Steel Fire Bowls: Material Guide',
-  meta_description:'Compare GFRC concrete, hammered copper, and powder-coated steel fire bowls by durability, weight, maintenance, finish, price, and project fit.',
+  id:'cigar-humidor-size-guide',
+  title:'What Size Cigar Humidor Do You Need? Capacity Guide by Collection Size',
+  handle:'what-size-cigar-humidor-do-you-need',
+  blog_handle:'cigar-humidor-guides',
+  excerpt:'A practical cigar humidor sizing guide for choosing desktop, furniture, cabinet, electronic, tower, commercial, and locker storage based on current collection size, cigar format, airflow, and future growth.',
+  tags:['Cigar Humidors','Humidor Supreme','Quality Importers','Cigar Storage','Humidor Sizing'],
+  seo_title:'What Size Cigar Humidor Do You Need? Capacity Guide',
+  meta_description:'Choose the right cigar humidor size by collection count, cigar format, storage style, airflow, and future growth—from desktop humidors to 8,500-cigar lockers.',
   product_handles:[
-    'the-outdoor-plus-maya-concrete-fire-bowl',
-    'the-outdoor-plus-maya-copper-fire-bowl',
-    'the-outdoor-plus-maya-powdercoated-steel-fire-bowl'
+    'quality-importers-1000-cigar-mini-tower-humidor',
+    'humidor-supreme-1500-cigar-electronic-humidor',
+    'quality-importers-5000-cigar-cabinet-commercial-humidor'
   ],
   image_slots:[
-    {id:'maya-gfrc',handle:'the-outdoor-plus-maya-concrete-fire-bowl',alt:'The Outdoor Plus Maya GFRC concrete fire bowl',caption:'Current ResideTerra product media for the Maya GFRC concrete fire bowl.'},
-    {id:'maya-copper',handle:'the-outdoor-plus-maya-copper-fire-bowl',alt:'The Outdoor Plus Maya hammered copper fire bowl',caption:'Current ResideTerra product media for the Maya hammered copper fire bowl.'},
-    {id:'maya-powdercoat',handle:'the-outdoor-plus-maya-powdercoated-steel-fire-bowl',alt:'The Outdoor Plus Maya powder-coated steel fire bowl',caption:'Current ResideTerra product media for the Maya powder-coated steel fire bowl.'}
+    {id:'mini-tower',handle:'quality-importers-1000-cigar-mini-tower-humidor',alt:'Quality Importers 1000-cigar mini tower humidor',caption:'Current ResideTerra product media for a 1,000-cigar mini tower humidor.'},
+    {id:'electronic-1500',handle:'humidor-supreme-1500-cigar-electronic-humidor',alt:'Humidor Supreme 1500 electronic cigar humidor',caption:'Current ResideTerra product media for a large electronic humidor.'},
+    {id:'commercial-5000',handle:'quality-importers-5000-cigar-cabinet-commercial-humidor',alt:'Quality Importers 5000-cigar commercial cabinet humidor',caption:'Current ResideTerra product media for a high-capacity commercial cabinet humidor.'}
   ],
   required_internal_links:[
-    'https://resideterra.com/collections/fire-bowls',
-    'https://resideterra.com/collections/the-outdoor-plus',
-    'https://resideterra.com/blogs/fire-features-guides/how-many-fire-bowls-does-a-pool-need',
-    'https://resideterra.com/blogs/fire-features-guides/fire-bowl-vs-fire-and-water-bowl'
+    'https://resideterra.com/collections/cigar-humidor',
+    'https://resideterra.com/collections/humidor-supreme',
+    'https://resideterra.com/products/quality-importers-1000-cigar-mini-tower-humidor',
+    'https://resideterra.com/products/humidor-supreme-1500-cigar-electronic-humidor'
   ],
   cover:{
     url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',
-    alt:'GFRC versus copper versus powder-coated steel fire bowl material guide cover'
+    alt:'Cigar humidor size and capacity guide cover'
   },
   qa:{minimum_words:2800,minimum_h2:18,minimum_faq:8,minimum_images:3}
 };
