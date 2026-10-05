@@ -1,21 +1,21 @@
 export default `
-<h2>Why homeowners choose GFRC concrete fire bowls</h2>
-<p>GFRC is especially convincing when the pool and landscape already rely on masonry materials. Stucco walls, porcelain pavers, cast concrete, stone veneer, architectural plaster, and modern neutral palettes all pair naturally with a concrete-form bowl. The vessel reads as part of the architecture instead of as an accessory placed on top of it.</p>
+<h2>Why advertised cigar capacity is only a starting point</h2>
+<p>Cigar capacity is usually based on an assumed cigar size and a particular storage arrangement. Change the ring gauge, length, packaging, shelf layout, or number of boxes and the real count changes. Thick 60-ring cigars consume substantially more volume than smaller coronas. Cedar boxes also consume far more usable interior volume than loose cigars.</p>
 
-<p>The other advantage is finish flexibility. Current The Outdoor Plus resources show GFRC smooth, metallic, and rustic finish families. That means “concrete” does not automatically mean plain gray. A project can use warm brown, metallic copper-like tones, pearlescent or slate effects, and rustic textured finishes while retaining the mass and form associated with a cast architectural vessel.</p>
+<p>That is why a capacity label should answer “what class of storage is this?” rather than “how many cigars will fit with mathematical precision?” Use the advertised number to compare models, then study the interior layout.</p>
 
-<h2>Where GFRC needs realistic expectations</h2>
-<p>Concrete-based materials can show normal handmade variation in color and texture. That is not necessarily a defect; for many buyers it is part of the appeal. But a homeowner expecting the exact uniformity of a factory-painted metal panel may prefer powder coat. Manufacturer finish disclaimers also matter because screens cannot guarantee an exact color match. Physical samples are worth requesting on high-visibility projects.</p>
+<h2>Loose cigars versus boxes changes the answer</h2>
+<p>If you mostly buy singles, divided drawers can use space efficiently and make organization straightforward. If you buy full boxes, flat adjustable shelves are usually more useful. A tower with five shelves may hold fewer total cigars when loaded with large presentation boxes than the headline capacity suggests, but that arrangement may be far more functional for the owner.</p>
 
-<p>GFRC also should not be treated as maintenance-free. Exposure, water chemistry, irrigation overspray, salts, freeze/thaw conditions where applicable, and cleaning methods can all affect an exterior finish. Follow the manufacturer’s care guidance rather than assuming every masonry cleaner is safe.</p>
+<p>The current Humidor Supreme tower family illustrates the distinction well: manufacturer specifications describe separate shelf and drawer configurations within the same general cabinet footprint. The correct configuration depends on whether you want box storage, loose-cigar sorting, or both.</p>
 
-<!-- RDT_IMAGE:maya-gfrc -->
+<h2>Ring gauge is one of the biggest capacity variables</h2>
+<p>A “cigar count” does not tell you the physical volume of the collection. Fifty robustos, fifty lanceros, and fifty large-ring cigars occupy different amounts of space. If your collection favors larger ring gauges, assume the practical count can be lower than a nominal capacity based on smaller benchmark cigars.</p>
 
-<h2>What makes hammered copper different</h2>
-<p>Hammered copper is not simply “another finish.” It is a metal whose visual character naturally evolves. New copper begins with a warm metallic appearance and develops patina as it reacts with its environment. The exact rate and color progression depend on exposure, moisture, salts, pollutants, handling, and local climate. That means two copper bowls in different locations may not age identically.</p>
+<p>This matters most when a buyer is right at the edge of a size tier. If you have 900 large cigars and are comparing a nominal 1,000-capacity unit with a 1,500-class electronic humidor, the larger system may be the more comfortable long-term fit even before future growth is considered.</p>
 
-<p>For the right project, that change is a feature. Copper works particularly well in landscapes that use natural stone, wood, warm metals, Mediterranean details, resort-style planting, or materials intended to gain character over time. It can also create a deliberate contrast against very clean contemporary architecture.</p>
+<h2>Under 100 cigars: desktop storage usually makes sense</h2>
+<p>For a collection under roughly 100 cigars, a quality desktop humidor is usually the simplest solution. Current Humidor Supreme desktop products span multiple capacities; for example, the manufacturer lists the Ironside at roughly 30–60 cigars and the Cordoba at roughly 50–90 cigars. These models are designed around personal storage rather than commercial display.</p>
 
-<h2>Copper is the premium material choice in this comparison</h2>
-<p>Current ResideTerra pricing shows the difference clearly within the Maya family. The 24-inch match-lit GFRC version currently starts around {{price:the-outdoor-plus-maya-concrete-fire-bowl}}, the powder-coated version around {{price:the-outdoor-plus-maya-powdercoated-steel-fire-bowl}}, and the hammered copper version around {{price:the-outdoor-plus-maya-copper-fire-bowl}} before higher-size and electronic-ignition configurations. Exact pricing changes with size and ignition, but copper consistently occupies the premium tier in this same-family comparison.</p>
+<p>Desktop humidors make sense when the collection is compact, the owner wants furniture-like presentation, and there is no need for powered climate control. They also make it easy to keep a daily-smoking rotation separate from a larger aging collection.</p>
 `
