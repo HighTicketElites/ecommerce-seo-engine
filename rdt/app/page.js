@@ -1,3 +1,4 @@
+import manifest from '../data/manifest.js';
 import { appUrl } from '../lib/config.js';
 const envStatus={
   RDT_SHOPIFY_SHOP:Boolean(process.env.RDT_SHOPIFY_SHOP),
@@ -12,7 +13,7 @@ export default function Home(){
   return <main style={{fontFamily:'system-ui',maxWidth:900,margin:'50px auto',padding:24,lineHeight:1.55}}>
     <h1>ResideTerra SEO Draft Generator</h1>
     <p><b>Draft only.</b> Git-backed production engine.</p>
-    <p><strong>Current job:</strong> How Many Fire Bowls Does a Pool Need? A Layout and Sizing Guide</p>
+    <p><strong>Current job:</strong> {manifest.title}</p>
     <pre style={{background:'#fff',padding:16,borderRadius:8}}>{JSON.stringify(envStatus,null,2)}</pre>
     {ready?<p><a href={start} style={{display:'inline-block',padding:'14px 20px',background:'#111827',color:'#fff',textDecoration:'none',borderRadius:8,fontWeight:700}}>Authorize & Create / Update Draft</a></p>:<p><strong>NOT READY</strong></p>}
     <p style={{fontSize:14,color:'#4b5563'}}>No publication mutation exists. A passing draft hands off to the separate controlled publishing plane.</p>
