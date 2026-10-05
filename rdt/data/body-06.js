@@ -21,6 +21,12 @@ export default `
 <li><strong>Assuming electronic means maintenance-free.</strong> Powered cabinets still require cleaning, water management, and monitoring.</li>
 </ul>
 
+
+<h2>Should you size for cigar count or for the storage layout first?</h2>
+<p>Use both. Cigar count tells you the general capacity class, but the interior layout determines whether that capacity is useful for the way you collect. A buyer with 400 mostly loose cigars may be perfectly served by organized drawers, while another buyer with 400 cigars stored in presentation boxes can need significantly more shelf volume. The same logic applies at the commercial end: a lounge may value display visibility and fast access more than maximizing the theoretical number of cigars inside one cabinet.</p>
+
+<p>Before choosing between two nearby capacity tiers, sketch how you expect to use the shelves and drawers. Estimate how much of the collection will stay boxed, which cigars need quick access, whether long-term aging stock should stay separate, and where the humidification equipment occupies usable space. This turns the capacity number into an actual storage plan and reduces the risk of buying a cabinet that is technically large enough but frustrating to organize.</p>
+
 <h2>Where to shop current cigar humidors</h2>
 <p>Browse the <a href="https://resideterra.com/collections/cigar-humidor">ResideTerra Cigar Humidor collection</a> to compare current desktop, furniture, cabinet, tower, commercial, and electronic storage. You can also browse the <a href="https://resideterra.com/collections/humidor-supreme">Humidor Supreme collection</a> for current brand-specific options.</p>
 
