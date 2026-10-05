@@ -1,35 +1,26 @@
 export default `
-<h2>Compare the same Maya size before comparing price</h2>
-<p>Price comparisons are meaningful only when the material, bowl size, and ignition system are held as constant as possible. Looking at a 24-inch match-lit GFRC bowl against a 36-inch electronically ignited copper bowl tells you very little about the material premium.</p>
+<h2>How much room should you leave for airflow?</h2>
+<p>There is no universal empty-space percentage that applies to every humidor. Follow the manufacturer’s layout and humidification instructions. The practical rule is to avoid packing a cabinet so tightly that air cannot move through the intended circulation paths or drawers and shelves cannot function normally.</p>
 
-<table>
-<thead><tr><th>Maya example</th><th>24-inch match-lit current RDT price</th><th>Material role</th></tr></thead>
-<tbody>
-<tr><td>{{title:the-outdoor-plus-maya-concrete-fire-bowl}}</td><td>{{price:the-outdoor-plus-maya-concrete-fire-bowl}}</td><td>Architectural concrete form</td></tr>
-<tr><td>{{title:the-outdoor-plus-maya-powdercoated-steel-fire-bowl}}</td><td>{{price:the-outdoor-plus-maya-powdercoated-steel-fire-bowl}}</td><td>Controlled-color metal</td></tr>
-<tr><td>{{title:the-outdoor-plus-maya-copper-fire-bowl}}</td><td>{{price:the-outdoor-plus-maya-copper-fire-bowl}}</td><td>Premium natural metal</td></tr>
-</tbody>
-</table>
+<p>Electronic models with fans especially depend on unobstructed airflow. Traditional furniture humidors also benefit from sensible organization so humidity can equalize across the interior.</p>
 
-<p>Use current PDP pricing at the time of purchase because manufacturer programs, freight, configurations, and pricing can change. The table is meant to establish the relative material tiers, not promise a permanent dollar difference.</p>
+<h2>How much future growth should you plan for?</h2>
+<p>Think about your buying pattern over the next few years. A collector who buys one box every few months may grow slowly. Someone who actively hunts limited releases, buys box quantities, or begins aging cigars can outgrow a cabinet quickly.</p>
 
-<h2>Ignition choice can cost more than the material jump</h2>
-<p>One of the most useful findings from comparing these products is that ignition configuration can materially change the final price. Current Maya listings offer match-lit and 12V electronic ignition configurations. On some sizes, moving from match-lit to electronic ignition adds more than the difference between GFRC and powder-coated steel.</p>
+<p>Instead of using a rigid growth formula, choose a capacity tier that leaves functional working room after your current collection is loaded. If two models both fit the space and budget, the larger one often provides more flexibility—provided you are prepared to humidify and maintain the larger interior properly.</p>
 
-<p>That means the material decision should not consume the entire budget conversation. A project may prefer electronic ignition because it supports a broader control strategy, while another project may accept match-lit operation and spend the difference on copper. Decide material, size, fuel, and ignition together.</p>
+<h2>Home collector versus commercial buyer</h2>
+<p>A home collector is usually optimizing for presentation, organization, environmental stability, and footprint. A commercial buyer must additionally think about transaction flow, replenishment, locks, employee access, member compartments, customer visibility, and downtime if the humidification system needs service.</p>
 
-<h2>Material does not change the need for proper gas planning</h2>
-<p>GFRC, copper, and powder-coated steel are vessel choices. They do not eliminate the need for correct gas supply, ignition installation, clearances, drainage, fire media, or service access. The selected model’s burner and ignition requirements still govern.</p>
+<p>That distinction can change the best product even at the same cigar count. A 2,000-cigar private collection may be ideal in a furniture tower. A 2,000-cigar retail assortment may need more display-oriented shelving and faster access.</p>
 
-<p>If you are still deciding between a flame-only vessel and a combination feature with a water spill, review <a href="https://resideterra.com/blogs/fire-features-guides/fire-bowl-vs-fire-and-water-bowl">Fire Bowl vs Fire and Water Bowl</a> first. Material selection should come after you know what the feature must actually do.</p>
+<h2>Measure the room before choosing the cabinet</h2>
+<p>Large humidors can be tall, deep, heavy, and LTL freight items. Measure the final location and the delivery path: exterior door, hallway, stairwell, elevator, room entry, and turning radius. Confirm floor conditions and power availability where applicable.</p>
 
-<h2>Maintenance comparison</h2>
-<table>
-<thead><tr><th>Material</th><th>Routine mindset</th><th>Avoid</th></tr></thead>
-<tbody>
-<tr><td>GFRC</td><td>Gentle finish-appropriate cleaning; inspect surface condition</td><td>Aggressive masonry chemicals unless approved</td></tr>
-<tr><td>Copper</td><td>Accept or intentionally manage patina; gentle cleaning</td><td>Assuming exterior copper will remain factory-bright</td></tr>
-<tr><td>Powder-coated steel</td><td>Keep coating clean and intact; repair damage promptly</td><td>Abrasive cleaning and leaving exposed chips untreated</td></tr>
-</tbody>
-</table>
+<p>Do not assume that because a cabinet fits the final wall it can be delivered through the route to that wall.</p>
+
+<h2>Capacity versus footprint: choose what actually fits your space</h2>
+<p>A tower uses vertical space efficiently. An end-table humidor integrates into a furnished room. A wide display cabinet improves product visibility. An electronic cabinet may be deeper because of mechanical components. A locker system needs additional wall width and user-access space.</p>
+
+<p>The “best capacity” is therefore partly an architectural decision. Storage that blocks circulation or cannot be opened comfortably is oversized for the room even if the cigar count is perfect.</p>
 `
