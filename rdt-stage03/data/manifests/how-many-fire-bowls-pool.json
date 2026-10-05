@@ -5,7 +5,7 @@
   "blog_title": "Fire Features Guides",
   "blog_handle": "fire-features-guides",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
+  "publish_readiness": "locked",
   "primary_keyword": "how many fire bowls does a pool need",
   "seo_title": "How Many Fire Bowls Does a Pool Need? Layout Guide",
   "meta_description": "Decide whether your pool needs 1, 2, 3, 4, or more fire bowls using pool geometry, sightlines, bowl size, utilities, spacing logic, and project fit.",
@@ -72,5 +72,6 @@
     "minimum_h2": 16,
     "minimum_faq": 8,
     "minimum_images": 3
-  }
+  },
+  "lock_reason": "already_published_and_live_qa_passed"
 }
