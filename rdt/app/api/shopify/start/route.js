@@ -1,13 +1,29 @@
-import { appUrl } from '../../../../lib/config.js';
-import { randomToken, signSession } from '../../../../lib/security.js';
-export const runtime='nodejs';
-export const dynamic='force-dynamic';
-const JOB="how-many-fire-bowls-pool";
-function begin(){
-  const session=signSession({job:JOB,nonce:randomToken(),exp:Date.now()+10*60*1000});
-  const headers=new Headers({Location:new URL('/api/shopify/install',appUrl()).toString(),'Cache-Control':'no-store'});
-  headers.append('Set-Cookie',`rdt_run_session=${encodeURIComponent(session)}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`);
-  return new Response(null,{status:303,headers});
+import { runDraftJob } from '../../../../lib/job.js';
+import { serverAuth } from '../../../../lib/shopify.js';
+
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+export const maxDuration = 60;
+
+export async function GET() {
+  return Response.json(
+    { error: 'Method not allowed. Submit the Stage 02 form.' },
+    { status: 405, headers: { 'cache-control': 'no-store', 'x-robots-tag': 'noindex' } }
+  );
 }
-export async function GET(){try{return begin();}catch(error){return Response.json({error:error.message,safety:'No Shopify action was executed.'},{status:401,headers:{'cache-control':'no-store'}});}}
-export async function POST(){return GET();}
+
+export async function POST() {
+  try {
+    const auth = await serverAuth();
+    const result = await runDraftJob(auth);
+    return Response.json(result, {
+      status: result.pass ? 200 : 409,
+      headers: { 'cache-control': 'no-store', 'x-robots-tag': 'noindex' }
+    });
+  } catch (error) {
+    return Response.json(
+      { pass: false, error: error?.message || String(error), safety: 'No publication action was executed.' },
+      { status: 500, headers: { 'cache-control': 'no-store', 'x-robots-tag': 'noindex' } }
+    );
+  }
+}
