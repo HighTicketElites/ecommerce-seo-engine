@@ -1,33 +1,29 @@
 export default `
-<h2>Best material by project type</h2>
-<p><strong>Modern stucco or concrete pool:</strong> GFRC usually creates the most seamless architectural integration, especially when the vessel should feel cast into the design language.</p>
-<p><strong>Luxury resort or Mediterranean landscape:</strong> hammered copper often delivers the richest material character and becomes more distinctive as it patinas.</p>
-<p><strong>Minimalist black-and-white exterior:</strong> powder-coated steel offers the most direct route to a crisp specified color and clean metal geometry.</p>
-<p><strong>Project where future visual aging is welcome:</strong> copper has the strongest natural evolution.</p>
-<p><strong>Project demanding controlled finish consistency:</strong> powder coat generally fits the brief better than patinating copper.</p>
-<p><strong>Masonry-heavy project where material mass matters:</strong> GFRC is usually the natural starting point.</p>
-
-<h2>Decision framework: choose the material in five questions</h2>
+<h2>Quick decision framework</h2>
 <ol>
-<li><strong>Should the bowl visually merge with masonry or stand apart as metal?</strong> Choose GFRC for integration; metal for contrast.</li>
-<li><strong>Do you want the material to change visibly with age?</strong> Copper if yes; powder coat if you want a controlled color.</li>
-<li><strong>Is the finish palette tightly specified?</strong> Powder coat offers the most direct color control.</li>
-<li><strong>Is natural patina part of the design?</strong> Copper should move to the top of the list.</li>
-<li><strong>What does the exact size/ignition package do to budget and support requirements?</strong> Compare exact SKUs before finalizing.</li>
+<li><strong>Count your cigars today.</strong> Separate loose cigars from boxes.</li>
+<li><strong>Identify your dominant format.</strong> Large ring gauges and boxed storage need more space.</li>
+<li><strong>Decide how you want to organize.</strong> Drawers, shelves, displays, and lockers serve different workflows.</li>
+<li><strong>Consider room stability.</strong> Decide whether passive/active humidification is enough or electronic climate control is desirable.</li>
+<li><strong>Plan for growth.</strong> Avoid buying a cabinet that will be functionally full on day one.</li>
+<li><strong>Measure the site and delivery path.</strong> Large towers and cabinets may ship LTL.</li>
+<li><strong>Confirm what is included.</strong> Humidification equipment is not included with every large cabinet.</li>
 </ol>
 
-<h2>Common material-selection mistakes</h2>
+<h2>Common humidor sizing mistakes</h2>
 <ul>
-<li><strong>Choosing from photos alone.</strong> Screen color is not a reliable substitute for physical finish samples.</li>
-<li><strong>Calling every concrete bowl “solid concrete.”</strong> GFRC is an engineered reinforced shell material.</li>
-<li><strong>Expecting copper to stay new-looking outdoors.</strong> Patina is normal.</li>
-<li><strong>Treating powder coat as indestructible.</strong> Protect the coating from chips and abrasion.</li>
-<li><strong>Comparing different sizes or ignition systems on price.</strong> Use equivalent configurations.</li>
-<li><strong>Ignoring the project’s surrounding materials.</strong> The bowl should belong to the architecture.</li>
-<li><strong>Assuming material determines clearances.</strong> Follow the exact product manual and ignition instructions.</li>
-<li><strong>Forgetting service access.</strong> A beautiful bowl still needs a maintainable burner and control system.</li>
+<li><strong>Buying exactly for today's cigar count.</strong> Leaves no room for growth or reorganization.</li>
+<li><strong>Ignoring ring gauge.</strong> Large cigars consume more volume than nominal count suggests.</li>
+<li><strong>Counting boxes like loose cigars.</strong> Packaging dramatically changes usable capacity.</li>
+<li><strong>Choosing only from the headline number.</strong> Shelf and drawer configuration may matter more.</li>
+<li><strong>Forgetting active humidification.</strong> Large furniture humidors may require a separate system.</li>
+<li><strong>Not measuring delivery access.</strong> Commercial cabinets can be LTL freight pieces.</li>
+<li><strong>Assuming electronic means maintenance-free.</strong> Powered cabinets still require cleaning, water management, and monitoring.</li>
 </ul>
 
-<h2>Where to compare current fire bowls</h2>
-<p>Browse the current <a href="https://resideterra.com/collections/fire-bowls">ResideTerra fire bowl collection</a> for available shapes, materials, sizes, and ignition configurations. For a manufacturer-focused view, the <a href="https://resideterra.com/collections/the-outdoor-plus">The Outdoor Plus collection</a> lets you compare related families across fire bowls, fire-and-water bowls, fire pits, and other architectural fire features.</p>
+<h2>Where to shop current cigar humidors</h2>
+<p>Browse the <a href="https://resideterra.com/collections/cigar-humidor">ResideTerra Cigar Humidor collection</a> to compare current desktop, furniture, cabinet, tower, commercial, and electronic storage. You can also browse the <a href="https://resideterra.com/collections/humidor-supreme">Humidor Supreme collection</a> for current brand-specific options.</p>
+
+<h2>How this guide will branch next</h2>
+<p>This is the parent sizing guide for ResideTerra's cigar-storage answer engine. Supporting guides will go deeper into cabinet vs tower vs desktop storage, electronic vs passive humidors, Humidor Supreme electronic models, commercial cabinets, locker systems, temperature and humidity management, and individual Quality Importers model families.</p>
 `
