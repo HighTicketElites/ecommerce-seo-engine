@@ -1,44 +1,44 @@
 export default `
 <h2>Frequently asked questions</h2>
 
-<h3>Is GFRC better than metal for a fire bowl?</h3>
-<p>Not universally. GFRC is usually better when the design calls for an architectural concrete appearance and broad masonry-compatible finish options. Metal can be better when a thinner visual profile, controlled color, or natural metal character is more important.</p>
+<h3>Should I buy a humidor larger than my current collection?</h3>
+<p>Usually yes if you expect the collection to grow, but there is no universal percentage. Choose enough additional capacity that the cabinet is not immediately full while still matching your room, humidification plan, and budget.</p>
 
-<h3>Does a copper fire bowl turn green?</h3>
-<p>Copper can develop green or blue-green patina as part of its natural weathering, but the progression and final appearance vary with climate and exposure. Brown and darkened stages are also common. Patina should be expected rather than treated as a guaranteed defect.</p>
+<h3>How many cigars actually fit in a 1,000-cigar humidor?</h3>
+<p>It depends on cigar size and storage format. Large ring gauges and full boxes reduce the practical count. Treat the stated capacity as a model-class benchmark and review the shelf/drawer layout before buying.</p>
 
-<h3>Will powder-coated steel rust?</h3>
-<p>The coating is intended to protect the steel surface, but damage that exposes bare steel can create a path for corrosion. Keep the coating intact and address chips or deep scratches promptly according to the manufacturer’s recommendations.</p>
+<h3>Is a tower better than multiple desktop humidors?</h3>
+<p>For a large collection, often yes because a tower consolidates storage and organization into one controlled space. Multiple desktop humidors can still make sense when you intentionally separate collections or want redundancy.</p>
 
-<h3>Does GFRC crack outdoors?</h3>
-<p>GFRC is designed as a durable reinforced architectural material, but no exterior cementitious product should be described as immune to every form of cracking or surface change. Proper handling, support, installation, drainage, climate exposure, and manufacturer care instructions all matter.</p>
+<h3>When should I move to an electronic humidor?</h3>
+<p>Consider electronic control when you have a large valuable collection, the room temperature varies significantly, or you want active temperature and humidity management in one cabinet. It is not automatically required solely because the collection is large.</p>
 
-<h3>Which fire-bowl material is easiest to match to a house?</h3>
-<p>Powder coat is usually easiest when you need a specific controlled color that coordinates with frames, railings, kitchens, or furniture. GFRC is often easiest when you want the bowl to coordinate with masonry and stone. Copper is best when deliberate material contrast is the goal.</p>
+<h3>Do commercial humidors include humidification?</h3>
+<p>Not always. Some large cabinets are designed for a separate active humidification unit. Check the exact product description and included equipment before ordering.</p>
 
-<h3>Which material is most expensive?</h3>
-<p>Within comparable current Maya configurations, hammered copper is generally the highest-priced of these three materials, with powder-coated steel in the middle and GFRC typically lower. Exact price depends on size and ignition, so compare equivalent SKUs.</p>
+<h3>What size humidor is best for cigar boxes?</h3>
+<p>Choose a cabinet or tower with adjustable flat shelves and enough depth for your common box sizes. Box-heavy collections usually need more physical volume than the same number of loose cigars.</p>
 
-<h3>Can GFRC, copper, and powder-coated bowls use electronic ignition?</h3>
-<p>Current The Outdoor Plus Maya families are offered with match-lit and electronic-ignition configurations depending on the exact model and size. Confirm the specific SKU before designing controls, power, or automation.</p>
+<h3>What size humidor is best for 500 cigars?</h3>
+<p>A furniture humidor or small cabinet is usually a practical starting point. If the collection includes many boxes or you expect rapid growth, moving up toward a 1,000-class mini tower can provide more usable organization.</p>
 
-<h3>Which material is best if I want four matching bowls?</h3>
-<p>Any of the three can work, but finish consistency becomes especially important in a repeated set. Powder coat offers controlled color, GFRC provides architectural repetition with handmade variation, and copper creates a coordinated set that may patina at slightly different rates depending on exposure.</p>
+<h3>What size humidor is best for 1,000 cigars?</h3>
+<p>A mini tower, large cabinet, or electronic humidor typically makes sense. Choose based on room environment, shelf versus drawer preference, and whether the 1,000 cigars are mostly loose or boxed.</p>
 
-<h3>Should I choose the material before deciding the number of bowls?</h3>
-<p>Develop the decisions together. Quantity affects visual density, utilities, and budget, while material changes visual weight and cost. Use the layout process in <a href="https://resideterra.com/blogs/fire-features-guides/how-many-fire-bowls-does-a-pool-need">How Many Fire Bowls Does a Pool Need?</a> and then compare exact material options at the chosen size.</p>
+<h3>What size humidor does a cigar lounge need?</h3>
+<p>There is no single number. Size from sellable inventory, back stock, member storage, replenishment frequency, box dimensions, display needs, locks, and access workflow. Commercial projects commonly move into 3,000–8,500+ cigar cabinet or locker systems.</p>
 
 <h2>Sources &amp; Verification</h2>
-<p>This guide uses current manufacturer product families and ResideTerra’s live catalog. Exact dimensions, weights, fuel requirements, ignition requirements, finishes, and installation details must be verified against the current specification sheet and manual for the ordered SKU.</p>
 <ul>
-<li><a href="https://theoutdoorplus.com/spec-sheets/">The Outdoor Plus — specification sheets</a></li>
-<li><a href="https://theoutdoorplus.com/product-category/bowls/fire-bowls/">The Outdoor Plus — fire bowls</a></li>
-<li><a href="https://theoutdoorplus.com/product/maya-copper-fire-bowl/">The Outdoor Plus — Maya hammered copper fire bowl</a></li>
-<li><a href="https://theoutdoorplus.com/product/cazo-fire-bowl-powder-coated-steel/">The Outdoor Plus — Cazo powder-coated steel fire bowl</a></li>
-<li><a href="https://resideterra.com/collections/fire-bowls">ResideTerra — Fire Bowls</a></li>
-<li><a href="https://resideterra.com/collections/the-outdoor-plus">ResideTerra — The Outdoor Plus</a></li>
+<li><a href="https://www.qualityimporters.com/Humidor-Supreme-c">Quality Importers — Humidor Supreme category</a></li>
+<li><a href="https://www.qualityimporters.com/humidor-supreme-electronic-humidor">Quality Importers — Humidor Supreme 9000 electronic humidor</a></li>
+<li><a href="https://www.qualityimporters.com/humidor-supreme-tower">Quality Importers — Cigar Tower by Humidor Supreme</a></li>
+<li><a href="https://www.qualityimporters.com/Humidor-Supreme-Ironside">Quality Importers — Ironside desktop humidor</a></li>
+<li><a href="https://www.qualityimporters.com/Humidor-Supreme-Cordoba-Desktop-Humidor">Quality Importers — Cordoba desktop humidor</a></li>
+<li><a href="https://resideterra.com/collections/cigar-humidor">ResideTerra — Cigar Humidor collection</a></li>
+<li><a href="https://resideterra.com/collections/humidor-supreme">ResideTerra — Humidor Supreme collection</a></li>
 </ul>
 
 <h2>Bottom line</h2>
-<p>Choose GFRC when the fire bowl should feel like part of the architecture. Choose hammered copper when natural material character and patina are worth the premium. Choose powder-coated steel when a crisp metal form and controlled color matter most. Then validate the exact size, ignition, support, and installation requirements before the project is roughed in.</p>
+<p>Buy for the collection you actually have, the way you store it, and the collection you are likely to build—not for a headline capacity alone. Under 100 cigars usually points toward desktop storage; hundreds of cigars favor furniture and cabinets; 1,000+ collections increasingly benefit from towers or electronic systems; and commercial or multi-user collections can justify 3,000–8,500+ cigar cabinets and locker systems.</p>
 `
