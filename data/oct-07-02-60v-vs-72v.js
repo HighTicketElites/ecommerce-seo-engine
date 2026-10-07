@@ -49,6 +49,7 @@ const job={
  ],
  featured_handle:"79bike-falcon-pro",
  featured_alt:"60V vs 72V electric dirt bikes comparison",
+ append_html:`<h2>Related Electric Dirt Bike Buying Resources</h2><p>If you are still narrowing the category itself, start with our <a href="https://wattwheelz.com/blogs/e-bike-buying-guides/electric-dirt-bike-buying-guide-2026">electric dirt bike buying guide</a>. Riders comparing off-road use cases can also review our <a href="https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026">electric bikes for hunting guide</a>, then browse the <a href="https://wattwheelz.com/collections/79bike">79Bike collection</a> for another current dirt-bike-focused lineup.</p>`,
  image_plan:[
   ["freego-x2-pro-all-terrain-off-road-motorcycle-electric-dirt-bike-with-pedals",0,"Freego X2 Pro 60V electric dirt bike","Freego X2 Pro 60V electric dirt bike."],
   ["79bike-falcon-pro",0,"79Bike Falcon Pro 72V electric dirt bike","79Bike Falcon Pro 72V electric dirt bike."],
