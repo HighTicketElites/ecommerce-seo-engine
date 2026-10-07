@@ -1,6 +1,6 @@
 import crypto from 'node:crypto';
 import { exchangeOAuthCode, normalizedShop } from '../../../../lib/shopify.js';
-import { runDraftJob } from '../../../../lib/job.js';
+import { runDraftJob, runPublishJob } from '../../../../lib/job.js';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -33,7 +33,9 @@ export async function GET(request) {
     const shop = (url.searchParams.get('shop') || '').toLowerCase();
     const code = url.searchParams.get('code');
     const state = url.searchParams.get('state');
-    const expectedState = cookieValue(request.headers.get('cookie'),'ww_oauth_state');
+    const cookieHeader=request.headers.get('cookie');
+    const expectedState = cookieValue(cookieHeader,'ww_oauth_state');
+    const mode = cookieValue(cookieHeader,'ww_oauth_mode') || 'draft';
     const expectedShop = normalizedShop();
     const secret = process.env.SHOPIFY_CLIENT_SECRET;
 
@@ -43,10 +45,12 @@ export async function GET(request) {
     if (!secret || !validHmac(url, secret)) throw new Error('OAuth HMAC validation failed');
 
     const auth = await exchangeOAuthCode({ shop, code });
-    const result = await runDraftJob(auth);
+    const result = mode==='publish' ? await runPublishJob(auth) : await runDraftJob(auth);
     const headers = new Headers({'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'});
     headers.append('Set-Cookie','ww_oauth_state=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
-    return new Response(resultPage('WattWheelz October 7 SEO Batch', result, result.pass), { status: result.pass ? 200 : 409, headers });
+    headers.append('Set-Cookie','ww_oauth_mode=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
+    const title=mode==='publish'?'WattWheelz October 7 SEO Publish':'WattWheelz October 7 SEO Batch';
+    return new Response(resultPage(title, result, result.pass), { status: result.pass ? 200 : 409, headers });
   } catch (error) {
     const payload = { error: error?.message || String(error), safety: 'No publication action was executed.' };
     return new Response(resultPage('WattWheelz October 7 SEO Batch - Stopped Safely', payload, false), { status:500, headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'} });
