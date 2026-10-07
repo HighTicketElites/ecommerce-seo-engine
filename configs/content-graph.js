@@ -124,7 +124,7 @@ const contentGraph={
       root:"best-electric-bikes-2027",
       roadmap_nodes:["best-electric-bikes-2027","ebike-buying-guide-2027"],
       goal:"Create top-level 2027 authority hubs that distribute internal authority across all commercial clusters."
-    }
+    },
     {
       id:"brand-authority-core",
       title:"Strategic Brand Authority",
