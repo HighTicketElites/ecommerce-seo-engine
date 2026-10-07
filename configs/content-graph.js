@@ -125,6 +125,18 @@ const contentGraph={
       roadmap_nodes:["best-electric-bikes-2027","ebike-buying-guide-2027"],
       goal:"Create top-level 2027 authority hubs that distribute internal authority across all commercial clusters."
     }
+    {
+      id:"brand-authority-core",
+      title:"Strategic Brand Authority",
+      root:"best-happyrun-electric-bikes-2026",
+      roadmap_nodes:[
+        "best-happyrun-electric-bikes-2026",
+        "best-urtopia-electric-bikes-2026",
+        "best-eunorau-electric-bikes-2026"
+      ],
+      legacy_nodes:["best-79bike-electric-bikes-2026"],
+      goal:"Build supplier-level authority hubs that distribute relevance into brand collections, reviews, comparisons, alternatives and PDPs."
+    },
   ],
   cross_cluster_edges:[
     ["electric-dirt-performance","fat-tire-all-terrain"],
