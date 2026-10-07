@@ -1,0 +1,63 @@
+import { gunzipSync } from "node:zlib";
+function decode(v){return gunzipSync(Buffer.from(v,"base64")).toString("utf8");}
+const job={
+  manifest:{
+    title:"Electric Dirt Bike Buying Guide 2026: Power, Battery, Range & What to Look For",
+    handle:"electric-dirt-bike-buying-guide-2026",
+    blog_title:"E-Bike Buying Guides",
+    blog_handle:"e-bike-buying-guides",
+    excerpt:"A buyer-first 2026 electric dirt bike guide covering motor power, 48V vs 60V vs 72V batteries, range, suspension, brakes, fit, legality and current WattWheelz examples.",
+    tags:["Electric Dirt Bike","Dirt E-Bike","Buying Guide","Electric Moto","79Bike","HappyRun","Freego","EUNORAU","2026"],
+    seo_title:"Electric Dirt Bike Buying Guide 2026: What to Look For",
+    meta_description:"Compare electric dirt bikes by motor power, battery, range, suspension, brakes, fit and legality. A 2026 buyer guide with current WattWheelz examples.",
+    required_internal_links:[
+      "https://wattwheelz.com/collections/dirt-e-bikes",
+      "https://wattwheelz.com/collections/best-electric-dirt-bikes-for-adults",
+      "https://wattwheelz.com/products/79bike-falcon-pro",
+      "https://wattwheelz.com/products/happyrun-electric-dirt-bike-g300-pro",
+      "https://wattwheelz.com/products/r1",
+      "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/79bike-falcon-pro-review-specs-performance-pros-cons-who-it-s-for",
+      "https://wattwheelz.com/blogs/e-bike-brand-guides/best-79bike-electric-bikes-2026"
+    ],
+    blog_link_graph:{
+      parent:[],
+      siblings:[
+        "https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026",
+        "https://wattwheelz.com/blogs/e-bike-brand-guides/best-79bike-electric-bikes-2026"
+      ],
+      supporting:[
+        "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/79bike-falcon-pro-review-specs-performance-pros-cons-who-it-s-for",
+        "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-r1-plus-vs-79bike-falcon-pro"
+      ]
+    },
+    commercial_destinations:[
+      "https://wattwheelz.com/collections/dirt-e-bikes",
+      "https://wattwheelz.com/collections/best-electric-dirt-bikes-for-adults"
+    ],
+    incoming_link_targets:[
+      "https://wattwheelz.com/blogs/e-bike-brand-guides/best-79bike-electric-bikes-2026",
+      "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/79bike-falcon-pro-review-specs-performance-pros-cons-who-it-s-for",
+      "https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026"
+    ],
+    qa:{minimum_words:2200,minimum_h2:18,minimum_faq:10,minimum_images:5,minimum_product_links:6,minimum_collection_links:4,minimum_blog_links:5,minimum_internal_links:15}
+  },
+  product_handles:[
+    "viper-s-electric-dirt-bike",
+    "happyrun-g18-pro-60v-35ah-4500w-off-road-electric-dirt-bike",
+    "freego-x2-pro-all-terrain-off-road-motorcycle-electric-dirt-bike-with-pedals",
+    "happyrun-electric-dirt-bike-g300-pro",
+    "r1",
+    "79bike-falcon-pro"
+  ],
+  featured_handle:"79bike-falcon-pro",
+  featured_alt:"Electric dirt bike buying guide 2026",
+  image_plan:[
+    ["viper-s-electric-dirt-bike",0,"79Bike Viper S electric dirt bike","79Bike Viper S lightweight electric dirt bike."],
+    ["happyrun-electric-dirt-bike-g300-pro",0,"HappyRun G300 Pro 72V electric dirt bike","HappyRun G300 Pro 72V off-road electric dirt bike."],
+    ["r1",0,"EUNORAU Rerode R1 electric dirt bike","EUNORAU Rerode R1 72V electric dirt bike."],
+    ["79bike-falcon-pro",0,"79Bike Falcon Pro electric dirt bike","79Bike Falcon Pro high-performance electric dirt bike."],
+    ["freego-x2-pro-all-terrain-off-road-motorcycle-electric-dirt-bike-with-pedals",0,"Freego X2 Pro electric dirt bike","Freego X2 Pro 60V all-terrain electric dirt bike."]
+  ],
+  body:decode("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")
+};
+export default job;
