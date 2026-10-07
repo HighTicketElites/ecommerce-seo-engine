@@ -43,6 +43,7 @@ const job={
  product_handles:["79bike-falcon-pro","r1"],
  featured_handle:"79bike-falcon-pro",
  featured_alt:"79Bike Falcon Pro vs Talaria Sting R MX4 comparison",
+ append_html:`<h2>Where This Comparison Fits in the Buying Journey</h2><p>Before choosing between these platforms, use our <a href="https://wattwheelz.com/blogs/e-bike-buying-guides/electric-dirt-bike-buying-guide-2026">electric dirt bike buying guide</a> to define the right power, battery and chassis priorities. Our <a href="https://wattwheelz.com/blogs/e-bike-reviews-comparisons/60v-vs-72v-electric-dirt-bikes">60V vs 72V electric dirt bike guide</a> explains why system voltage alone does not decide performance, while the <a href="https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026">electric bikes for hunting guide</a> adds another demanding off-road use case for context.</p>`,
  image_plan:[
   ["79bike-falcon-pro",0,"79Bike Falcon Pro electric dirt bike","79Bike Falcon Pro high-performance electric dirt bike."],
   ["79bike-falcon-pro",1,"79Bike Falcon Pro detail view","79Bike Falcon Pro chassis and component detail."],
