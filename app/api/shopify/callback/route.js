@@ -8,7 +8,7 @@ export const maxDuration = 60;
 
 function esc(v) { return String(v ?? '').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
 function resultPage(title, payload, ok) {
-  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title></head><body style="font-family:system-ui;background:#f4f6f8;color:#111827"><main style="max-width:1000px;margin:48px auto;padding:24px"><h1>${esc(title)}</h1><div style="background:white;border:1px solid #dbe2ea;border-radius:12px;padding:22px"><h2 style="color:${ok?'#166534':'#b42318'}">${ok?'DRAFT QA PASS':'STOPPED / QA NEEDS REVIEW'}</h2><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:#f8fafc;padding:16px;border-radius:8px">${esc(JSON.stringify(payload,null,2))}</pre></div><p><a href="/">Back to Draft Generator</a></p></main></body></html>`;
+  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title></head><body style="font-family:system-ui;background:#f4f6f8;color:#111827"><main style="max-width:1000px;margin:48px auto;padding:24px"><h1>${esc(title)}</h1><div style="background:white;border:1px solid #dbe2ea;border-radius:12px;padding:22px"><h2 style="color:${ok?'#166534':'#b42318'}">${ok?'BATCH DRAFT QA PASS':'STOPPED / QA NEEDS REVIEW'}</h2><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:#f8fafc;padding:16px;border-radius:8px">${esc(JSON.stringify(payload,null,2))}</pre></div><p><a href="/">Back to Draft Generator</a></p></main></body></html>`;
 }
 
 function cookieValue(header, key) {
@@ -46,9 +46,9 @@ export async function GET(request) {
     const result = await runDraftJob(auth);
     const headers = new Headers({'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'});
     headers.append('Set-Cookie','ww_oauth_state=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
-    return new Response(resultPage('Exoskeleton Cost Draft Job', result, result.pass), { status: result.pass ? 200 : 409, headers });
+    return new Response(resultPage('WattWheelz October 7 SEO Batch', result, result.pass), { status: result.pass ? 200 : 409, headers });
   } catch (error) {
     const payload = { error: error?.message || String(error), safety: 'No publication action was executed.' };
-    return new Response(resultPage('Exoskeleton Cost Draft Job - Stopped Safely', payload, false), { status:500, headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'} });
+    return new Response(resultPage('WattWheelz October 7 SEO Batch - Stopped Safely', payload, false), { status:500, headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'} });
   }
 }
