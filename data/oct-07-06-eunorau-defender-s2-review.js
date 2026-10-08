@@ -1,0 +1,38 @@
+import { gunzipSync } from "node:zlib";
+function decode(v){return gunzipSync(Buffer.from(v,"base64")).toString("utf8");}
+const job={
+ manifest:{
+  title:"EUNORAU Defender S 2.0 / Hunter X6 Review 2026",
+  handle:"eunorau-defender-s-2-hunter-x6-review-2026",
+  blog_title:"E-Bike Reviews & Comparisons",
+  blog_handle:"e-bike-reviews-comparisons",
+  excerpt:"A current-generation review of the EUNORAU Defender S 2.0 / Hunter X6 covering AWD traction, dual 750W motors, battery, range, suspension, brakes and hunting fit.",
+  tags:["EUNORAU","Defender S 2.0","Hunter X6","AWD E-Bike","Hunting E-Bike","2026"],
+  seo_title:"EUNORAU Defender S 2.0 / Hunter X6 Review 2026",
+  meta_description:"EUNORAU Defender S 2.0 / Hunter X6 review: dual 750W AWD motors, 48V 17Ah battery, range, suspension, brakes, hunting use and buyer fit.",
+  required_internal_links:[
+   "https://wattwheelz.com/products/eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",
+   "https://wattwheelz.com/collections/eunorau",
+   "https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026",
+   "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-rerode-r1-review-2026",
+   "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026"
+  ],
+  blog_link_graph:{
+   parent:["https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026"],
+   siblings:["https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-rerode-r1-review-2026"],
+   supporting:["https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026"]
+  },
+  commercial_destinations:["https://wattwheelz.com/products/eunorau-defender-s-2-0-hunter-x6-awd-electric-bike","https://wattwheelz.com/collections/eunorau"],
+  incoming_link_targets:["https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026","https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026"],
+  qa:{minimum_words:1200,minimum_h2:15,minimum_faq:10,minimum_images:2,minimum_product_links:1,minimum_collection_links:1,minimum_blog_links:3,minimum_internal_links:5}
+ },
+ product_handles:["eunorau-defender-s-2-0-hunter-x6-awd-electric-bike"],
+ featured_handle:"eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",
+ featured_alt:"EUNORAU Defender S 2.0 Hunter X6 AWD electric bike review",
+ image_plan:[
+  ["eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",0,"EUNORAU Defender S 2.0 Hunter X6 electric bike","EUNORAU Defender S 2.0 / Hunter X6 AWD electric bike."],
+  ["eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",1,"EUNORAU Defender S 2.0 AWD detail","EUNORAU Defender S 2.0 AWD fat-tire and suspension detail."]
+ ],
+ body:decode("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")
+};
+export default job;
