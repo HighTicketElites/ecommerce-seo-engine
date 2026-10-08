@@ -1,25 +1,23 @@
 export default `
-<h2>100–300 cigars: large desktop or small furniture humidor</h2>
-<p>Once you regularly hold more than 100 cigars, physical organization starts to matter almost as much as raw count. Larger desktop humidors may still work, but furniture-style units provide drawers, shelving, easier access, and more visual separation between everyday cigars and long-term aging stock.</p>
+<h2>Plug-in versus hardwired installation</h2>
+<p>120V fireplaces are more likely to offer plug-in installation, but many premium built-in models can also be hardwired at 120V. A hardwired installation removes the visible cord and gives the project a cleaner permanent finish. It can also make service access and code compliance easier when planned correctly.</p>
 
-<p>Humidor Supreme furniture pieces in this range include end-table formats, which are useful when cigar storage needs to live naturally inside a den, office, lounge, or living space instead of looking like commercial equipment.</p>
+<p>240V configurations are generally hardwired. That means the circuit, breaker, disconnect requirements if applicable, wire gauge, and junction-box location must be planned before the fireplace is enclosed. A licensed electrician should perform or verify the work according to the manufacturer instructions and local code.</p>
 
-<h2>300–1,000 cigars: furniture and cabinet humidors become practical</h2>
-<p>This is where many serious collectors move from “a humidor” to a true storage system. Boxes begin to stack up, different blends need organization, and access to cigars at the back of a deep desktop box becomes inconvenient.</p>
+<h2>Do you need a dedicated circuit?</h2>
+<p>Many electric fireplaces call for a dedicated branch circuit, particularly when the heater can draw close to the capacity of a standard 120V circuit. Even if a fireplace physically plugs into a normal-looking receptacle, sharing that circuit with televisions, amplifiers, lighting, or other high-draw devices can create nuisance trips or overload problems.</p>
 
-<p>Furniture humidors, display cabinets, and smaller towers give the collection vertical space. They can also provide electrical outlets or room for active humidification depending on the model. Before purchase, confirm whether humidification equipment is included or sold separately; some large furniture humidors are designed to accept an active system but do not include one by default.</p>
+<p>The safest planning rule is simple: read the manual for the exact model and have the electrical load calculated before construction. Do not design a built-in wall around an assumed outlet arrangement.</p>
 
-<h2>Around 1,000 cigars: consider a mini tower or powered cabinet</h2>
-<p>The current <a href="https://resideterra.com/products/quality-importers-1000-cigar-mini-tower-humidor">{{title:quality-importers-1000-cigar-mini-tower-humidor}}</a> is an example of the point where a vertical cabinet becomes more practical than multiple desktop boxes. A mini tower can consolidate the collection into one footprint and make shelves or trays easier to access.</p>
+<h2>Media walls: choose voltage before framing closes</h2>
+<p>For a fireplace under a television or inside a custom feature wall, voltage should be decided before framing, drywall, tile, stone, or cabinetry is completed. The electrician needs to know the fireplace connection point, television outlet location, low-voltage pathways, and whether the heater outlet must remain unobstructed.</p>
 
-<!-- RDT_IMAGE:mini-tower -->
+<p>If there is any chance you will want the higher 240V heater mode later, decide that during rough-in. Retrofitting a new circuit after a finished stone or millwork wall is complete is usually more expensive than planning it from the beginning.</p>
 
-<p>At this capacity, think about where the unit will live, door swing, floor footprint, freight access, whether the cabinet is moved loaded or empty, and whether the humidification system needs power. A 1,000-cigar cabinet is furniture or equipment, not a portable desktop accessory.</p>
+<h2>Example: Modern Flames Landscape Pro Multi</h2>
+<p>The current <a href="https://resideterra.com/products/modern-flames-landscape-pro-multi-built-in-electric-fireplace">{{title:modern-flames-landscape-pro-multi-built-in-electric-fireplace}}</a> is a useful example of a premium dual-voltage project fireplace. Modern Flames documents approximately 5,000 BTU at 120V and 10,000-BTU capability with the optional 240V heater configuration.</p>
 
-<h2>1,000–1,600 cigars: electronic control becomes attractive</h2>
-<p>The current <a href="https://resideterra.com/products/humidor-supreme-1500-cigar-electronic-humidor">{{title:humidor-supreme-1500-cigar-electronic-humidor}}</a> sits in this class. Quality Importers' current catalog describes the 9100 electronic series as roughly a 1,000–1,600-cigar system with independent temperature and humidity control, cedar cabinetry, shelves, a drawer, air circulation, and a UV-protected glass door.</p>
+<!-- RDT_IMAGE:modern-flames-dual -->
 
-<!-- RDT_IMAGE:electronic-1500 -->
-
-<p>Electronic control is useful when the room itself experiences more temperature variation or when the owner wants a single cabinet to manage a large valuable collection. It also changes the project requirements: the cabinet needs reliable power, ventilation around the appliance as specified, and room to service the water reservoir or other maintenance points.</p>
+<p>This is the kind of product where the decision should be made based on the project’s heating goal and rough-in plan. The visual fireplace experience is not the reason to choose 240V; the higher-capacity heater is.</p>
 `
