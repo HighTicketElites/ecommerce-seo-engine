@@ -1,0 +1,75 @@
+{
+  "id": "120v-vs-240v-electric-fireplaces",
+  "title": "120V vs 240V Electric Fireplaces: Which Power Setup Do You Need?",
+  "handle": "120v-vs-240v-electric-fireplaces",
+  "blog_title": "Electric Fireplaces",
+  "blog_handle": "electric-fireplaces",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "primary_keyword": "120v vs 240v electric fireplace",
+  "seo_title": "120V vs 240V Electric Fireplaces: Which Do You Need?",
+  "meta_description": "Compare 120V vs 240V electric fireplaces by heat output, wiring, installation, room size, cost, and project fit before choosing your setup.",
+  "excerpt": "A practical guide to choosing between 120V and 240V electric fireplaces based on heater output, plug-in vs hardwired installation, room goals, electrical planning, and current ResideTerra models.",
+  "tags": [
+    "Electric Fireplaces",
+    "120V",
+    "240V",
+    "Modern Flames",
+    "Amantii"
+  ],
+  "product_handles": [
+    "modern-flames-landscape-pro-multi-built-in-electric-fireplace",
+    "amantii-panorama-72-inch-built-in-tall-deep-indoor-outdoor-linear-electric-fireplace",
+    "amantii-36-wall-mount-flush-mount-electric-fireplace"
+  ],
+  "required_internal_links": [
+    "https://resideterra.com/collections/electric-fireplaces",
+    "https://resideterra.com/collections/built-in-electric-fireplaces",
+    "https://resideterra.com/collections/modern-flames",
+    "https://resideterra.com/collections/amantii-electric-fireplaces"
+  ],
+  "source_urls": [
+    "https://www.modernflames.com/fireplaces/landscape-pro-multi/",
+    "https://www.modernflames.com/wp-content/uploads/MF-Landscape-Pro-Multiview-2022-Owners-Manual-V2.pdf",
+    "https://amantii.com/manuals/Signature%20User%20Manual.pdf",
+    "https://amantii.com/wp-content/uploads/2026/04/CompareGuide-USA-3.pdf",
+    "https://resideterra.com/collections/electric-fireplaces",
+    "https://resideterra.com/collections/built-in-electric-fireplaces"
+  ],
+  "image_slots": [
+    {
+      "id": "modern-flames-dual",
+      "product_handle": "modern-flames-landscape-pro-multi-built-in-electric-fireplace",
+      "media_index": 0,
+      "alt": "Modern Flames Landscape Pro Multi built-in electric fireplace",
+      "caption": "Current ResideTerra product media for a dual-voltage-capable Modern Flames built-in fireplace."
+    },
+    {
+      "id": "amantii-dual",
+      "product_handle": "amantii-panorama-72-inch-built-in-tall-deep-indoor-outdoor-linear-electric-fireplace",
+      "media_index": 0,
+      "alt": "Amantii Panorama 72-inch electric fireplace",
+      "caption": "Current ResideTerra product media for an Amantii electric fireplace available for 120V or 240V installation."
+    },
+    {
+      "id": "amantii-120",
+      "product_handle": "amantii-36-wall-mount-flush-mount-electric-fireplace",
+      "media_index": 0,
+      "alt": "Amantii 36-inch wall mount and flush mount electric fireplace",
+      "caption": "Current ResideTerra product media for an active 120V electric fireplace example."
+    }
+  ],
+  "cover_image": {
+    "url": "https://cdn.shopify.com/s/files/1/0892/4862/9058/articles/Amantii-Deep-XT-72-Suntea-YO-O-Logs-ROOM.jpg?v=1791503387",
+    "alt": "Modern living room with a built-in linear electric fireplace for 120V versus 240V planning",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_native_contextual_lifestyle_crop",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 2800,
+    "minimum_h2": 18,
+    "minimum_faq": 8,
+    "minimum_images": 3
+  }
+}
