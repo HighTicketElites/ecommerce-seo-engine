@@ -7,9 +7,9 @@ export default `
 <p>That makes the 240V option useful when the fireplace is installed as part of a permanent built-in project and the buyer wants the maximum supported heat output. If the room is primarily decorative and 1,500 watts is enough, 120V can remain the simpler solution.</p>
 
 <h2>Example: a 120V-focused fireplace</h2>
-<p>The current <a href="https://resideterra.com/products/simplifire-scion-55-built-in-linear-electric-fireplace-sf-scn55">{{title:simplifire-scion-55-built-in-linear-electric-fireplace-sf-scn55}}</a> is an example of a fireplace sold in ResideTerra's catalog with a 120V configuration. A product like this can be a better fit when straightforward installation and flame presentation matter more than maximizing electric heat output.</p>
+<p>The current <a href="https://resideterra.com/products/amantii-36-wall-mount-flush-mount-electric-fireplace">{{title:amantii-36-wall-mount-flush-mount-electric-fireplace}}</a> is an active ResideTerra example tagged for 120V operation and plug-in or hardwired installation. This kind of model is a strong fit when straightforward installation and flame presentation matter more than maximizing electric heat output.</p>
 
-<!-- RDT_IMAGE:simplifire-120 -->
+<!-- RDT_IMAGE:amantii-120 -->
 
 <h2>Room size is not the only factor</h2>
 <p>Manufacturers often publish a suggested heating area, but square footage alone cannot predict comfort. A 600-square-foot open-plan room with 12-foot ceilings and large glass doors can behave very differently from a 600-square-foot insulated bedroom zone. Climate also matters: supplemental heat in Florida has a different job than supplemental heat in a northern winter.</p>
