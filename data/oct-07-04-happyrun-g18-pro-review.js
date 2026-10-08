@@ -30,6 +30,7 @@ const job={
  product_handles:["happyrun-g18-pro-60v-35ah-4500w-off-road-electric-dirt-bike","happyrun-electric-dirt-bike-g300-pro"],
  featured_handle:"happyrun-g18-pro-60v-35ah-4500w-off-road-electric-dirt-bike",
  featured_alt:"HappyRun G18 Pro electric dirt bike review 2026",
+ append_html:`<h2>Related HappyRun Buying Resources</h2><p>Compare the <a href="https://wattwheelz.com/products/happyrun-g18-pro-60v-35ah-4500w-off-road-electric-dirt-bike">HappyRun G18 Pro</a> with the <a href="https://wattwheelz.com/products/happyrun-electric-dirt-bike-g300-pro">HappyRun G300 Pro</a>, browse the full <a href="https://wattwheelz.com/collections/happy-run">HappyRun collection</a> and <a href="https://wattwheelz.com/collections/dirt-e-bikes">electric dirt bike collection</a>, then use our <a href="https://wattwheelz.com/blogs/e-bike-reviews-comparisons/best-happyrun-electric-bikes-2026">Best HappyRun Electric Bikes 2026 guide</a>, <a href="https://wattwheelz.com/blogs/e-bike-reviews-comparisons/happyrun-g300-pro-review-2026">G300 Pro review</a>, and <a href="https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026">hunting e-bike guide</a> for deeper context.</p>`,
  image_plan:[
   ["happyrun-g18-pro-60v-35ah-4500w-off-road-electric-dirt-bike",0,"HappyRun G18 Pro electric dirt bike","HappyRun G18 Pro 60V 35Ah electric dirt bike."],
   ["happyrun-electric-dirt-bike-g300-pro",0,"HappyRun G300 Pro electric dirt bike","HappyRun G300 Pro 72V electric dirt bike comparison reference."],
