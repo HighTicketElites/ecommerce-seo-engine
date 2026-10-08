@@ -128,11 +128,11 @@ const contentGraph={
     {
       id:"brand-authority-core",
       title:"Strategic Brand Authority",
-      root:"best-happyrun-electric-bikes-2026",
+      root:"best-urtopia-electric-bikes-2026",
       roadmap_nodes:[
-        "best-happyrun-electric-bikes-2026",
+        "happyrun-g18-pro-review-2026",
         "best-urtopia-electric-bikes-2026",
-        "best-eunorau-electric-bikes-2026"
+        "eunorau-defender-s-2-hunter-x6-review-2026"
       ],
       legacy_nodes:["best-79bike-electric-bikes-2026"],
       goal:"Build supplier-level authority hubs that distribute relevance into brand collections, reviews, comparisons, alternatives and PDPs."
