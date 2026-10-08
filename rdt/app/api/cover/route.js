@@ -1,17 +1,23 @@
 import { ImageResponse } from 'next/og';
+import manifest from '../../../data/manifest.js';
+
 export const runtime='edge';
 
 export async function GET(){
+  const source=manifest?.cover?.source_url;
+  if(!source) {
+    return new ImageResponse(
+      <div style={{width:'100%',height:'100%',display:'flex',alignItems:'center',justifyContent:'center',background:'#0b1825',color:'white',fontFamily:'Arial',fontSize:34,letterSpacing:3}}>
+        RESIDETERRA
+      </div>,
+      {width:1200,height:675}
+    );
+  }
+
   return new ImageResponse(
-    <div style={{width:'100%',height:'100%',display:'flex',flexDirection:'column',justifyContent:'space-between',padding:'70px 78px',background:'linear-gradient(135deg,#09111f 0%,#182a3b 55%,#0b1825 100%)',color:'white',fontFamily:'Arial'}}>
-      <div style={{display:'flex',fontSize:24,letterSpacing:3,textTransform:'uppercase',opacity:.82}}>RESIDETERRA · FIRE FEATURE GUIDE</div>
-      <div style={{display:'flex',flexDirection:'column',gap:18}}>
-        <div style={{display:'flex',fontSize:66,fontWeight:700,lineHeight:1.05}}>How Many Fire Bowls<br/>Does a Pool Need?</div>
-        <div style={{display:'flex',fontSize:28,opacity:.88}}>A layout and sizing guide</div>
-      </div>
-      <div style={{display:'flex',gap:28,fontSize:22,opacity:.78}}>
-        <span>LAYOUT</span><span>•</span><span>SIZING</span><span>•</span><span>SIGHTLINES</span><span>•</span><span>UTILITIES</span>
-      </div>
+    <div style={{width:'100%',height:'100%',display:'flex',position:'relative',overflow:'hidden',background:'#111'}}>
+      <img src={source} width="1200" height="675" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center'}} />
+      <div style={{position:'absolute',inset:0,display:'flex',background:'linear-gradient(180deg,rgba(0,0,0,0.02) 0%,rgba(0,0,0,0.08) 100%)'}} />
     </div>,
     {width:1200,height:675}
   );
