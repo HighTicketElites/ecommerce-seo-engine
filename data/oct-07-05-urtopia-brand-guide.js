@@ -25,7 +25,7 @@ const job={
   blog_link_graph:{
    parent:[],
    siblings:["https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-review","https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-vs-carbon-fold-step-thru"],
-   supporting:["https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026"]
+   supporting:[]
   },
   commercial_destinations:["https://wattwheelz.com/collections/urtopia","https://wattwheelz.com/products/carbon-1-pro"],
   incoming_link_targets:["https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-review","https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-vs-carbon-fold-step-thru"],
