@@ -29,6 +29,7 @@ const job={
  product_handles:["eunorau-defender-s-2-0-hunter-x6-awd-electric-bike"],
  featured_handle:"eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",
  featured_alt:"EUNORAU Defender S 2.0 Hunter X6 AWD electric bike review",
+ append_html:`<h2>Related EUNORAU Buying Resources</h2><p>View the current <a href="https://wattwheelz.com/products/eunorau-defender-s-2-0-hunter-x6-awd-electric-bike">EUNORAU Defender S 2.0 / Hunter X6</a>, browse the full <a href="https://wattwheelz.com/collections/eunorau">EUNORAU collection</a>, and compare it with our <a href="https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026">Best EUNORAU Electric Bikes 2026 guide</a>, <a href="https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-rerode-r1-review-2026">Rerode R1 review</a>, and <a href="https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026">Best Electric Bikes for Hunting 2026</a>.</p>`,
  image_plan:[
   ["eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",0,"EUNORAU Defender S 2.0 Hunter X6 electric bike","EUNORAU Defender S 2.0 / Hunter X6 AWD electric bike."],
   ["eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",1,"EUNORAU Defender S 2.0 AWD detail","EUNORAU Defender S 2.0 AWD fat-tire and suspension detail."]
