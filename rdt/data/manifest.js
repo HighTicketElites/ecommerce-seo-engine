@@ -23,6 +23,6 @@ export default {
     'https://resideterra.com/collections/modern-flames',
     'https://resideterra.com/collections/amantii-electric-fireplaces'
   ],
-  cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',alt:'120V versus 240V electric fireplace installation guide cover'},
+  cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',source_url:'https://cdn.shopify.com/s/files/1/0892/4862/9058/files/Amantii-Deep-XT-72-Suntea-YO-O-Logs-ROOM.jpg?v=1785347295',alt:'Modern living room with a built-in linear electric fireplace for 120V versus 240V planning'},
   qa:{minimum_words:2800,minimum_h2:18,minimum_faq:8,minimum_images:3}
 };
