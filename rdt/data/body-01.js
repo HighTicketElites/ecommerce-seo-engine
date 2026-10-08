@@ -1,27 +1,25 @@
 export default `
-<p><strong>Direct answer:</strong> choose a humidor that fits how you actually store cigars—not just the number printed in the product name. A 50-cigar desktop humidor can be appropriate for a small personal rotation, while collectors holding hundreds of cigars may need furniture-style or cabinet storage. Once a collection reaches roughly 1,000 cigars or includes many full boxes, a tower, electronic cabinet, commercial display, or locker usually becomes more practical than stacking multiple small humidors.</p>
+<p><strong>Direct answer:</strong> choose 120V when you want the simplest installation path, lower heater output is acceptable, and the model is designed to run from a standard household circuit. Choose 240V when the fireplace supports it and your project benefits from substantially higher heater output, a dedicated hardwired circuit, or a more permanent built-in installation. The voltage choice usually affects the heater much more than the flame presentation, lighting, media, or smart features.</p>
 
-<p>The most important sizing mistake is treating advertised capacity as an exact promise. Real usable capacity changes with cigar length and ring gauge, whether cigars are stored loose or in boxes, how shelves and drawers divide the interior, and how much open space the humidification system needs for circulation. Quality Importers itself notes on some travel cases that actual fit varies with cigar dimensions, and its large towers are commonly described with capacity ranges rather than a single exact count.</p>
+<p>Many premium electric fireplaces are sold in families that can operate on either 120V or 240V, but not every model supports both. Modern Flames, Amantii, Dimplex, SimpliFire, and other manufacturers use different electrical strategies across product lines, so the correct decision starts with the exact model manual—not a blanket assumption about the brand.</p>
 
-<h2>Cigar humidor size guide at a glance</h2>
+<h2>120V vs 240V electric fireplaces at a glance</h2>
 <table>
-<thead><tr><th>Collection size</th><th>Typical format to consider</th><th>Best for</th></tr></thead>
+<thead><tr><th>Question</th><th>120V</th><th>240V</th></tr></thead>
 <tbody>
-<tr><td>Under 25 cigars</td><td>Small desktop or travel humidor</td><td>Short-term rotation, occasional smoker, travel</td></tr>
-<tr><td>25–100 cigars</td><td>Desktop humidor</td><td>Personal collection with mostly loose cigars</td></tr>
-<tr><td>100–300 cigars</td><td>Large desktop or small furniture humidor</td><td>Growing personal collection</td></tr>
-<tr><td>300–1,000 cigars</td><td>Furniture humidor, end table, small cabinet</td><td>Mixed loose cigars and boxes</td></tr>
-<tr><td>1,000–1,600 cigars</td><td>Mini tower or electronic cabinet</td><td>Serious home collector or small commercial use</td></tr>
-<tr><td>2,000–3,000 cigars</td><td>Full tower / large electronic humidor</td><td>Large personal or retail collection</td></tr>
-<tr><td>3,000–5,000 cigars</td><td>Commercial cabinet / display humidor</td><td>Retail, lounges, clubs, very large collections</td></tr>
-<tr><td>5,000+ cigars</td><td>Locker wall or large commercial system</td><td>Membership storage, retail, hospitality, multi-user access</td></tr>
+<tr><td>Installation</td><td>Often plug-in or hardwired</td><td>Usually dedicated hardwired circuit</td></tr>
+<tr><td>Typical heater output</td><td>Often around 1,500 watts / roughly 5,000 BTU</td><td>Often around 2,500–3,000 watts / roughly 8,000–10,000 BTU</td></tr>
+<tr><td>Flame appearance</td><td>Usually the same as the model's 240V mode</td><td>Usually the same as the model's 120V mode</td></tr>
+<tr><td>Best fit</td><td>Decorative use, supplemental heat, simpler projects</td><td>Higher heat demand, larger rooms, permanent built-ins</td></tr>
+<tr><td>Electrical planning</td><td>May use an existing compliant circuit depending on model</td><td>Usually requires a dedicated circuit and electrician</td></tr>
 </tbody>
 </table>
 
-<p>Those bands are planning ranges, not universal rules. A collector with 600 boxed cigars may need more cabinet space than someone storing 900 smaller loose cigars in divided drawers.</p>
+<h2>The biggest difference is heater output, not flame quality</h2>
+<p>It is easy to assume that 240V makes an electric fireplace look brighter or more realistic. In most dual-voltage fireplaces, that is not the reason to upgrade. The flame LEDs, ember-bed lighting, media, app controls, and visual effects generally operate the same way. The higher voltage is primarily used to feed a higher-capacity resistance or ceramic heater.</p>
 
-<h2>Start with your current collection, then account for growth</h2>
-<p>Count what you own today, but do not size a long-term humidor only for today. A collector who already fills 80–90% of a cabinet has little flexibility for a new box purchase, aging stock, seasonal releases, or reorganizing by brand and vitola. The goal is not to buy empty furniture for its own sake; it is to avoid immediately outgrowing a high-ticket storage system.</p>
+<p>For example, Modern Flames documents the Landscape Pro Multi at approximately 5,000 BTU on 120V and up to 10,000 BTU when configured for 240V. Amantii's dual-voltage Signature-class products similarly pair about 1,500 watts at 120V with about 3,000 watts at 240V. That is a meaningful heating difference even though the fireplace remains visually the same product.</p>
 
-<p>A practical approach is to choose a capacity tier that leaves meaningful working room after your present collection is loaded. That extra room also makes shelving and access easier. It should not be confused with a manufacturer requirement for a fixed percentage of empty space.</p>
+<h2>Start with the exact product, then choose the circuit</h2>
+<p>Do not design the electrical plan before confirming the fireplace model. Some products are 120V only, some are dual-voltage, and some require hardwiring regardless of voltage. The installation manual should determine circuit size, wire type, breaker requirements, grounding, clearances, and whether plug-in operation is permitted.</p>
 `
