@@ -1,0 +1,46 @@
+import { gunzipSync } from "node:zlib";
+function decode(v){return gunzipSync(Buffer.from(v,"base64")).toString("utf8");}
+const job={
+ manifest:{
+  title:"Best Urtopia Electric Bikes 2026: Carbon Fiber Models Compared",
+  handle:"best-urtopia-electric-bikes-2026",
+  blog_title:"E-Bike Brand Guides",
+  blog_handle:"e-bike-brand-guides",
+  excerpt:"Compare the best current Urtopia electric bikes by weight, range, portability, power, comfort and use case, from Carbon 1 Pro to Carbon Fusion GT.",
+  tags:["Urtopia","Carbon Fiber E-Bikes","Brand Guide","Lightweight E-Bikes","Folding E-Bikes","2026"],
+  seo_title:"Best Urtopia Electric Bikes 2026: Models Compared",
+  meta_description:"Compare Urtopia electric bikes for 2026, including Carbon 1 Pro, Carbon Fold, Carbon Joy, Carbon Atom and Carbon Fusion GT by weight, range and use case.",
+  required_internal_links:[
+   "https://wattwheelz.com/collections/urtopia",
+   "https://wattwheelz.com/products/carbon-1-pro",
+   "https://wattwheelz.com/products/carbon-fold",
+   "https://wattwheelz.com/products/urtopia-carbon-fold-step-thru-ebike",
+   "https://wattwheelz.com/products/urtopia-carbon-fold-2-e-bike",
+   "https://wattwheelz.com/products/urtopia-joy-carbon-e-bike",
+   "https://wattwheelz.com/products/urtopia-carbon-atom-e-bike",
+   "https://wattwheelz.com/products/urtopia-carbon-fusion-gt",
+   "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-review",
+   "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-vs-carbon-fold-step-thru"
+  ],
+  blog_link_graph:{
+   parent:[],
+   siblings:["https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-review","https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-vs-carbon-fold-step-thru"],
+   supporting:["https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026"]
+  },
+  commercial_destinations:["https://wattwheelz.com/collections/urtopia","https://wattwheelz.com/products/carbon-1-pro"],
+  incoming_link_targets:["https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-review","https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-vs-carbon-fold-step-thru"],
+  qa:{minimum_words:1200,minimum_h2:15,minimum_faq:10,minimum_images:5,minimum_product_links:7,minimum_collection_links:1,minimum_blog_links:2,minimum_internal_links:10}
+ },
+ product_handles:["carbon-1-pro","carbon-fold","urtopia-carbon-fold-step-thru-ebike","urtopia-carbon-fold-2-e-bike","urtopia-joy-carbon-e-bike","urtopia-carbon-atom-e-bike","urtopia-carbon-fusion-gt"],
+ featured_handle:"carbon-1-pro",
+ featured_alt:"Best Urtopia electric bikes 2026 comparison",
+ image_plan:[
+  ["carbon-1-pro",0,"Urtopia Carbon 1 Pro electric bike","Urtopia Carbon 1 Pro lightweight carbon electric bike."],
+  ["carbon-fold",0,"Urtopia Carbon Fold 1 electric bike","Urtopia Carbon Fold 1 folding carbon electric bike."],
+  ["urtopia-joy-carbon-e-bike",0,"Urtopia Carbon Joy electric bike","Urtopia Carbon Joy utility-focused carbon electric bike."],
+  ["urtopia-carbon-atom-e-bike",0,"Urtopia Carbon Atom electric bike","Urtopia Carbon Atom high-output step-through electric bike."],
+  ["urtopia-carbon-fusion-gt",0,"Urtopia Carbon Fusion GT electric bike","Urtopia Carbon Fusion GT AWD carbon electric bike."]
+ ],
+ body:decode("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")
+};
+export default job;
