@@ -1,35 +1,28 @@
 export default `
-<h2>Quick decision framework</h2>
+<h2>Decision framework: which voltage should you choose?</h2>
 <ol>
-<li><strong>Count your cigars today.</strong> Separate loose cigars from boxes.</li>
-<li><strong>Identify your dominant format.</strong> Large ring gauges and boxed storage need more space.</li>
-<li><strong>Decide how you want to organize.</strong> Drawers, shelves, displays, and lockers serve different workflows.</li>
-<li><strong>Consider room stability.</strong> Decide whether passive/active humidification is enough or electronic climate control is desirable.</li>
-<li><strong>Plan for growth.</strong> Avoid buying a cabinet that will be functionally full on day one.</li>
-<li><strong>Measure the site and delivery path.</strong> Large towers and cabinets may ship LTL.</li>
-<li><strong>Confirm what is included.</strong> Humidification equipment is not included with every large cabinet.</li>
+<li><strong>Choose the exact fireplace first.</strong> Confirm whether it is 120V-only, 240V-only, or dual-voltage.</li>
+<li><strong>Define the heating goal.</strong> Ambiance only, occasional supplemental heat, or regular room heating?</li>
+<li><strong>Check the room and climate.</strong> Open plan, ceiling height, insulation, glass area, and outdoor exposure all matter.</li>
+<li><strong>Decide plug-in vs hardwired.</strong> Use only installation methods approved for the model.</li>
+<li><strong>Review panel capacity.</strong> A new 240V circuit may require electrical-panel planning.</li>
+<li><strong>Coordinate before finishes.</strong> Finalize voltage before drywall, tile, stone, or millwork closes the wall.</li>
 </ol>
 
-<h2>Common humidor sizing mistakes</h2>
+<h2>Common mistakes to avoid</h2>
 <ul>
-<li><strong>Buying exactly for today's cigar count.</strong> Leaves no room for growth or reorganization.</li>
-<li><strong>Ignoring ring gauge.</strong> Large cigars consume more volume than nominal count suggests.</li>
-<li><strong>Counting boxes like loose cigars.</strong> Packaging dramatically changes usable capacity.</li>
-<li><strong>Choosing only from the headline number.</strong> Shelf and drawer configuration may matter more.</li>
-<li><strong>Forgetting active humidification.</strong> Large furniture humidors may require a separate system.</li>
-<li><strong>Not measuring delivery access.</strong> Commercial cabinets can be LTL freight pieces.</li>
-<li><strong>Assuming electronic means maintenance-free.</strong> Powered cabinets still require cleaning, water management, and monitoring.</li>
+<li><strong>Assuming 240V improves the flame effect.</strong> The main gain is usually heater output.</li>
+<li><strong>Buying before checking the manual.</strong> Voltage and wiring vary by model.</li>
+<li><strong>Sharing an overloaded 120V circuit.</strong> TVs, audio gear, and heaters can create nuisance trips.</li>
+<li><strong>Closing the wall too early.</strong> Electrical rough-in should be complete before finish work.</li>
+<li><strong>Using extension cords.</strong> Follow manufacturer rules; many fireplaces prohibit them.</li>
+<li><strong>Ignoring room heat loss.</strong> Square-foot claims are not guarantees.</li>
+<li><strong>Assuming every brand uses the same wiring method.</strong> Product families differ significantly.</li>
 </ul>
 
+<h2>Where to shop electric fireplaces by project type</h2>
+<p>Browse the <a href="https://resideterra.com/collections/electric-fireplaces">ResideTerra Electric Fireplaces collection</a> for current models across multiple brands and installation styles. For permanent media walls and architectural projects, start with <a href="https://resideterra.com/collections/built-in-electric-fireplaces">Built-in Electric Fireplaces</a>. You can also compare current <a href="https://resideterra.com/collections/modern-flames">Modern Flames</a> and <a href="https://resideterra.com/collections/amantii-electric-fireplaces">Amantii Electric Fireplaces</a>.</p>
 
-<h2>Should you size for cigar count or for the storage layout first?</h2>
-<p>Use both. Cigar count tells you the general capacity class, but the interior layout determines whether that capacity is useful for the way you collect. A buyer with 400 mostly loose cigars may be perfectly served by organized drawers, while another buyer with 400 cigars stored in presentation boxes can need significantly more shelf volume. The same logic applies at the commercial end: a lounge may value display visibility and fast access more than maximizing the theoretical number of cigars inside one cabinet.</p>
-
-<p>Before choosing between two nearby capacity tiers, sketch how you expect to use the shelves and drawers. Estimate how much of the collection will stay boxed, which cigars need quick access, whether long-term aging stock should stay separate, and where the humidification equipment occupies usable space. This turns the capacity number into an actual storage plan and reduces the risk of buying a cabinet that is technically large enough but frustrating to organize.</p>
-
-<h2>Where to shop current cigar humidors</h2>
-<p>Browse the <a href="https://resideterra.com/collections/cigar-humidor">ResideTerra Cigar Humidor collection</a> to compare current desktop, furniture, cabinet, tower, commercial, and electronic storage. You can also browse the <a href="https://resideterra.com/collections/humidor-supreme">Humidor Supreme collection</a> for current brand-specific options.</p>
-
-<h2>How this guide will branch next</h2>
-<p>This is the parent sizing guide for ResideTerra's cigar-storage answer engine. Supporting guides will go deeper into cabinet vs tower vs desktop storage, electronic vs passive humidors, Humidor Supreme electronic models, commercial cabinets, locker systems, temperature and humidity management, and individual Quality Importers model families.</p>
+<h2>How this article fits the electric-fireplace answer engine</h2>
+<p>This power guide is the electrical-planning cornerstone for ResideTerra's Electric Fireplaces hub. Supporting articles will go deeper into fireplace sizing, TV/media-wall integration, framing depth, brand and series comparisons, heat expectations, and installation checklists. Together they should help a buyer move from “what voltage do I need?” to a product and project plan that can actually be installed.</p>
 `
