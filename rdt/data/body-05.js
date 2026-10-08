@@ -1,26 +1,22 @@
 export default `
-<h2>How much room should you leave for airflow?</h2>
-<p>There is no universal empty-space percentage that applies to every humidor. Follow the manufacturer’s layout and humidification instructions. The practical rule is to avoid packing a cabinet so tightly that air cannot move through the intended circulation paths or drawers and shelves cannot function normally.</p>
+<h2>120V can be the better retrofit choice</h2>
+<p>Existing homes often favor 120V because the electrical infrastructure is already present. If the model supports plug-in operation and the circuit is suitable, the project may avoid opening additional walls or running a new 240V line from the panel. That can reduce labor, drywall repair, and schedule complexity.</p>
 
-<p>Electronic models with fans especially depend on unobstructed airflow. Traditional furniture humidors also benefit from sensible organization so humidity can equalize across the interior.</p>
+<p>Do not confuse “easier” with “no planning.” The outlet still needs to be accessible as required, the circuit must have enough capacity, and the cord cannot be trapped or routed against manufacturer instructions.</p>
 
-<h2>How much future growth should you plan for?</h2>
-<p>Think about your buying pattern over the next few years. A collector who buys one box every few months may grow slowly. Someone who actively hunts limited releases, buys box quantities, or begins aging cigars can outgrow a cabinet quickly.</p>
+<h2>240V can be the better new-construction choice</h2>
+<p>In new construction, the incremental effort to rough in a dedicated 240V circuit can be modest compared with adding it later. If the selected fireplace supports 240V and the owner expects to use the heater regularly, planning the higher-voltage circuit from the start gives the project maximum flexibility.</p>
 
-<p>Instead of using a rigid growth formula, choose a capacity tier that leaves functional working room after your current collection is loaded. If two models both fit the space and budget, the larger one often provides more flexibility—provided you are prepared to humidify and maintain the larger interior properly.</p>
+<p>This is especially true for premium built-ins that are framed into stone, tile, or millwork. Electrical decisions should be finalized before finish materials make the junction box difficult to reach.</p>
 
-<h2>Home collector versus commercial buyer</h2>
-<p>A home collector is usually optimizing for presentation, organization, environmental stability, and footprint. A commercial buyer must additionally think about transaction flow, replenishment, locks, employee access, member compartments, customer visibility, and downtime if the humidification system needs service.</p>
+<h2>What about 208V, 220V, and 240V labels?</h2>
+<p>Product literature sometimes uses 208V, 220V, 230V, or 240V terminology depending on market and equipment design. Do not assume those labels are interchangeable for a specific fireplace. In North American residential work, 240V is common, while some commercial buildings may supply 208V. The installation manual will state the acceptable voltage range and resulting heater performance.</p>
 
-<p>That distinction can change the best product even at the same cigar count. A 2,000-cigar private collection may be ideal in a furniture tower. A 2,000-cigar retail assortment may need more display-oriented shelving and faster access.</p>
+<h2>Will a 240V fireplace heat an entire home?</h2>
+<p>No. Even a 3,000-watt fireplace is a zone heater. It can make a meaningful difference in a room or adjacent living area, but it is not a replacement for whole-home HVAC. Its advantage is targeted comfort: you can warm the space you are using without necessarily raising the thermostat for the entire house.</p>
 
-<h2>Measure the room before choosing the cabinet</h2>
-<p>Large humidors can be tall, deep, heavy, and LTL freight items. Measure the final location and the delivery path: exterior door, hallway, stairwell, elevator, room entry, and turning radius. Confirm floor conditions and power availability where applicable.</p>
+<h2>Can you change from 120V to 240V later?</h2>
+<p>Only if the fireplace model is designed for both voltages and the electrical conversion follows the manufacturer procedure. The project may require a new breaker, new branch wiring, changes at the junction box, and reconfiguration inside the appliance. This is not a cord-swap decision.</p>
 
-<p>Do not assume that because a cabinet fits the final wall it can be delivered through the route to that wall.</p>
-
-<h2>Capacity versus footprint: choose what actually fits your space</h2>
-<p>A tower uses vertical space efficiently. An end-table humidor integrates into a furnished room. A wide display cabinet improves product visibility. An electronic cabinet may be deeper because of mechanical components. A locker system needs additional wall width and user-access space.</p>
-
-<p>The “best capacity” is therefore partly an architectural decision. Storage that blocks circulation or cannot be opened comfortably is oversized for the room even if the cigar count is perfect.</p>
+<p>If future 240V use is likely, plan for it before the wall is finished. A conduit or appropriate rough-in strategy can be discussed with the electrician during construction.</p>
 `
