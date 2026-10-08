@@ -1,31 +1,28 @@
 export default {
-  id:'cigar-humidor-size-guide',
-  title:'What Size Cigar Humidor Do You Need? Capacity Guide by Collection Size',
-  handle:'what-size-cigar-humidor-do-you-need',
-  blog_handle:'cigar-humidor-guides',
-  excerpt:'A practical cigar humidor sizing guide for choosing desktop, furniture, cabinet, electronic, tower, commercial, and locker storage based on current collection size, cigar format, airflow, and future growth.',
-  tags:['Cigar Humidors','Humidor Supreme','Quality Importers','Cigar Storage','Humidor Sizing'],
-  seo_title:'What Size Cigar Humidor Do You Need? Capacity Guide',
-  meta_description:'Choose the right cigar humidor size by collection count, cigar format, storage style, airflow, and future growth—from desktop humidors to 8,500-cigar lockers.',
+  id:'120v-vs-240v-electric-fireplaces',
+  title:'120V vs 240V Electric Fireplaces: Which Power Setup Do You Need?',
+  handle:'120v-vs-240v-electric-fireplaces',
+  blog_handle:'electric-fireplaces',
+  excerpt:'A practical guide to choosing between 120V and 240V electric fireplaces based on heater output, plug-in vs hardwired installation, room goals, electrical planning, and current ResideTerra models.',
+  tags:['Electric Fireplaces','120V','240V','Modern Flames','Amantii','SimpliFire'],
+  seo_title:'120V vs 240V Electric Fireplaces: Which Do You Need?',
+  meta_description:'Compare 120V vs 240V electric fireplaces by heat output, wiring, installation, room size, cost, and project fit before choosing your setup.',
   product_handles:[
-    'quality-importers-1000-cigar-mini-tower-humidor',
-    'humidor-supreme-1500-cigar-electronic-humidor',
-    'quality-importers-5000-cigar-cabinet-commercial-humidor'
+    'modern-flames-landscape-pro-multi-built-in-electric-fireplace',
+    'amantii-panorama-72-inch-built-in-tall-deep-indoor-outdoor-linear-electric-fireplace',
+    'simplifire-scion-55-built-in-linear-electric-fireplace-sf-scn55'
   ],
   image_slots:[
-    {id:'mini-tower',handle:'quality-importers-1000-cigar-mini-tower-humidor',alt:'Quality Importers 1000-cigar mini tower humidor',caption:'Current ResideTerra product media for a 1,000-cigar mini tower humidor.'},
-    {id:'electronic-1500',handle:'humidor-supreme-1500-cigar-electronic-humidor',alt:'Humidor Supreme 1500 electronic cigar humidor',caption:'Current ResideTerra product media for a large electronic humidor.'},
-    {id:'commercial-5000',handle:'quality-importers-5000-cigar-cabinet-commercial-humidor',alt:'Quality Importers 5000-cigar commercial cabinet humidor',caption:'Current ResideTerra product media for a high-capacity commercial cabinet humidor.'}
+    {id:'modern-flames-dual',handle:'modern-flames-landscape-pro-multi-built-in-electric-fireplace',alt:'Modern Flames Landscape Pro Multi built-in electric fireplace',caption:'Current ResideTerra product media for a dual-voltage-capable Modern Flames built-in fireplace.'},
+    {id:'amantii-dual',handle:'amantii-panorama-72-inch-built-in-tall-deep-indoor-outdoor-linear-electric-fireplace',alt:'Amantii Panorama 72-inch electric fireplace',caption:'Current ResideTerra product media for an Amantii electric fireplace available for 120V or 240V installation.'},
+    {id:'simplifire-120',handle:'simplifire-scion-55-built-in-linear-electric-fireplace-sf-scn55',alt:'SimpliFire Scion 55-inch built-in electric fireplace',caption:'Current ResideTerra product media for a 120V electric fireplace example.'}
   ],
   required_internal_links:[
-    'https://resideterra.com/collections/cigar-humidor',
-    'https://resideterra.com/collections/humidor-supreme',
-    'https://resideterra.com/products/quality-importers-1000-cigar-mini-tower-humidor',
-    'https://resideterra.com/products/humidor-supreme-1500-cigar-electronic-humidor'
+    'https://resideterra.com/collections/electric-fireplaces',
+    'https://resideterra.com/collections/built-in-electric-fireplaces',
+    'https://resideterra.com/collections/modern-flames',
+    'https://resideterra.com/collections/amantii-electric-fireplaces'
   ],
-  cover:{
-    url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',
-    alt:'Cigar humidor size and capacity guide cover'
-  },
+  cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',alt:'120V versus 240V electric fireplace installation guide cover'},
   qa:{minimum_words:2800,minimum_h2:18,minimum_faq:8,minimum_images:3}
 };
