@@ -61,10 +61,10 @@
     }
   ],
   "cover_image": {
-    "url": "https://resideterra-seo-draft-generator.vercel.app/api/cover",
-    "alt": "Cigar humidor size and capacity guide cover",
+    "url": "https://cdn.shopify.com/s/files/1/0892/4862/9058/articles/ChatGPT_Image_Oct_6_2026_03_33_22_PM-1.png?v=1791315361",
+    "alt": "Luxury cigar lounge with illuminated cabinet humidor and organized cigar storage",
     "asset_kind": "editorial_cover",
-    "provenance": "stage02_editorial_cover_endpoint",
+    "provenance": "editorial_environment_cover_replacement",
     "aspect_ratio": "16:9"
   },
   "qa": {
