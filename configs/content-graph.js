@@ -19,6 +19,7 @@ const contentGraph={
         "electric-dirt-bike-buying-guide-2026",
         "60v-vs-72v-electric-dirt-bikes",
         "79bike-falcon-pro-vs-talaria-sting-r-mx4",
+        "y-volt-surge-v-review-2026",
         "750w-vs-1000w-ebikes",
         "dual-motor-vs-single-motor-ebikes",
         "ebike-torque-explained",
@@ -132,6 +133,7 @@ const contentGraph={
       roadmap_nodes:[
         "happyrun-g18-pro-review-2026",
         "best-urtopia-electric-bikes-2026",
+        "y-volt-surge-v-review-2026",
         "eunorau-defender-s-2-hunter-x6-review-2026"
       ],
       legacy_nodes:["best-79bike-electric-bikes-2026"],
