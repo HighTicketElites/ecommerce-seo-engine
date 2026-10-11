@@ -1,21 +1,27 @@
 export default `
-<h2>When 120V is usually the better choice</h2>
-<p>Choose 120V when the fireplace is primarily decorative, you want supplemental heat rather than primary room heating, or you are working with an existing finished room where adding a new 240V circuit would add unnecessary cost and disruption. A 120V fireplace is often ideal for bedrooms, offices, media walls, condos, basements, or living rooms where the flame effect is the main attraction and the heater is used occasionally.</p>
+<h2>24-inch-class Fire Magic grills: best for compact projects</h2>
+<p>The smaller Fire Magic built-in families are useful when island frontage is limited or when the grill shares a compact outdoor kitchen with a sink, burner, refrigerator or prep counter. The A430 and C430 families sit in this compact end of the lineup. Fire Magic's specification guide lists these bodies around the 27-inch class, with cutouts around 25 1/2 to 26 inches wide depending on the exact model family and specification generation.</p>
 
-<p>Many 120V units can plug into a properly located receptacle, although “plug-in” should never be interpreted as “any outlet is fine.” The manual may still call for a dedicated circuit, a specific receptacle location, or restrictions against extension cords and power strips.</p>
+<p>The real advantage is not simply a lower purchase price. A compact grill preserves valuable horizontal island space. In a 7- or 8-foot run, saving even 6 to 12 inches can be the difference between fitting a functional landing zone and forcing every component together.</p>
 
-<h2>When 240V makes more sense</h2>
-<p>Choose 240V when you are already opening the wall for a built-in installation and you want the higher heater capacity the fireplace can provide. It is especially sensible during new construction, a major renovation, or a custom media-wall project because the electrician can rough in the correct circuit before finishes are installed.</p>
+<h2>Who should choose a compact Fire Magic built-in?</h2>
+<ul>
+<li>Couples or small households that cook modest quantities</li>
+<li>Secondary patios or guest-house kitchens</li>
+<li>Projects where a side burner, sink or refrigerator is more important than maximum grill width</li>
+<li>Condominium or rooftop projects where usable counter frontage is constrained</li>
+<li>Designs where the grill is one component in a broader cooking system</li>
+</ul>
 
-<p>A 240V configuration is also the stronger choice when the fireplace is expected to provide meaningful supplemental heat in a larger room. That does not mean it becomes a furnace or central-heating replacement. Actual comfort still depends on insulation, ceiling height, climate, room openness, air leakage, and where the heater outlet is located.</p>
+<h2>30-inch Fire Magic built-ins: the residential sweet spot</h2>
+<p>For many outdoor kitchens, the 30-inch cooking class is the most balanced choice. It provides enough room for multiple foods and heat zones without dominating the island. Fire Magic offers several distinct series around this size, including Choice C540, Aurora A540/A660 and Echelon E660 families.</p>
 
-<h2>How much more heat does 240V provide?</h2>
-<p>There is no universal number, but dual-voltage fireplaces commonly move from about 1,500 watts at 120V to roughly 2,500–3,000 watts at 240V. Because one watt equals about 3.412 BTU per hour, 1,500 watts is roughly 5,100 BTU/h, while 3,000 watts is roughly 10,200 BTU/h.</p>
+<p>The series matters because two grills with similar nominal cooking width can require different utility and cutout planning. Fire Magic currently lists the Choice C540i with a 30-by-18-inch cooking surface and a cutout around 32 inches wide by 19 1/2 inches deep. The Aurora A540i also provides a 30-by-18-inch cooking area with a cutout around 32 inches wide by 19 1/2 inches deep. Echelon E660 models move into a deeper premium chassis, with Fire Magic's current specification guide showing a cutout roughly 31 1/4 inches wide by 23 1/2 inches deep.</p>
 
-<p>That is why manufacturer literature often advertises approximately 5,000 BTU in 120V mode and up to about 10,000 BTU in 240V mode. Always use the exact model specification rather than assuming every dual-voltage fireplace doubles its heat output.</p>
+<h2>Example: Fire Magic Echelon E660i</h2>
+<p>The current <a href="https://resideterra.com/products/fire-magic-echelon-diamond-e660i-30-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-and-analog-thermometer-e660i-8lan">{{title:fire-magic-echelon-diamond-e660i-30-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-and-analog-thermometer-e660i-8lan}}</a> is a strong example of the premium 30-inch cooking class.</p>
 
-<h2>Does 240V cost more to operate?</h2>
-<p>Voltage by itself does not determine operating cost. Energy use is based on wattage and run time. A 3,000-watt heater running for one hour uses roughly twice the energy of a 1,500-watt heater running for one hour. If both are used only for flame effects with the heater off, electrical consumption can be much lower.</p>
+<!-- RDT_IMAGE:fire-magic-30 -->
 
-<p>The practical question is whether the higher-output heater helps the room reach comfort faster or reduces reliance on another heat source. Compare watts, expected run time, and your local electricity rate rather than treating 240V as automatically more or less efficient.</p>
+<p>For a buyer, the E660 gives substantial everyday capacity without consuming the island frontage of the E790 or E1060. For an installer, however, the important number is not “30.” The E660 chassis and cutout must be coordinated from the exact manual before fabrication.</p>
 `
