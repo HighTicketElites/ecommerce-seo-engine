@@ -1,0 +1,79 @@
+{
+  "id": "fire-magic-built-in-grill-size-guide",
+  "title": "Fire Magic Built-In Grill Size Guide: 24, 30, 36 & 48-Inch Models Explained",
+  "handle": "fire-magic-built-in-grill-size-guide",
+  "blog_title": "Outdoor Cooking Guides",
+  "blog_handle": "outdoor-cooking-guides",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "primary_keyword": "Fire Magic built-in grill size guide",
+  "seo_title": "Fire Magic Built-In Grill Size Guide: 24–48 Inch",
+  "meta_description": "Compare Fire Magic built-in grill sizes, cooking areas, cutouts and series from 24 to 48 inches for outdoor-kitchen planning and installation.",
+  "excerpt": "A practical Fire Magic built-in grill sizing guide covering cooking width, actual grill dimensions, cutout requirements, Echelon, Aurora and Choice series, island planning, and professional project considerations.",
+  "tags": [
+    "Aurora",
+    "Built-In Grills",
+    "Choice",
+    "Echelon",
+    "Fire Magic",
+    "Grill Sizing",
+    "Outdoor Kitchens"
+  ],
+  "product_handles": [
+    "fire-magic-echelon-diamond-e660i-30-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-and-analog-thermometer-e660i-8lan",
+    "fire-magic-echelon-diamond-e790i-36-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-magic-view-window-and-analog-thermometer-e790i-8lan-w",
+    "fire-magic-echelon-diamond-e1060i-a-series-48-inch-built-in-gas-grill-with-infrared-burner-rotisserie-analog-thermometer-magic-view-window-natural-gas-e1060i-8lan-w"
+  ],
+  "required_internal_links": [
+    "https://resideterra.com/collections/fire-magic",
+    "https://resideterra.com/collections/built-in-grills",
+    "https://resideterra.com/pages/outdoor-kitchen-design-service",
+    "https://resideterra.com/pages/pro-partner-program"
+  ],
+  "source_urls": [
+    "https://firemagicgrills.com/pdf/FM_Product-Spec-Guide.pdf",
+    "https://firemagicgrills.com/pdf/FM_Catalog.pdf",
+    "https://firemagicgrills.com/product/choice-c540i-built-in-grill/",
+    "https://firemagicgrills.com/product/aurora-a540i-built-in-grill/",
+    "https://firemagicgrills.com/product-selector/?filter_application=built-in",
+    "https://firemagicgrills.com/catalogs-and-manuals/",
+    "https://resideterra.com/collections/fire-magic",
+    "https://resideterra.com/collections/built-in-grills"
+  ],
+  "image_slots": [
+    {
+      "id": "fire-magic-30",
+      "product_handle": "fire-magic-echelon-diamond-e660i-30-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-and-analog-thermometer-e660i-8lan",
+      "media_index": 0,
+      "alt": "Fire Magic Echelon E660i 30-inch built-in gas grill",
+      "caption": "Current ResideTerra product media for a 30-inch Fire Magic Echelon built-in grill."
+    },
+    {
+      "id": "fire-magic-36",
+      "product_handle": "fire-magic-echelon-diamond-e790i-36-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-magic-view-window-and-analog-thermometer-e790i-8lan-w",
+      "media_index": 0,
+      "alt": "Fire Magic Echelon E790i 36-inch built-in gas grill",
+      "caption": "Current ResideTerra product media for a 36-inch Fire Magic Echelon built-in grill."
+    },
+    {
+      "id": "fire-magic-48",
+      "product_handle": "fire-magic-echelon-diamond-e1060i-a-series-48-inch-built-in-gas-grill-with-infrared-burner-rotisserie-analog-thermometer-magic-view-window-natural-gas-e1060i-8lan-w",
+      "media_index": 0,
+      "alt": "Fire Magic Echelon E1060i 48-inch built-in gas grill",
+      "caption": "Current ResideTerra product media for a 48-inch Fire Magic Echelon built-in grill."
+    }
+  ],
+  "cover_image": {
+    "url": "https://cdn.shopify.com/s/files/1/0892/4862/9058/articles/fire-magic-grill-header-1.jpg?v=1791727364",
+    "alt": "Fire Magic built-in grill installed in a premium outdoor kitchen",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_native_contextual_lifestyle_crop",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 2800,
+    "minimum_h2": 18,
+    "minimum_faq": 8,
+    "minimum_images": 3
+  }
+}
