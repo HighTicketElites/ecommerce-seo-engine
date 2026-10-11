@@ -1,23 +1,21 @@
 export default `
-<h2>Plug-in versus hardwired installation</h2>
-<p>120V fireplaces are more likely to offer plug-in installation, but many premium built-in models can also be hardwired at 120V. A hardwired installation removes the visible cord and gives the project a cleaner permanent finish. It can also make service access and code compliance easier when planned correctly.</p>
+<h2>36-inch Fire Magic built-ins: more room for entertaining</h2>
+<p>Move into the 36-inch cooking class when you want more simultaneous cooking space, more room for separate direct and indirect zones, or a grill that feels proportionate to a larger outdoor kitchen. Fire Magic's E790, A790 and Choice C650 families occupy this larger tier.</p>
 
-<p>240V configurations are generally hardwired. That means the circuit, breaker, disconnect requirements if applicable, wire gauge, and junction-box location must be planned before the fireplace is enclosed. A licensed electrician should perform or verify the work according to the manufacturer instructions and local code.</p>
+<p>Fire Magic's current specification guide describes E790 and A790 built-in bodies in the 40-inch physical class, while their primary cooking width is commonly marketed around 36 inches. The E790 cutout is approximately 37 inches wide by 23 1/2 inches deep by 11 1/2 inches high. The A790 uses approximately the same 37-inch cutout width and depth in the guide. Choice C650 models use a shallower chassis and a cutout around 37 3/4 inches wide by 19 1/2 inches deep.</p>
 
-<h2>Do you need a dedicated circuit?</h2>
-<p>Many electric fireplaces call for a dedicated branch circuit, particularly when the heater can draw close to the capacity of a standard 120V circuit. Even if a fireplace physically plugs into a normal-looking receptacle, sharing that circuit with televisions, amplifiers, lighting, or other high-draw devices can create nuisance trips or overload problems.</p>
+<h2>Example: Fire Magic Echelon E790i</h2>
+<p>The current <a href="https://resideterra.com/products/fire-magic-echelon-diamond-e790i-36-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-magic-view-window-and-analog-thermometer-e790i-8lan-w">{{title:fire-magic-echelon-diamond-e790i-36-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-magic-view-window-and-analog-thermometer-e790i-8lan-w}}</a> represents the step up in grill frontage and premium cooking capacity.</p>
 
-<p>The safest planning rule is simple: read the manual for the exact model and have the electrical load calculated before construction. Do not design a built-in wall around an assumed outlet arrangement.</p>
+<!-- RDT_IMAGE:fire-magic-36 -->
 
-<h2>Media walls: choose voltage before framing closes</h2>
-<p>For a fireplace under a television or inside a custom feature wall, voltage should be decided before framing, drywall, tile, stone, or cabinetry is completed. The electrician needs to know the fireplace connection point, television outlet location, low-voltage pathways, and whether the heater outlet must remain unobstructed.</p>
+<p>The E790 is especially attractive when the island is already large enough to support a wider grill, dedicated storage, refrigeration and meaningful prep space. In that setting, the additional cooking width feels intentional rather than oversized.</p>
 
-<p>If there is any chance you will want the higher 240V heater mode later, decide that during rough-in. Retrofitting a new circuit after a finished stone or millwork wall is complete is usually more expensive than planning it from the beginning.</p>
+<h2>When the 36-inch class makes more sense than 30 inches</h2>
+<p>Choose the larger class when you frequently cook for groups, want more simultaneous heat zones, use large pans or griddles on the cooking surface, or simply have enough island frontage that a 30-inch grill would look undersized. A large L-shaped or U-shaped outdoor kitchen can absorb the extra width much more naturally than a short straight run.</p>
 
-<h2>Example: Modern Flames Landscape Pro Multi</h2>
-<p>The current <a href="https://resideterra.com/products/modern-flames-landscape-pro-multi-built-in-electric-fireplace">{{title:modern-flames-landscape-pro-multi-built-in-electric-fireplace}}</a> is a useful example of a premium dual-voltage project fireplace. Modern Flames documents approximately 5,000 BTU at 120V and 10,000-BTU capability with the optional 240V heater configuration.</p>
+<p>Do not upgrade solely because “bigger is better.” If moving from a 30-inch to 36-inch grill forces you to eliminate prep space or squeeze the refrigerator beside the firebox, the smaller grill may create the better working kitchen.</p>
 
-<!-- RDT_IMAGE:modern-flames-dual -->
-
-<p>This is the kind of product where the decision should be made based on the project’s heating goal and rough-in plan. The visual fireplace experience is not the reason to choose 240V; the higher-capacity heater is.</p>
+<h2>36-inch cooking width does not equal a 36-inch island opening</h2>
+<p>This is one of the most important installation takeaways in the entire guide. The E790's cooking width and the island cutout are different measurements. The installer needs the manufacturer cut sheet, not the retail size label. The same principle applies across Fire Magic's line.</p>
 `
