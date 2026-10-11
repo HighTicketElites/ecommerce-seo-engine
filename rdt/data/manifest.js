@@ -32,6 +32,13 @@ export default {
     conversion_target:'https://resideterra.com/pages/pro-partner-program',
     inject_professional_section:true
   },
+  service_intent:{
+    applicable:true,
+    stage:'solution_research',
+    direct_service_article:false,
+    primary_destination:'https://resideterra.com/pages/outdoor-kitchen-design-service',
+    cta_context:'A buyer comparing Fire Magic grill sizes is often already planning an outdoor kitchen, so the design service is the natural next step when layout, utilities, component fit, or island planning still need to be resolved.'
+  },
   cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',source_url:'https://cdn.shopify.com/s/files/1/0892/4862/9058/collections/fire-magic-grill-header-1.jpg?v=1778620959',alt:'Fire Magic built-in grill installed in a premium outdoor kitchen'},
   qa:{minimum_words:2800,minimum_h2:18,minimum_faq:8,minimum_images:3}
 };
