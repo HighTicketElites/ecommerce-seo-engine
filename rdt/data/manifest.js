@@ -1,37 +1,37 @@
 export default {
-  id:'120v-vs-240v-electric-fireplaces',
-  title:'120V vs 240V Electric Fireplaces: Which Power Setup Do You Need?',
-  handle:'120v-vs-240v-electric-fireplaces',
-  blog_handle:'electric-fireplaces',
-  excerpt:'A practical guide to choosing between 120V and 240V electric fireplaces based on heater output, plug-in vs hardwired installation, room goals, electrical planning, and current ResideTerra models.',
-  tags:['Electric Fireplaces','120V','240V','Modern Flames','Amantii'],
-  seo_title:'120V vs 240V Electric Fireplaces: Which Do You Need?',
-  meta_description:'Compare 120V vs 240V electric fireplaces by heat output, wiring, installation, room size, cost, and project fit before choosing your setup.',
+  id:'fire-magic-built-in-grill-size-guide',
+  title:'Fire Magic Built-In Grill Size Guide: 24, 30, 36 & 48-Inch Models Explained',
+  handle:'fire-magic-built-in-grill-size-guide',
+  blog_handle:'outdoor-cooking-guides',
+  excerpt:'A practical Fire Magic built-in grill sizing guide covering cooking width, actual grill dimensions, cutout requirements, Echelon, Aurora and Choice series, island planning, and professional project considerations.',
+  tags:['Fire Magic','Built-In Grills','Outdoor Kitchens','Grill Sizing','Echelon','Aurora','Choice'],
+  seo_title:'Fire Magic Built-In Grill Size Guide: 24–48 Inch',
+  meta_description:'Compare Fire Magic built-in grill sizes, cooking areas, cutouts and series from 24 to 48 inches for outdoor-kitchen planning and installation.',
   product_handles:[
-    'modern-flames-landscape-pro-multi-built-in-electric-fireplace',
-    'amantii-panorama-72-inch-built-in-tall-deep-indoor-outdoor-linear-electric-fireplace',
-    'amantii-36-wall-mount-flush-mount-electric-fireplace'
+    'fire-magic-echelon-diamond-e660i-30-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-and-analog-thermometer-e660i-8lan',
+    'fire-magic-echelon-diamond-e790i-36-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-magic-view-window-and-analog-thermometer-e790i-8lan-w',
+    'fire-magic-echelon-diamond-e1060i-a-series-48-inch-built-in-gas-grill-with-infrared-burner-rotisserie-analog-thermometer-magic-view-window-natural-gas-e1060i-8lan-w'
   ],
   image_slots:[
-    {id:'modern-flames-dual',handle:'modern-flames-landscape-pro-multi-built-in-electric-fireplace',alt:'Modern Flames Landscape Pro Multi built-in electric fireplace',caption:'Current ResideTerra product media for a dual-voltage-capable Modern Flames built-in fireplace.'},
-    {id:'amantii-dual',handle:'amantii-panorama-72-inch-built-in-tall-deep-indoor-outdoor-linear-electric-fireplace',alt:'Amantii Panorama 72-inch electric fireplace',caption:'Current ResideTerra product media for an Amantii electric fireplace available for 120V or 240V installation.'},
-    {id:'amantii-120',handle:'amantii-36-wall-mount-flush-mount-electric-fireplace',alt:'Amantii 36-inch wall mount and flush mount electric fireplace',caption:'Current ResideTerra product media for an active 120V electric fireplace example.'}
+    {id:'fire-magic-30',handle:'fire-magic-echelon-diamond-e660i-30-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-and-analog-thermometer-e660i-8lan',alt:'Fire Magic Echelon E660i 30-inch built-in gas grill',caption:'Current ResideTerra product media for a 30-inch Fire Magic Echelon built-in grill.'},
+    {id:'fire-magic-36',handle:'fire-magic-echelon-diamond-e790i-36-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-magic-view-window-and-analog-thermometer-e790i-8lan-w',alt:'Fire Magic Echelon E790i 36-inch built-in gas grill',caption:'Current ResideTerra product media for a 36-inch Fire Magic Echelon built-in grill.'},
+    {id:'fire-magic-48',handle:'fire-magic-echelon-diamond-e1060i-a-series-48-inch-built-in-gas-grill-with-infrared-burner-rotisserie-analog-thermometer-magic-view-window-natural-gas-e1060i-8lan-w',alt:'Fire Magic Echelon E1060i 48-inch built-in gas grill',caption:'Current ResideTerra product media for a 48-inch Fire Magic Echelon built-in grill.'}
   ],
   required_internal_links:[
-    'https://resideterra.com/collections/electric-fireplaces',
-    'https://resideterra.com/collections/built-in-electric-fireplaces',
-    'https://resideterra.com/collections/modern-flames',
-    'https://resideterra.com/collections/amantii-electric-fireplaces'
+    'https://resideterra.com/collections/fire-magic',
+    'https://resideterra.com/collections/built-in-grills',
+    'https://resideterra.com/pages/outdoor-kitchen-design-service',
+    'https://resideterra.com/pages/pro-partner-program'
   ],
   audience:{
-    primary:'hybrid',
+    primary:'professional_commercial',
     b2b_applicable:true,
-    b2b_personas:['builders','general contractors','architects','interior designers','developers','hospitality procurement teams'],
-    professional_context:'Coordinate voltage, dedicated circuits, rough-in location, finish sequencing, and the exact fireplace installation manual before walls and millwork are closed.',
-    procurement_support:'ResideTerra can help project teams compare active fireplace models, verify current specifications, and coordinate product selection across a project.',
+    b2b_personas:['outdoor-kitchen contractors','builders','general contractors','landscape architects','designers','hospitality procurement teams','multifamily developers'],
+    professional_context:'Size the grill by the exact model cutout, utility requirements, enclosure construction, ventilation, service access, surrounding components, and the manufacturer installation manual rather than by the advertised cooking width alone.',
+    procurement_support:'ResideTerra can help project teams compare active Fire Magic series and sizes, verify current model specifications, coordinate compatible outdoor-kitchen components, and plan product selection before fabrication.',
     conversion_target:'https://resideterra.com/pages/pro-partner-program',
-    inject_professional_section:false
+    inject_professional_section:true
   },
-  cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',source_url:'https://cdn.shopify.com/s/files/1/0892/4862/9058/files/Amantii-Deep-XT-72-Suntea-YO-O-Logs-ROOM.jpg?v=1785347295',alt:'Modern living room with a built-in linear electric fireplace for 120V versus 240V planning'},
+  cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',source_url:'https://cdn.shopify.com/s/files/1/0892/4862/9058/collections/fire-magic-grill-header-1.jpg?v=1778620959',alt:'Fire Magic built-in grill installed in a premium outdoor kitchen'},
   qa:{minimum_words:2800,minimum_h2:18,minimum_faq:8,minimum_images:3}
 };
