@@ -1,21 +1,20 @@
 export default `
-<h2>Example: Amantii dual-voltage built-in fireplaces</h2>
-<p>The current <a href="https://resideterra.com/products/amantii-panorama-72-inch-built-in-tall-deep-indoor-outdoor-linear-electric-fireplace">{{title:amantii-panorama-72-inch-built-in-tall-deep-indoor-outdoor-linear-electric-fireplace}}</a> is tagged in ResideTerra's catalog for both 120V and 240V operation. Amantii's current dual-voltage product documentation commonly shows approximately 1,500 watts at 120V and 3,000 watts at 240V on models designed for both voltages.</p>
+<h2>48-inch Fire Magic built-ins: the flagship option</h2>
+<p>At the top of the gas-grill range, the Echelon E1060 is built for substantial outdoor kitchens. Fire Magic's current catalog lists a 48-by-22-inch primary cooking surface of approximately 1,056 square inches. The manufacturer's current specification material calls for a cutout around 50 inches wide by 23 1/2 inches deep by 11 1/2 inches high.</p>
 
-<!-- RDT_IMAGE:amantii-dual -->
+<p>This is not simply a wider version of a compact grill. A 48-inch cooking surface changes the entire island plan. It requires more frontage, larger landing zones, a visually proportionate island, and thoughtful placement of storage and accessories so the kitchen does not become a wall of stainless steel with nowhere to set food.</p>
 
-<p>That makes the 240V option useful when the fireplace is installed as part of a permanent built-in project and the buyer wants the maximum supported heat output. If the room is primarily decorative and 1,500 watts is enough, 120V can remain the simpler solution.</p>
+<h2>Example: Fire Magic Echelon E1060i</h2>
+<p>The current <a href="https://resideterra.com/products/fire-magic-echelon-diamond-e1060i-a-series-48-inch-built-in-gas-grill-with-infrared-burner-rotisserie-analog-thermometer-magic-view-window-natural-gas-e1060i-8lan-w">{{title:fire-magic-echelon-diamond-e1060i-a-series-48-inch-built-in-gas-grill-with-infrared-burner-rotisserie-analog-thermometer-magic-view-window-natural-gas-e1060i-8lan-w}}</a> is a flagship-scale built-in grill for projects where cooking capacity is intentionally a centerpiece.</p>
 
-<h2>Example: a 120V-focused fireplace</h2>
-<p>The current <a href="https://resideterra.com/products/amantii-36-wall-mount-flush-mount-electric-fireplace">{{title:amantii-36-wall-mount-flush-mount-electric-fireplace}}</a> is an active ResideTerra example tagged for 120V operation and plug-in or hardwired installation. This kind of model is a strong fit when straightforward installation and flame presentation matter more than maximizing electric heat output.</p>
+<!-- RDT_IMAGE:fire-magic-48 -->
 
-<!-- RDT_IMAGE:amantii-120 -->
+<h2>Who actually benefits from a 48-inch Fire Magic?</h2>
+<p>A 48-inch grill is a strong fit for large families that entertain frequently, serious outdoor cooks who use several zones at once, luxury projects with long island runs, and hospitality-style spaces where multiple dishes need to move through the grill simultaneously. It is usually excessive for a small household that mainly cooks four burgers and a few vegetables.</p>
 
-<h2>Room size is not the only factor</h2>
-<p>Manufacturers often publish a suggested heating area, but square footage alone cannot predict comfort. A 600-square-foot open-plan room with 12-foot ceilings and large glass doors can behave very differently from a 600-square-foot insulated bedroom zone. Climate also matters: supplemental heat in Florida has a different job than supplemental heat in a northern winter.</p>
+<h2>Give a flagship grill enough island around it</h2>
+<p>The grill should not consume the entire working surface. Leave meaningful landing area on both sides where practical. Protect the workflow between the grill, sink, refrigeration and serving zones. If the E1060 forces the refrigerator or sink directly against the firebox, revisit the layout instead of accepting a compromised kitchen.</p>
 
-<p>Use manufacturer room-size guidance as a planning reference, not an engineering guarantee. If heating performance is critical, the room's actual heat loss should drive the decision.</p>
-
-<h2>What if you only care about the flame effect?</h2>
-<p>If the fireplace is mainly for ambiance, the voltage decision becomes much simpler. Choose the model and installation method that fit the wall design, then use the lowest-complexity electrical setup approved by the manufacturer. Many electric fireplaces allow the flame effect to run independently of the heater, so a high-output 240V circuit provides little benefit when heat is rarely used.</p>
+<h2>What happened to the “42-inch” size?</h2>
+<p>Generic built-in-grill shopping often revolves around 30-, 36-, 42- and 48-inch categories, but Fire Magic's own current gas-grill architecture does not map neatly to that generic sequence. Its product selector and specification guide organize key built-in bodies around 27-, 34-, 40- and 52-inch physical classes, while cooking surfaces may be marketed as 24, 30, 36 and 48 inches. That is why a Fire Magic-specific guide should use exact model numbers instead of assuming a generic 42-inch category applies.</p>
 `
