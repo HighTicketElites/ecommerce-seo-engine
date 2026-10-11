@@ -9,6 +9,8 @@ import body06 from '../data/body-06.js';
 import body07 from '../data/body-07.js';
 
 const sourceBody=[body01,body02,body03,body04,body05,body06,body07].join('');
+const PARTNER_CONCIERGE_URL='https://resideterra.com/pages/pro-partner-program';
+const B2B_GRANDFATHERED_JOBS=new Set(['120v-vs-240v-electric-fireplaces']);
 
 const PRODUCT_QUERY=`query ProductForArticle($handle:String!){
   productByHandle(handle:$handle){
@@ -52,7 +54,30 @@ function figure(image,alt,caption){
   if(!image?.url) throw new Error('Authentic Shopify product image missing');
   return `<figure><img src="${esc(image.url)}" alt="${esc(alt)}" loading="lazy" style="max-width:100%;height:auto"/><figcaption>${esc(caption)}</figcaption></figure>`;
 }
+function validateAudienceStrategy(){
+  const a=manifest.audience;
+  if(!a) throw new Error('Manifest audience strategy is required for every RDT article');
+  if(!['consumer','hybrid','professional_commercial'].includes(a.primary)) throw new Error('Manifest audience.primary must be consumer, hybrid, or professional_commercial');
+  if(typeof a.b2b_applicable!=='boolean') throw new Error('Manifest audience.b2b_applicable must be explicitly true or false');
+  if(a.b2b_applicable){
+    if(!Array.isArray(a.b2b_personas)||!a.b2b_personas.length) throw new Error('B2B-applicable article requires at least one professional persona');
+    if(!String(a.professional_context||'').trim()) throw new Error('B2B-applicable article requires professional_context');
+    if(!String(a.procurement_support||'').trim()) throw new Error('B2B-applicable article requires procurement_support');
+    if(a.conversion_target!==PARTNER_CONCIERGE_URL) throw new Error('B2B conversion target must be the live Partner Concierge page');
+    if(!B2B_GRANDFATHERED_JOBS.has(manifest.id)&&a.inject_professional_section!==true) throw new Error('B2B-applicable article must inject the professional/commercial section');
+  }else if(String(a.b2b_reason||'').trim().length<20){
+    throw new Error('Articles marked not B2B-applicable require a substantive b2b_reason');
+  }
+  return true;
+}
+function professionalBlock(){
+  const a=manifest.audience;
+  if(!a?.b2b_applicable||a.inject_professional_section!==true) return '';
+  const personas=a.b2b_personas.join(', ');
+  return `<h2>Professional and Commercial Project Considerations</h2><p><strong>For professional buyers:</strong> ${esc(a.professional_context)} This is especially relevant for ${esc(personas)}.</p><p>${esc(a.procurement_support)} For project-scale selection, specification support, and coordinated purchasing, use the <a href="${PARTNER_CONCIERGE_URL}">ResideTerra Partner Concierge</a>.</p>`;
+}
 function buildBody(products){
+  validateAudienceStrategy();
   let body=sourceBody;
   for(const [handle,product] of products){
     body=body.replaceAll(`{{title:${handle}}}`,esc(product.title));
@@ -63,6 +88,11 @@ function buildBody(products){
     const imgs=imagesFor(product);
     if(!imgs.length) throw new Error(`No authentic Shopify product images found for ${slot.handle}`);
     body=body.replace(`<!-- RDT_IMAGE:${slot.id} -->`,figure(imgs[0],slot.alt,slot.caption));
+  }
+  const pro=professionalBlock();
+  if(pro){
+    const sources=body.search(/<h2>Sources\s*(?:&|&amp;|and)\s*Verification<\/h2>/i);
+    body=sources>=0?body.slice(0,sources)+pro+body.slice(sources):body+pro;
   }
   return body;
 }
@@ -101,7 +131,9 @@ function qaResult(article,body){
     seo_title:article.titleTag?.value===manifest.seo_title,
     meta_description:article.descriptionTag?.value===manifest.meta_description,
     required_links:manifest.required_internal_links.every(url=>body.includes(url)),
-    internal_links:(body.match(/https:\/\/resideterra\.com\//g)||[]).length>=4
+    internal_links:(body.match(/https:\/\/resideterra\.com\//g)||[]).length>=4,
+    b2b_strategy:(()=>{try{return validateAudienceStrategy();}catch{return false;}})(),
+    b2b_conversion_path:!manifest.audience?.b2b_applicable||B2B_GRANDFATHERED_JOBS.has(manifest.id)||body.includes(manifest.audience.conversion_target)
   };
   return {checks,metrics:{words,h2,faq,images}};
 }
