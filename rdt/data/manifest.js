@@ -23,6 +23,15 @@ export default {
     'https://resideterra.com/collections/modern-flames',
     'https://resideterra.com/collections/amantii-electric-fireplaces'
   ],
+  audience:{
+    primary:'hybrid',
+    b2b_applicable:true,
+    b2b_personas:['builders','general contractors','architects','interior designers','developers','hospitality procurement teams'],
+    professional_context:'Coordinate voltage, dedicated circuits, rough-in location, finish sequencing, and the exact fireplace installation manual before walls and millwork are closed.',
+    procurement_support:'ResideTerra can help project teams compare active fireplace models, verify current specifications, and coordinate product selection across a project.',
+    conversion_target:'https://resideterra.com/pages/pro-partner-program',
+    inject_professional_section:false
+  },
   cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',source_url:'https://cdn.shopify.com/s/files/1/0892/4862/9058/files/Amantii-Deep-XT-72-Suntea-YO-O-Logs-ROOM.jpg?v=1785347295',alt:'Modern living room with a built-in linear electric fireplace for 120V versus 240V planning'},
   qa:{minimum_words:2800,minimum_h2:18,minimum_faq:8,minimum_images:3}
 };
