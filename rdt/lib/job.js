@@ -10,6 +10,9 @@ import body07 from '../data/body-07.js';
 
 const sourceBody=[body01,body02,body03,body04,body05,body06,body07].join('');
 const PARTNER_CONCIERGE_URL='https://resideterra.com/pages/pro-partner-program';
+const ELECTRIC_FIREPLACE_DESIGN_URL='https://resideterra.com/pages/electric-fireplace-design';
+const OUTDOOR_KITCHEN_DESIGN_URL='https://resideterra.com/pages/outdoor-kitchen-design-service';
+const SERVICE_DESTINATIONS=new Set([PARTNER_CONCIERGE_URL,ELECTRIC_FIREPLACE_DESIGN_URL,OUTDOOR_KITCHEN_DESIGN_URL]);
 const B2B_GRANDFATHERED_JOBS=new Set(['120v-vs-240v-electric-fireplaces']);
 
 const PRODUCT_QUERY=`query ProductForArticle($handle:String!){
@@ -70,6 +73,20 @@ function validateAudienceStrategy(){
   }
   return true;
 }
+function validateServiceStrategy(){
+  const s=manifest.service_intent;
+  if(!s) throw new Error('Manifest service_intent strategy is required for every RDT article');
+  if(typeof s.applicable!=='boolean') throw new Error('Manifest service_intent.applicable must be explicitly true or false');
+  if(s.applicable){
+    if(!['project_start','solution_research','service_evaluation','professional_procurement'].includes(s.stage)) throw new Error('Invalid service_intent.stage');
+    if(!SERVICE_DESTINATIONS.has(s.primary_destination)) throw new Error('Service-intent primary_destination must be a live approved ResideTerra service page');
+    if(typeof s.direct_service_article!=='boolean') throw new Error('service_intent.direct_service_article must be explicitly true or false');
+    if(String(s.cta_context||'').trim().length<30) throw new Error('Service-intent article requires substantive cta_context');
+  }else if(String(s.reason||'').trim().length<30){
+    throw new Error('Articles marked not service-intent applicable require a substantive reason');
+  }
+  return true;
+}
 function professionalBlock(){
   const a=manifest.audience;
   if(!a?.b2b_applicable||a.inject_professional_section!==true) return '';
@@ -78,6 +95,7 @@ function professionalBlock(){
 }
 function buildBody(products){
   validateAudienceStrategy();
+  validateServiceStrategy();
   let body=sourceBody;
   for(const [handle,product] of products){
     body=body.replaceAll(`{{title:${handle}}}`,esc(product.title));
@@ -133,7 +151,9 @@ function qaResult(article,body){
     required_links:manifest.required_internal_links.every(url=>body.includes(url)),
     internal_links:(body.match(/https:\/\/resideterra\.com\//g)||[]).length>=4,
     b2b_strategy:(()=>{try{return validateAudienceStrategy();}catch{return false;}})(),
-    b2b_conversion_path:!manifest.audience?.b2b_applicable||B2B_GRANDFATHERED_JOBS.has(manifest.id)||body.includes(manifest.audience.conversion_target)
+    b2b_conversion_path:!manifest.audience?.b2b_applicable||B2B_GRANDFATHERED_JOBS.has(manifest.id)||body.includes(manifest.audience.conversion_target),
+    service_strategy:(()=>{try{return validateServiceStrategy();}catch{return false;}})(),
+    service_conversion_path:!manifest.service_intent?.applicable||body.includes(manifest.service_intent.primary_destination)
   };
   return {checks,metrics:{words,h2,faq,images}};
 }
