@@ -1,36 +1,22 @@
 export default `
-<h2>120V can be the better retrofit choice</h2>
-<p>Existing homes often favor 120V because the electrical infrastructure is already present. If the model supports plug-in operation and the circuit is suitable, the project may avoid opening additional walls or running a new 240V line from the panel. That can reduce labor, drywall repair, and schedule complexity.</p>
+<h2>Echelon vs Aurora vs Choice changes more than features</h2>
+<p>Series selection affects the installation envelope as well as controls, lighting, burner system and price. Echelon is Fire Magic's top-tier platform and its larger models use a deeper 23 1/2-inch cutout. Aurora spans several sizes and includes both deeper premium chassis and shallower 19 1/2-inch models depending on the family. Choice focuses on a streamlined premium experience and commonly uses shallower cutouts than comparable Echelon models.</p>
 
-<p>Do not confuse “easier” with “no planning.” The outlet still needs to be accessible as required, the circuit must have enough capacity, and the cord cannot be trapped or routed against manufacturer instructions.</p>
+<p>That means “I want a 30-inch Fire Magic” is not enough information for a fabricator. The builder needs to know whether the project is using a C540, A540, A660, E660 or another specific model because the opening depth and supporting installation details may differ.</p>
 
-<h2>240V can be the better new-construction choice</h2>
-<p>In new construction, the incremental effort to rough in a dedicated 240V circuit can be modest compared with adding it later. If the selected fireplace supports 240V and the owner expects to use the heater regularly, planning the higher-voltage circuit from the start gives the project maximum flexibility.</p>
+<h2>Do not fabricate the island from a retailer title</h2>
+<p>Retail titles are designed to help customers shop. Construction drawings are designed to help trades build. They are not the same document. Before fabrication, verify the exact SKU, fuel type, current installation manual, cutout width, depth, height, ventilation requirements, electrical needs, gas entry and any insulating-liner requirement.</p>
 
-<p>This is especially true for premium built-ins that are framed into stone, tile, or millwork. Electrical decisions should be finalized before finish materials make the junction box difficult to reach.</p>
+<h2>Combustible islands require additional planning</h2>
+<p>Fire Magic's installation guidance specifies an insulating liner when certain grills are installed into combustible enclosures. The liner changes the required opening dimensions. For example, the manufacturer publishes larger liner openings than the direct non-combustible cutout for Echelon and Aurora models.</p>
 
+<p>If the island uses wood framing or other combustible materials, do not simply build the standard non-combustible opening and assume a liner can be added later. Select the liner and grill together, then frame the opening to the liner instructions.</p>
 
-<h2>Check panel capacity before committing to a 240V fireplace</h2>
-<p>A 240V fireplace can be straightforward in a newer home with available breaker space and adequate service capacity, but it can become a larger electrical project in an older home or a heavily loaded panel. The fireplace may only need one dedicated branch circuit, yet the electrician still has to confirm that the service, panel, breaker spaces, conductor size, and routing path can support the installation. That evaluation should happen before the fireplace is framed into a finished wall.</p>
+<h2>Gas and electrical planning should happen before stone and counters</h2>
+<p>Built-in grills can require gas routing, electrical power for lights or ignition systems, and access for service. The utility path should be coordinated before finish materials close the island. Natural-gas and propane versions may also have different regulator and supply considerations. Follow the exact model manual and local code rather than copying the utility plan from another grill.</p>
 
-<p>This matters because the true cost difference between 120V and 240V is rarely the appliance itself. It is often the infrastructure around it. A simple 120V installation may use an approved nearby receptacle or short dedicated run, while a 240V setup can require a new two-pole breaker, new cable from the panel, wall or ceiling access, patching, and coordination with other trades. In a new build, those added steps are usually easy to plan. In a finished home, they can be the deciding factor.</p>
+<h2>Ventilation and service access are part of sizing</h2>
+<p>A grill that physically fits the opening can still be poorly installed if the enclosure cannot breathe or the service components cannot be reached. Outdoor-kitchen ventilation, access doors, shutoffs, drainage where relevant, and the location of adjacent appliances should be designed as a system.</p>
 
-<h2>Think about the fireplace, TV, and accessories as one electrical plan</h2>
-<p>Media walls often include more than the fireplace. A television, soundbar, streaming devices, LED lighting, powered shades, subwoofers, or network equipment may all need power in the same feature wall. The fireplace heater can be the largest electrical load in that group, so it should not be treated as just another outlet.</p>
-
-<p>Ask the electrician to plan the fireplace circuit separately from the low-draw electronics whenever the product instructions or calculated load call for it. That helps prevent nuisance breaker trips and keeps future service simpler. It also makes it easier to position receptacles and junction boxes where they remain accessible after the television mount, trim, stone, or cabinetry is installed.</p>
-
-<h2>Retrofit cost can change which voltage is the smarter choice</h2>
-<p>If both 120V and 240V are technically acceptable for the fireplace, the better choice is the one that fits the project economics. Spending heavily to add 240V makes sense when you genuinely want the higher heat output. If the fireplace is mostly for ambiance and occasional supplemental warmth, the additional electrical work may not create enough practical benefit to justify the retrofit.</p>
-
-<h2>What about 208V, 220V, and 240V labels?</h2>
-<p>Product literature sometimes uses 208V, 220V, 230V, or 240V terminology depending on market and equipment design. Do not assume those labels are interchangeable for a specific fireplace. In North American residential work, 240V is common, while some commercial buildings may supply 208V. The installation manual will state the acceptable voltage range and resulting heater performance.</p>
-
-<h2>Will a 240V fireplace heat an entire home?</h2>
-<p>No. Even a 3,000-watt fireplace is a zone heater. It can make a meaningful difference in a room or adjacent living area, but it is not a replacement for whole-home HVAC. Its advantage is targeted comfort: you can warm the space you are using without necessarily raising the thermostat for the entire house.</p>
-
-<h2>Can you change from 120V to 240V later?</h2>
-<p>Only if the fireplace model is designed for both voltages and the electrical conversion follows the manufacturer procedure. The project may require a new breaker, new branch wiring, changes at the junction box, and reconfiguration inside the appliance. This is not a cord-swap decision.</p>
-
-<p>If future 240V use is likely, plan for it before the wall is finished. A conduit or appropriate rough-in strategy can be discussed with the electrician during construction.</p>
+<p>For a full project-level layout rather than a grill-only decision, use ResideTerra's <a href="https://resideterra.com/pages/outdoor-kitchen-design-service">Outdoor Kitchen Design Service</a> as part of the planning process.</p>
 `
