@@ -1,22 +1,23 @@
 export default `
-<h2>Echelon vs Aurora vs Choice changes more than features</h2>
-<p>Series selection affects the installation envelope as well as controls, lighting, burner system and price. Echelon is Fire Magic's top-tier platform and its larger models use a deeper 23 1/2-inch cutout. Aurora spans several sizes and includes both deeper premium chassis and shallower 19 1/2-inch models depending on the family. Choice focuses on a streamlined premium experience and commonly uses shallower cutouts than comparable Echelon models.</p>
+<h2>How many reformers should a new studio buy?</h2>
+<p>The answer depends on room size, class model, instructor ratio, and demand. A studio that plans six-person small-group classes should not automatically purchase eight machines just because eight fit. The extra stations may reduce aisle space, make cueing harder, and create a worse client experience.</p>
 
-<p>That means “I want a 30-inch Fire Magic” is not enough information for a fabricator. The builder needs to know whether the project is using a C540, A540, A660, E660 or another specific model because the opening depth and supporting installation details may differ.</p>
+<p>Start with the class format and revenue model, then work backward into machine count. Include space for instructor movement, front-desk or waiting needs, storage, and any Cadillac, chair, barrel, or tower stations you plan to add later.</p>
 
-<h2>Do not fabricate the island from a retailer title</h2>
-<p>Retail titles are designed to help customers shop. Construction drawings are designed to help trades build. They are not the same document. Before fabrication, verify the exact SKU, fuel type, current installation manual, cutout width, depth, height, ventilation requirements, electrical needs, gas entry and any insulating-liner requirement.</p>
+<h2>Standardize the room when possible</h2>
+<p>Studios generally benefit from using the same reformer model across a class room. Matching machines simplify instructor setup, spring cueing, maintenance, replacement parts, and client expectations. Mixing several brands can make sense for private training or specialty rooms, but inconsistency inside one group-class room can add friction.</p>
 
-<h2>Combustible islands require additional planning</h2>
-<p>Fire Magic's installation guidance specifies an insulating liner when certain grills are installed into combustible enclosures. The liner changes the required opening dimensions. For example, the manufacturer publishes larger liner openings than the direct non-combustible cutout for Echelon and Aurora models.</p>
+<h2>Home vs studio reformer cost is really total-cost-of-use</h2>
+<p>A less expensive machine is not automatically the better value at home, and a premium studio reformer is not automatically worth the price commercially. Compare the purchase price with expected years of use, serviceability, accessory needs, upgrade paths, storage requirements, and the cost of replacing a machine that no longer fits your needs.</p>
 
-<p>If the island uses wood framing or other combustible materials, do not simply build the standard non-combustible opening and assume a liner can be added later. Select the liner and grill together, then frame the opening to the liner instructions.</p>
+<p>For a studio, downtime has a cost. A machine that is out of service can remove one billable station from every class. That makes parts support and durability more financially important than they are for most home users.</p>
 
-<h2>Gas and electrical planning should happen before stone and counters</h2>
-<p>Built-in grills can require gas routing, electrical power for lights or ignition systems, and access for service. The utility path should be coordinated before finish materials close the island. Natural-gas and propane versions may also have different regulator and supply considerations. Follow the exact model manual and local code rather than copying the utility plan from another grill.</p>
+<h2>When a serious home user should buy studio-grade</h2>
+<p>Choose studio-grade at home when you have a dedicated room, want the same machine used in professional instruction, need broader adjustment range, expect tower expansion, or plan very frequent use. Many committed practitioners prefer buying once at the professional level instead of upgrading later.</p>
 
-<h2>Ventilation and service access are part of sizing</h2>
-<p>A grill that physically fits the opening can still be poorly installed if the enclosure cannot breathe or the service components cannot be reached. Outdoor-kitchen ventilation, access doors, shutoffs, drainage where relevant, and the location of adjacent appliances should be designed as a system.</p>
+<h2>When a studio might choose a compact model</h2>
+<p>A compact machine can be rational in a small boutique room, private-training suite, hotel, physical-therapy setting, or high-rent urban space where every foot matters. The key is ensuring the machine still provides the adjustment and durability required for the intended client population.</p>
 
-<p>For a full project-level layout rather than a grill-only decision, use ResideTerra's <a href="https://resideterra.com/pages/outdoor-kitchen-design-service">Outdoor Kitchen Design Service</a> as part of the planning process.</p>
+<h2>Browse current Pilates equipment by brand</h2>
+<p>Compare the broader <a href="https://resideterra.com/collections/pilates-equipment">Pilates Equipment collection</a>, current <a href="https://resideterra.com/collections/elina-pilates">Elina Pilates equipment</a>, and <a href="https://resideterra.com/collections/basi-systems-pilates-equipment">BASI Systems Pilates equipment</a>.</p>
 `
