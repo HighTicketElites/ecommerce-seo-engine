@@ -1,0 +1,92 @@
+{
+  "id": "best-ebikes-for-heavy-riders-2026",
+  "title": "Best E-Bikes for Heavy Riders in 2026: High-Payload Picks, Fit & What to Check",
+  "handle": "best-ebikes-for-heavy-riders-2026",
+  "blog_title": "E-Bike Buying Guides",
+  "blog_handle": "e-bike-buying-guides",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "primary_keyword": "best ebikes for heavy riders 2026",
+  "seo_title": "Best E-Bikes for Heavy Riders 2026: High-Payload Picks",
+  "meta_description": "Compare the best e-bikes for heavy riders in 2026, with 330–400 lb published payloads plus fit, brakes, tires, frame and range guidance.",
+  "excerpt": "Compare high-payload e-bikes for heavier riders, including current WattWheelz models with published 330–400 lb capacities, plus fit, braking and frame guidance.",
+  "tags": [
+    "E-Bikes for Heavy Riders",
+    "High Payload E-Bikes",
+    "Fat Tire E-Bikes",
+    "Cargo E-Bikes",
+    "Rider Fit",
+    "2026"
+  ],
+  "product_handles": [
+    "freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
+    "grandteton-ultra",
+    "fat-hd-2-0",
+    "happyrun-g70-1000w-dual-battery-fast-electric-cargo-bike"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/electric-bikes",
+    "https://wattwheelz.com/collections/fat-tire-bikes",
+    "https://wattwheelz.com/products/freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
+    "https://wattwheelz.com/products/grandteton-ultra",
+    "https://wattwheelz.com/products/fat-hd-2-0",
+    "https://wattwheelz.com/products/happyrun-g70-1000w-dual-battery-fast-electric-cargo-bike",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/hovsco-hovcart-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes"
+  ],
+  "source_urls": [
+    "https://wattwheelz.com/products/freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
+    "https://wattwheelz.com/products/grandteton-ultra",
+    "https://wattwheelz.com/products/fat-hd-2-0",
+    "https://wattwheelz.com/products/happyrun-g70-1000w-dual-battery-fast-electric-cargo-bike",
+    "https://wattwheelz.com/collections/electric-bikes",
+    "https://wattwheelz.com/collections/fat-tire-bikes",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/hovsco-hovcart-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "product_handle": "freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
+      "media_index": 0,
+      "alt": "Freego F3 Pro high-payload e-bike",
+      "caption": "Freego Flash F3 Pro with 400 lb published maximum load."
+    },
+    {
+      "id": "slot-2",
+      "product_handle": "grandteton-ultra",
+      "media_index": 0,
+      "alt": "Vanpowers Grand Teton Ultra high-payload e-bike",
+      "caption": "Vanpowers Grand Teton Ultra with 400 lb published maximum load."
+    },
+    {
+      "id": "slot-3",
+      "product_handle": "fat-hd-2-0",
+      "media_index": 0,
+      "alt": "EUNORAU FAT-HD 2.0 heavy-duty e-bike",
+      "caption": "EUNORAU FAT-HD 2.0 with 375 lb published payload."
+    },
+    {
+      "id": "slot-4",
+      "product_handle": "happyrun-g70-1000w-dual-battery-fast-electric-cargo-bike",
+      "media_index": 0,
+      "alt": "HappyRun G70 cargo e-bike",
+      "caption": "HappyRun G70 with 330 lb published payload capacity."
+    }
+  ],
+  "cover_image": {
+    "url": "",
+    "alt": "Best e-bikes for heavy riders 2026 high payload comparison",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_current_article_cover",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1450,
+    "minimum_h2": 15,
+    "minimum_faq": 10,
+    "minimum_images": 4
+  }
+}

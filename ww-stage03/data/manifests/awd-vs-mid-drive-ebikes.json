@@ -1,0 +1,93 @@
+{
+  "id": "awd-vs-mid-drive-ebikes",
+  "title": "AWD vs Mid-Drive E-Bikes: Which Is Better for Hills, Snow & Trails?",
+  "handle": "awd-vs-mid-drive-ebikes",
+  "blog_title": "E-Bike Reviews & Comparisons",
+  "blog_handle": "e-bike-reviews-comparisons",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "primary_keyword": "awd vs mid drive ebikes",
+  "seo_title": "AWD vs Mid-Drive E-Bikes: Hills, Snow & Trails",
+  "meta_description": "AWD vs mid-drive e-bikes explained for hills, snow, sand and trails. Compare traction, climbing, range, weight, maintenance and current models.",
+  "excerpt": "Compare AWD and mid-drive e-bikes for hills, snow, sand, trails, hunting, range and heavy-duty riding, with current WattWheelz examples.",
+  "tags": [
+    "AWD E-Bikes",
+    "Mid-Drive E-Bikes",
+    "Fat Tire E-Bikes",
+    "E-Bike Comparison",
+    "Hills",
+    "Snow",
+    "2026"
+  ],
+  "product_handles": [
+    "eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",
+    "freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
+    "fat-hd-2-0",
+    "grandteton-ultra"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/fat-tire-bikes",
+    "https://wattwheelz.com/collections/mountain",
+    "https://wattwheelz.com/products/eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",
+    "https://wattwheelz.com/products/freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
+    "https://wattwheelz.com/products/fat-hd-2-0",
+    "https://wattwheelz.com/products/grandteton-ultra",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-defender-s-2-hunter-x6-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026"
+  ],
+  "source_urls": [
+    "https://wattwheelz.com/products/eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",
+    "https://wattwheelz.com/products/freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
+    "https://wattwheelz.com/products/fat-hd-2-0",
+    "https://wattwheelz.com/products/grandteton-ultra",
+    "https://wattwheelz.com/collections/fat-tire-bikes",
+    "https://wattwheelz.com/collections/mountain",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-defender-s-2-hunter-x6-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "product_handle": "eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",
+      "media_index": 0,
+      "alt": "AWD e-bike example EUNORAU Defender S 2.0",
+      "caption": "EUNORAU Defender S 2.0 dual-motor AWD e-bike."
+    },
+    {
+      "id": "slot-2",
+      "product_handle": "freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
+      "media_index": 0,
+      "alt": "Freego F3 Pro dual-motor e-bike",
+      "caption": "Freego Flash F3 Pro dual-motor fat tire e-bike."
+    },
+    {
+      "id": "slot-3",
+      "product_handle": "fat-hd-2-0",
+      "media_index": 0,
+      "alt": "Mid-drive e-bike example EUNORAU FAT-HD 2.0",
+      "caption": "EUNORAU FAT-HD 2.0 BAFANG mid-drive fat tire e-bike."
+    },
+    {
+      "id": "slot-4",
+      "product_handle": "grandteton-ultra",
+      "media_index": 0,
+      "alt": "Vanpowers Grand Teton Ultra mid-drive e-bike",
+      "caption": "Vanpowers Grand Teton Ultra mid-drive trail e-bike."
+    }
+  ],
+  "cover_image": {
+    "url": "",
+    "alt": "AWD vs mid-drive e-bikes comparison",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_current_article_cover",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1350,
+    "minimum_h2": 15,
+    "minimum_faq": 10,
+    "minimum_images": 4
+  }
+}
