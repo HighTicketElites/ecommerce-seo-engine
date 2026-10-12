@@ -70,9 +70,9 @@ function metaContent(html, attribute, value) {
 }
 
 function storefrontTitle(html) {
-  return decodeHtml(String(html).match(/<title\\b[^>]*>([\\s\\S]*?)<\\/title>/i)?.[1] || '')
-    .replace(/\\s*[|–—-]\\s*Watt\\s*Wheelz\\s*$/i, '')
-    .replace(/\\s*[|–—-]\\s*WattWheelz\\s*$/i, '')
+  return decodeHtml(String(html).match(/<title\b[^>]*>([\s\S]*?)<\/title>/i)?.[1] || '')
+    .replace(/\s*[|–—-]\s*Watt\s*Wheelz\s*$/i, '')
+    .replace(/\s*[|–—-]\s*WattWheelz\s*$/i, '')
     .trim();
 }
 
