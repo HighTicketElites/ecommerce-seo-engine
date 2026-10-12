@@ -10,6 +10,7 @@ const job={
   meta_description:"Compare the best fat tire e-bikes of 2026 for trails, hills, snow, sand, range and heavy-duty use, including EUNORAU, Freego and Vanpowers.",
   required_internal_links:[
    "https://wattwheelz.com/collections/fat-tire-bikes",
+   "https://wattwheelz.com/collections/electric-bikes",
    "https://wattwheelz.com/products/eunorau-defender-s-2-0-hunter-x6-awd-electric-bike",
    "https://wattwheelz.com/products/fat-hd-2-0",
    "https://wattwheelz.com/products/freego-flash-f3-pro-electric-bike-dual-battery-motor-cafe-racer",
@@ -24,7 +25,7 @@ const job={
    siblings:["https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes","https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026"],
    supporting:["https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-defender-s-2-hunter-x6-review-2026","https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-bikes-for-hunting-2026"]
   },
-  commercial_destinations:["https://wattwheelz.com/collections/fat-tire-bikes"],
+  commercial_destinations:["https://wattwheelz.com/collections/fat-tire-bikes","https://wattwheelz.com/collections/electric-bikes"],
   incoming_link_targets:["https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes","https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026"],
   qa:{minimum_words:1450,minimum_h2:15,minimum_faq:10,minimum_images:4,minimum_product_links:5,minimum_collection_links:2,minimum_blog_links:4,minimum_internal_links:12}
  },
@@ -45,7 +46,7 @@ const job={
  ],
  body:`
 <p><strong>Best overall depends on terrain.</strong> A fat tire e-bike that is excellent on snow may not be the best choice for steep climbing, and a powerful dual-motor model may be overkill for riders who mostly want comfort on rough pavement. The best fat tire e-bike is the one whose motor architecture, payload rating, suspension, battery and frame fit match the surfaces you actually ride.</p>
-<p>For 2026, the strongest current WattWheelz options cover four different jobs: AWD traction, mid-drive climbing, high-capacity dual-motor riding and premium trail control. Browse the complete <a href="https://wattwheelz.com/collections/fat-tire-bikes">Fat Tire Bikes collection</a> if you want to compare the full catalog.</p>
+<p>For 2026, the strongest current WattWheelz options cover four different jobs: AWD traction, mid-drive climbing, high-capacity dual-motor riding and premium trail control. Browse the complete <a href="https://wattwheelz.com/collections/fat-tire-bikes">Fat Tire Bikes collection</a> if you want to compare the full catalog, or compare the broader <a href="https://wattwheelz.com/collections/electric-bikes">Electric Bikes collection</a> if you are not yet committed to a fat tire platform.</p>
 
 <h2>Best Fat Tire E-Bikes 2026: Quick Picks</h2>
 <ul>
