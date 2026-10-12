@@ -1,21 +1,23 @@
 export default `
-<h2>36-inch Fire Magic built-ins: more room for entertaining</h2>
-<p>Move into the 36-inch cooking class when you want more simultaneous cooking space, more room for separate direct and indirect zones, or a grill that feels proportionate to a larger outdoor kitchen. Fire Magic's E790, A790 and Choice C650 families occupy this larger tier.</p>
+<h2>What makes a studio reformer different?</h2>
+<p>A studio reformer earns its value through repeatability and adjustment. Instructors may need to change footbar position, spring resistance, pulley setup, shoulder-rest position, and accessory configuration in minutes. The machine needs to accommodate a wide range of bodies without turning every transition into a maintenance task.</p>
 
-<p>Fire Magic's current specification guide describes E790 and A790 built-in bodies in the 40-inch physical class, while their primary cooking width is commonly marketed around 36 inches. The E790 cutout is approximately 37 inches wide by 23 1/2 inches deep by 11 1/2 inches high. The A790 uses approximately the same 37-inch cutout width and depth in the guide. Choice C650 models use a shallower chassis and a cutout around 37 3/4 inches wide by 19 1/2 inches deep.</p>
+<p>Professional buyers should also think beyond the first year. Can the equipment be expanded with a tower? Are replacement parts available? Can several identical machines be standardized across the room? Will instructors trained on one station feel immediately comfortable on the next?</p>
 
-<h2>Example: Fire Magic Echelon E790i</h2>
-<p>The current <a href="https://resideterra.com/products/fire-magic-echelon-diamond-e790i-36-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-magic-view-window-and-analog-thermometer-e790i-8lan-w">{{title:fire-magic-echelon-diamond-e790i-36-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-magic-view-window-and-analog-thermometer-e790i-8lan-w}}</a> represents the step up in grill frontage and premium cooking capacity.</p>
+<h2>Example: BASI Systems Studio-Grade Reformer</h2>
+<p>The current <a href="https://resideterra.com/products/studio-grade-pilates-reformer-machine-for-home-studio">{{title:studio-grade-pilates-reformer-machine-for-home-studio}}</a> illustrates the professional end of the spectrum. The 95.3-inch frame uses BASI's Enhanced Pulley System, offers three gear positions per spring, multiple shoulder-rest positions, five footbar angles, and can later convert into tower or combo configurations.</p>
 
-<!-- RDT_IMAGE:fire-magic-36 -->
+<!-- RDT_IMAGE:basi-studio -->
 
-<p>The E790 is especially attractive when the island is already large enough to support a wider grill, dedicated storage, refrigeration and meaningful prep space. In that setting, the additional cooking width feels intentional rather than oversized.</p>
+<p>That adjustability matters when a machine is used by many clients. The broader carriage and long track also make the machine easier to adapt for different body sizes and exercise progressions.</p>
 
-<h2>When the 36-inch class makes more sense than 30 inches</h2>
-<p>Choose the larger class when you frequently cook for groups, want more simultaneous heat zones, use large pans or griddles on the cooking surface, or simply have enough island frontage that a 30-inch grill would look undersized. A large L-shaped or U-shaped outdoor kitchen can absorb the extra width much more naturally than a short straight run.</p>
+<h2>Example: Elina Pilates Mentor Reformer Bundle</h2>
+<p>The current <a href="https://resideterra.com/products/elina-pilates®-mentor-reformer™-bundle">{{title:elina-pilates®-mentor-reformer™-bundle}}</a> is another professional example. Its anodized aluminum frame, six-spring system, seven-position quick-release footbar, adjustable mini tower, retractable cords, and durable upholstery are designed around repeated studio use.</p>
 
-<p>Do not upgrade solely because “bigger is better.” If moving from a 30-inch to 36-inch grill forces you to eliminate prep space or squeeze the refrigerator beside the firebox, the smaller grill may create the better working kitchen.</p>
+<!-- RDT_IMAGE:elina-mentor -->
 
-<h2>36-inch cooking width does not equal a 36-inch island opening</h2>
-<p>This is one of the most important installation takeaways in the entire guide. The E790's cooking width and the island cutout are different measurements. The installer needs the manufacturer cut sheet, not the retail size label. The same principle applies across Fire Magic's line.</p>
+<p>A studio choosing between BASI and Elina should not focus only on price. The more important question is which adjustment philosophy, tower system, accessory ecosystem, dimensions, and instructor workflow best match the studio's method.</p>
+
+<h2>Daily duty cycle changes the buying decision</h2>
+<p>A reformer used once in the morning and once at night has a different job from a machine booked continuously from 6 a.m. to 8 p.m. Commercial use places more emphasis on carriage durability, upholstery, spring consistency, hardware, cleaning, adjustment speed, and the availability of replacement components.</p>
 `
