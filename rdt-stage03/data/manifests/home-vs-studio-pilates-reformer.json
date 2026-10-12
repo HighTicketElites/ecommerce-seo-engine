@@ -1,0 +1,85 @@
+{
+  "id": "home-vs-studio-pilates-reformer",
+  "title": "Home vs Studio Pilates Reformer: Which Type Should You Buy?",
+  "handle": "home-vs-studio-pilates-reformer",
+  "blog_title": "Pilates Equipment Guides",
+  "blog_handle": "pilates-equipment-guides",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "primary_keyword": "home vs studio Pilates reformer",
+  "seo_title": "Home vs Studio Pilates Reformer: Which Should You Buy?",
+  "meta_description": "Compare home vs studio Pilates reformers by size, storage, adjustability, durability, tower options, client use, and studio procurement needs.",
+  "excerpt": "A practical guide to choosing a home or studio Pilates reformer based on space, storage, adjustability, duty cycle, instructor use, tower compatibility, client turnover, and long-term equipment needs.",
+  "tags": [
+    "BASI Systems",
+    "Commercial Pilates Equipment",
+    "Elina Pilates",
+    "Home Pilates",
+    "Pilates Reformers",
+    "Studio Pilates"
+  ],
+  "product_handles": [
+    "vertical-pilates-reformer-for-home-use",
+    "basi-systems-compact-reformer",
+    "studio-grade-pilates-reformer-machine-for-home-studio",
+    "elina-pilates®-mentor-reformer™-bundle"
+  ],
+  "required_internal_links": [
+    "https://resideterra.com/collections/pilates-equipment",
+    "https://resideterra.com/collections/elina-pilates",
+    "https://resideterra.com/collections/basi-systems-pilates-equipment",
+    "https://resideterra.com/pages/pro-partner-program"
+  ],
+  "source_urls": [
+    "https://resideterra.com/products/vertical-pilates-reformer-for-home-use",
+    "https://resideterra.com/products/basi-systems-compact-reformer",
+    "https://resideterra.com/products/studio-grade-pilates-reformer-machine-for-home-studio",
+    "https://resideterra.com/products/elina-pilates®-mentor-reformer™-bundle",
+    "https://resideterra.com/collections/pilates-equipment",
+    "https://resideterra.com/collections/elina-pilates",
+    "https://resideterra.com/collections/basi-systems-pilates-equipment"
+  ],
+  "image_slots": [
+    {
+      "id": "elina-home",
+      "product_handle": "vertical-pilates-reformer-for-home-use",
+      "media_index": 0,
+      "alt": "Elina Pilates Vertical Reformer for home use",
+      "caption": "Current ResideTerra product media for a vertically stored home-oriented Pilates reformer."
+    },
+    {
+      "id": "basi-compact",
+      "product_handle": "basi-systems-compact-reformer",
+      "media_index": 0,
+      "alt": "BASI Systems Compact Reformer",
+      "caption": "Current ResideTerra product media for a compact BASI reformer designed for smaller spaces."
+    },
+    {
+      "id": "basi-studio",
+      "product_handle": "studio-grade-pilates-reformer-machine-for-home-studio",
+      "media_index": 0,
+      "alt": "BASI Systems studio-grade Pilates reformer",
+      "caption": "Current ResideTerra product media for a full studio-grade BASI reformer."
+    },
+    {
+      "id": "elina-mentor",
+      "product_handle": "elina-pilates®-mentor-reformer™-bundle",
+      "media_index": 0,
+      "alt": "Elina Pilates Mentor professional reformer",
+      "caption": "Current ResideTerra product media for a professional Elina Pilates Mentor reformer bundle."
+    }
+  ],
+  "cover_image": {
+    "url": "https://cdn.shopify.com/s/files/1/0892/4862/9058/articles/resideterra-home-vs-studio-pilates-reformer-cover.png?v=1791825687",
+    "alt": "Bright modern Pilates studio with multiple reformers for home versus studio equipment planning",
+    "asset_kind": "editorial_cover",
+    "provenance": "generated_editorial_pilates_studio_scene_uploaded_to_shopify",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 2800,
+    "minimum_h2": 18,
+    "minimum_faq": 8,
+    "minimum_images": 3
+  }
+}
