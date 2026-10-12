@@ -1,24 +1,28 @@
 export default `
-<p><strong>Direct answer:</strong> the right Fire Magic built-in grill size is not simply the biggest grill your island can hold. Start with how many people you regularly cook for, how many cooking zones you need at one time, and how much island space must remain for prep, side burners, storage, refrigeration and landing areas. Then size the island from the <strong>exact Fire Magic model cutout</strong>, not from the advertised cooking width.</p>
+<p><strong>Direct answer:</strong> buy a home-oriented Pilates reformer when you need easier storage, a smaller footprint, simpler adjustments, and the machine will primarily serve one or two regular users. Buy a studio-grade reformer when the machine will be adjusted repeatedly throughout the day, used by clients of different sizes and experience levels, or needs to support towers, advanced pulley systems, broader accessory ecosystems, and higher session volume.</p>
 
-<p>That last point matters because Fire Magic uses several different measurements in its product literature. A grill commonly described by its cooking width as a 30-inch, 36-inch or 48-inch model can have a larger overall grill body and a different required cutout. Fire Magic's current specification guide, for example, identifies the Echelon E660i as a 34-inch built-in body with a 31 1/4-inch cutout width, the E790i as a 40-inch body with a 37-inch cutout, and the E1060i as a 52-inch body with a 50-inch cutout. The cooking surfaces themselves are commonly referred to as roughly 30, 36 and 48 inches wide.</p>
+<p>The phrase “studio-grade” should not automatically mean “better for everyone.” A 95-inch professional reformer can be a poor choice in a spare bedroom if it permanently consumes the room. Likewise, a vertical-storage home reformer can be excellent for personal practice but less efficient in a commercial studio where instructors need repeatable setup, fast client turnover, and standardized machines across several stations.</p>
 
-<h2>Fire Magic built-in grill sizes at a glance</h2>
+<h2>Home vs studio Pilates reformers at a glance</h2>
 <table>
-<thead><tr><th>Buyer-facing size</th><th>Typical Fire Magic families</th><th>Best use</th><th>Planning note</th></tr></thead>
+<thead><tr><th>Decision factor</th><th>Home-oriented reformer</th><th>Studio-grade reformer</th></tr></thead>
 <tbody>
-<tr><td>24-inch class</td><td>A430 / C430 and compact models</td><td>Small patios, secondary kitchens, limited islands</td><td>Best when preserving counter space matters more than maximum capacity</td></tr>
-<tr><td>30-inch class</td><td>E660, A540/A660, C540</td><td>Most residential outdoor kitchens</td><td>Strong balance of cooking area and island efficiency</td></tr>
-<tr><td>36-inch class</td><td>E790, A790, C650</td><td>Frequent entertaining and larger households</td><td>Requires a wider opening and more landing space</td></tr>
-<tr><td>48-inch class</td><td>E1060</td><td>Large entertaining, luxury and project-scale kitchens</td><td>Plan utilities and island width around the exact E1060 cutout</td></tr>
+<tr><td>Primary user</td><td>One person or household</td><td>Multiple clients and instructors</td></tr>
+<tr><td>Space priority</td><td>Storage and compact footprint</td><td>Permanent training footprint</td></tr>
+<tr><td>Daily adjustments</td><td>Occasional</td><td>Frequent between clients</td></tr>
+<tr><td>Duty cycle</td><td>Personal sessions</td><td>Repeated daily sessions</td></tr>
+<tr><td>Tower / pulley ecosystem</td><td>Optional or simplified</td><td>Often more extensive</td></tr>
+<tr><td>Buying priority</td><td>Fit, quietness, storage, value</td><td>Consistency, adjustability, serviceability, throughput</td></tr>
 </tbody>
 </table>
 
-<h2>Why Fire Magic grill size labels can be confusing</h2>
-<p>There are three measurements buyers often mix together: <strong>cooking-surface width</strong>, <strong>overall grill-body width</strong>, and <strong>island cutout width</strong>. They are not interchangeable. The product title may emphasize the cooking surface because that is useful for comparing capacity, while the specification guide may describe the physical grill body by a larger dimension. The installer cares most about the cutout and clearances.</p>
+<h2>The first question is not price—it is how the machine will be used</h2>
+<p>A home buyer and a studio owner can both be serious Pilates practitioners, but the equipment job is different. A home reformer may be used five to seven times per week by the same person. A studio machine may be adjusted ten or more times in one day for clients with different heights, spring preferences, injuries, and exercise plans.</p>
 
-<p>That means a “30-inch grill” does not mean you should frame a 30-inch opening. Before stone, stucco, tile, cabinetry or countertops are fabricated, match the exact model number to the latest installation drawing.</p>
+<p>That repeated changeover puts more value on adjustment range, instructor ergonomics, standardized spring systems, easy cleaning, accessory compatibility, and service access. At home, those features can still be valuable, but they may matter less than whether the machine can be stored, moved, or fit comfortably in the room.</p>
 
-<h2>Use the cooking width to choose capacity</h2>
-<p>Cooking width is still useful—it just solves a different problem. Use it to decide how much food you want to cook at once. A compact grill can handle everyday family meals efficiently. A 30-inch-class Fire Magic is the sweet spot for many households. A 36-inch-class grill gives more room for multiple temperature zones and larger gatherings. A 48-inch E1060 is designed for buyers who routinely use substantial cooking space and want a flagship outdoor-kitchen centerpiece.</p>
+<h2>Start with the room before choosing the reformer</h2>
+<p>Measure the usable training zone, not just the machine footprint. A reformer needs clearance for getting on and off, standing exercises beside the carriage, box work, jump-board work, and instructor access if someone else will coach you.</p>
+
+<p>In a studio, multiply that problem by the number of stations. A room that technically fits eight machines may function better with six if instructors cannot circulate safely or clients feel crowded. Equipment planning should consider aisle width, mirrors, storage, entry paths, HVAC, cleaning access, and where accessories live between sessions.</p>
 `
