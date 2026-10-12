@@ -1,27 +1,26 @@
 export default `
-<h2>24-inch-class Fire Magic grills: best for compact projects</h2>
-<p>The smaller Fire Magic built-in families are useful when island frontage is limited or when the grill shares a compact outdoor kitchen with a sink, burner, refrigerator or prep counter. The A430 and C430 families sit in this compact end of the lineup. Fire Magic's specification guide lists these bodies around the 27-inch class, with cutouts around 25 1/2 to 26 inches wide depending on the exact model family and specification generation.</p>
+<h2>When a home-oriented reformer is the smarter choice</h2>
+<p>Choose a home-oriented reformer when space flexibility is a major priority, when one household will use the machine, or when you want a serious practice setup without dedicating an entire room permanently to Pilates.</p>
 
-<p>The real advantage is not simply a lower purchase price. A compact grill preserves valuable horizontal island space. In a 7- or 8-foot run, saving even 6 to 12 inches can be the difference between fitting a functional landing zone and forcing every component together.</p>
+<p>Good home-use features include vertical storage, transport wheels, quieter carriage systems, manageable frame length, simple spring changes, and included accessories that reduce the need for separate purchases.</p>
 
-<h2>Who should choose a compact Fire Magic built-in?</h2>
-<ul>
-<li>Couples or small households that cook modest quantities</li>
-<li>Secondary patios or guest-house kitchens</li>
-<li>Projects where a side burner, sink or refrigerator is more important than maximum grill width</li>
-<li>Condominium or rooftop projects where usable counter frontage is constrained</li>
-<li>Designs where the grill is one component in a broader cooking system</li>
-</ul>
+<h2>Example: Elina Pilates Vertical Reformer for Home Use</h2>
+<p>The current <a href="https://resideterra.com/products/vertical-pilates-reformer-for-home-use">{{title:vertical-pilates-reformer-for-home-use}}</a> is a useful home-first example. Its 92.52-inch frame stores vertically on removable safety legs, which allows the floor to be reclaimed between sessions. It includes five springs, a six-position footbar, transport wheels, a jump board, box, straps, and multiple bed-height settings.</p>
 
-<h2>30-inch Fire Magic built-ins: the residential sweet spot</h2>
-<p>For many outdoor kitchens, the 30-inch cooking class is the most balanced choice. It provides enough room for multiple foods and heat zones without dominating the island. Fire Magic offers several distinct series around this size, including Choice C540, Aurora A540/A660 and Echelon E660 families.</p>
+<!-- RDT_IMAGE:elina-home -->
 
-<p>The series matters because two grills with similar nominal cooking width can require different utility and cutout planning. Fire Magic currently lists the Choice C540i with a 30-by-18-inch cooking surface and a cutout around 32 inches wide by 19 1/2 inches deep. The Aurora A540i also provides a 30-by-18-inch cooking area with a cutout around 32 inches wide by 19 1/2 inches deep. Echelon E660 models move into a deeper premium chassis, with Fire Magic's current specification guide showing a cutout roughly 31 1/4 inches wide by 23 1/2 inches deep.</p>
+<p>The important tradeoff is ceiling clearance. Vertical storage saves floor space but requires enough height to store the machine safely. This is exactly the kind of practical detail that matters more in a home than whether the machine can survive ten client sessions per day.</p>
 
-<h2>Example: Fire Magic Echelon E660i</h2>
-<p>The current <a href="https://resideterra.com/products/fire-magic-echelon-diamond-e660i-30-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-and-analog-thermometer-e660i-8lan">{{title:fire-magic-echelon-diamond-e660i-30-inch-natural-gas-built-in-grill-with-1-sear-burner-backburner-rotisserie-kit-and-analog-thermometer-e660i-8lan}}</a> is a strong example of the premium 30-inch cooking class.</p>
+<h2>Compact does not always mean home-only</h2>
+<p>Some smaller reformers are built strongly enough for professional settings but intentionally sacrifice part of the studio adjustment stack to reduce footprint. That can work for boutique spaces, private training rooms, hotel wellness areas, or studios that prioritize density over the broadest configuration range.</p>
 
-<!-- RDT_IMAGE:fire-magic-30 -->
+<h2>Example: BASI Systems Compact Reformer</h2>
+<p>The current <a href="https://resideterra.com/products/basi-systems-compact-reformer">{{title:basi-systems-compact-reformer}}</a> uses an 81.5-inch beech-and-aluminum frame, five springs, adjustable headrest and footbar, and BASI's VPS pulley system. It is the shortest reformer in BASI's current ResideTerra lineup and can fit rooms that cannot accommodate the longer studio machine.</p>
 
-<p>For a buyer, the E660 gives substantial everyday capacity without consuming the island frontage of the E790 or E1060. For an installer, however, the important number is not “30.” The E660 chassis and cutout must be coordinated from the exact manual before fabrication.</p>
+<!-- RDT_IMAGE:basi-compact -->
+
+<p>It is a good example of why “home” and “studio” are not rigid categories. A committed home user may choose it for build quality, while a studio may choose it to increase station count in a constrained room.</p>
+
+<h2>Storage strategy matters more at home</h2>
+<p>Ask whether the machine must disappear visually or physically between sessions. Foldable or vertical reformers can make shared rooms practical, but the storage motion itself matters. Consider machine weight, transport wheels, floor protection, ceiling height, and whether one person can safely move it.</p>
 `
