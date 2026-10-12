@@ -41,6 +41,6 @@ export default {
     primary_destination:'https://resideterra.com/pages/pro-partner-program',
     cta_context:'A studio owner comparing home and studio reformers is often deciding whether to buy one machine or equip an entire room, making Partner Concierge the natural next step for layout, model standardization, and multi-unit purchasing.'
   },
-  cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',source_url:'https://cdn.shopify.com/s/files/1/0892/4862/9058/files/Basi_compactReformer_lifestyle_1.webp?v=1781821191',alt:'Pilates reformer in a bright studio setting for home versus studio equipment planning'},
+  cover:{url:'https://resideterra-seo-draft-generator.vercel.app/api/cover',source_url:'https://cdn.shopify.com/s/files/1/0892/4862/9058/files/resideterra-home-vs-studio-pilates-reformer-cover.png?v=1791825672',alt:'Bright modern Pilates studio with multiple reformers for home versus studio equipment planning'},
   qa:{minimum_words:2800,minimum_h2:18,minimum_faq:8,minimum_images:3}
 };
