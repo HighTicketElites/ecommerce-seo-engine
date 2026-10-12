@@ -1,61 +1,39 @@
 import { NextResponse } from 'next/server';
-import { approvalTtlMs } from '../../../../lib/config.js';
+import { appUrl, normalizedShop } from '../../../../lib/config.js';
 import { loadManifest } from '../../../../lib/manifest.js';
-import { prepareApproval } from '../../../../lib/publish.js';
-import { renderApprovalPage } from '../../../../lib/result-page.js';
-import { encryptSession } from '../../../../lib/security.js';
-import { serverAuth } from '../../../../lib/shopify.js';
+import { randomToken } from '../../../../lib/security.js';
 
-export const runtime = 'nodejs';
-export const dynamic = 'force-dynamic';
-export const maxDuration = 60;
+export const runtime='nodejs';
+export const dynamic='force-dynamic';
+
+const SCOPES=['read_content','write_content','read_products','read_files'].join(',');
 
 export async function POST(request) {
   try {
-    const form = await request.formData();
-    const job = String(form.get('job') || '');
-    const manifest = loadManifest(job);
-    if (manifest.publish_readiness !== 'pilot_approved') {
-      throw new Error(`${job} is locked for publication`);
-    }
+    const form=await request.formData();
+    const job=String(form.get('job')||'');
+    const manifest=loadManifest(job);
+    if(manifest.publish_readiness!=='pilot_approved') throw new Error(`${job} is locked for publication`);
 
-    const auth = await serverAuth();
-    const result = await prepareApproval(auth, job);
-    const encrypted = encryptSession({
-      purpose: 'execute_publication',
-      auth,
-      approval: result.approval,
-      exp: result.approval.exp,
-    });
+    const shop=normalizedShop();
+    const clientId=process.env.SHOPIFY_CLIENT_ID;
+    if(!clientId) throw new Error('SHOPIFY_CLIENT_ID missing');
 
-    const response = new NextResponse(renderApprovalPage(result), {
-      status: 200,
-      headers: {
-        'content-type': 'text/html; charset=utf-8',
-        'cache-control': 'no-store',
-        'x-robots-tag': 'noindex',
-      },
-    });
+    const state=randomToken();
+    const callback=`${appUrl()}/api/shopify/callback`;
+    const authUrl=new URL(`https://${shop}/admin/oauth/authorize`);
+    authUrl.searchParams.set('client_id',clientId);
+    authUrl.searchParams.set('scope',SCOPES);
+    authUrl.searchParams.set('redirect_uri',callback);
+    authUrl.searchParams.set('state',state);
 
-    response.cookies.set('ww_pub_approval_session', encrypted, {
-      httpOnly: true,
-      secure: true,
-      sameSite: 'strict',
-      path: '/',
-      maxAge: Math.floor(approvalTtlMs() / 1000),
-    });
-
+    const response=NextResponse.redirect(authUrl,{status:303});
+    response.cookies.set('ww_pub_oauth_state',state,{httpOnly:true,secure:true,sameSite:'lax',path:'/',maxAge:600});
+    response.cookies.set('ww_pub_oauth_job',job,{httpOnly:true,secure:true,sameSite:'lax',path:'/',maxAge:600});
     return response;
-  } catch (error) {
-    return NextResponse.json({
-      error: error?.message || String(error),
-      safety: 'No Shopify publication action was executed.',
-    }, {
-      status: 500,
-      headers: {
-        'cache-control': 'no-store',
-        'x-robots-tag': 'noindex',
-      },
+  } catch(error) {
+    return NextResponse.json({error:error?.message||String(error),safety:'No Shopify publication action was executed.'},{
+      status:500,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}
     });
   }
 }
