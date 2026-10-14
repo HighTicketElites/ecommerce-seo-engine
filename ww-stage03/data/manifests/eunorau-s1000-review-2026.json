@@ -4,7 +4,7 @@
   "handle": "eunorau-s1000-review-2026",
   "blog_handle": "e-bike-reviews-comparisons",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
+  "publish_readiness": "locked",
   "seo_title": "EUNORAU S1000 Review 2026: Utility Quad Buyer Guide",
   "meta_description": "Explore the EUNORAU S1000 electric utility quad: published specs, cargo limits, range, property use, accessories and practical checks before buying.",
   "excerpt": "A specification-based review of the EUNORAU S1000 utility quad, covering property use, range, cargo limits, storage, accessories and buyer fit.",
@@ -75,10 +75,18 @@
   "roadmap_sequence": 8,
   "content_graph_cluster": "utility-cargo-family",
   "article_id": "gid://shopify/Article/595700482234",
-  "approval_status": "awaiting_human_approval",
+  "approval_status": "published_qa_passed",
   "incoming_link_targets": [
     "best-eunorau-electric-bikes-2026",
     "best-ebikes-for-heavy-riders-2026"
   ],
-  "notes": "Unpublished Shopify draft created through HighTicketElites Shopify connector. Future utility pillar link deferred until target is live; existing published related guides used instead."
+  "notes": "Unpublished Shopify draft created through HighTicketElites Shopify connector. Future utility pillar link deferred until target is live; existing published related guides used instead.",
+  "publication": {
+    "approved_at": "2026-10-14T16:42:42.378Z",
+    "approval_source": "User continue following draft QA and publishing-approval request",
+    "published_at": "2026-10-14T16:43:58Z",
+    "fingerprint": "af173b1448052a77167057ae93309a50e02fb2febd616486e7b7c01390c62e7b",
+    "live_qa_pass": true,
+    "reciprocal_links_complete": true
+  }
 }
