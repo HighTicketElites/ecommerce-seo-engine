@@ -1,0 +1,84 @@
+{
+  "id": "eunorau-s1000-review-2026",
+  "title": "EUNORAU S1000 Review 2026: Utility, Range, Cargo & Buyer Fit",
+  "handle": "eunorau-s1000-review-2026",
+  "blog_handle": "e-bike-reviews-comparisons",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "seo_title": "EUNORAU S1000 Review 2026: Utility Quad Buyer Guide",
+  "meta_description": "Explore the EUNORAU S1000 electric utility quad: published specs, cargo limits, range, property use, accessories and practical checks before buying.",
+  "excerpt": "A specification-based review of the EUNORAU S1000 utility quad, covering property use, range, cargo limits, storage, accessories and buyer fit.",
+  "tags": [
+    "EUNORAU",
+    "S1000",
+    "Utility Vehicles",
+    "2026"
+  ],
+  "product_handles": [
+    "s1000-utility-vehicle",
+    "eunorau-s500-s1000-rain-cover"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/products/s1000-utility-vehicle",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+    "https://wattwheelz.com/products/eunorau-s500-s1000-rain-cover",
+    "https://wattwheelz.com/collections/electric-utility-vehicles-quads",
+    "https://wattwheelz.com/collections/eunorau",
+    "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026"
+  ],
+  "source_urls": [
+    "https://eunorau-ebike.com/products/s1000-utility-vehicle",
+    "https://wattwheelz.com/products/s1000-utility-vehicle",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+    "https://wattwheelz.com/products/eunorau-s500-s1000-rain-cover",
+    "https://wattwheelz.com/collections/electric-utility-vehicles-quads",
+    "https://wattwheelz.com/collections/eunorau",
+    "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/1_9424cc47-f993-4cb9-b8df-d600a9ad06cf.jpg?v=1774152910",
+      "alt": "EUNORAU S1000 utility quad Army Green full side view with cargo platform"
+    },
+    {
+      "id": "slot-2",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/1_c4220a0e-e9c4-444e-9a83-d06ff7ee9200.webp?v=1791817646",
+      "alt": "EUNORAU S1000 four-wheel electric utility vehicle detailed product lifestyle photograph"
+    },
+    {
+      "id": "slot-3",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/s1000_5.webp?v=1791817646",
+      "alt": "EUNORAU S1000 cargo quad transporting equipment and bags across grassy property"
+    },
+    {
+      "id": "slot-4",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/eunorau-s1000-suspension-detail_2125b78c-85dd-4fc1-a89f-f71009417099.png?v=1791817787",
+      "alt": "EUNORAU S1000 front suspension, wheel and chassis component close-up"
+    }
+  ],
+  "cover_image": {
+    "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/DSC04654.webp?v=1791995678",
+    "alt": "EUNORAU S1000 electric utility quad photographed in outdoor use",
+    "asset_kind": "editorial_cover",
+    "provenance": "existing_supplier_lifestyle_photo_verified",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1450,
+    "minimum_h2": 15,
+    "minimum_faq": 10,
+    "minimum_images": 4
+  },
+  "roadmap_sequence": 8,
+  "content_graph_cluster": "utility-cargo-family",
+  "article_id": "gid://shopify/Article/595700482234",
+  "approval_status": "awaiting_human_approval",
+  "incoming_link_targets": [
+    "best-eunorau-electric-bikes-2026",
+    "best-ebikes-for-heavy-riders-2026"
+  ],
+  "notes": "Unpublished Shopify draft created through HighTicketElites Shopify connector. Future utility pillar link deferred until target is live; existing published related guides used instead."
+}
