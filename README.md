@@ -6,7 +6,8 @@ Canonical source for the HighTicketElites ecommerce SEO automation infrastructur
 - Draft Generator: Vercel project `wattwheelz-seo-draft-generator`
 - Production branch: `main`
 - Workflow: Research → Draft Generator → Shopify Draft → V4 QA → Human Approval → Publish → Live QA
-- Current job: EUNORAU S1000 review — Shopify draft QA passed October 14, 2026; awaiting human publishing approval
+- Last completed job: EUNORAU S1000 review — published, live QA passed and locked October 14, 2026.
+- Next roadmap topic: Best Electric Utility Vehicles of 2026.
 
 Git-backed deployment restored September 2026.
 
@@ -29,6 +30,6 @@ Use the connector account labeled **HighTicketElites Shopify** for Watt Wheelz. 
 
 This connector successfully performed live article reads, unpublished article creation, updates and readback without browser sign-in. Draft work follows this verified path: inspect roadmap and content graph → reconcile Shopify article states → research current product sources → prepare article → discover/validate Admin schema → create or update unpublished draft → read back → run the Stage 03 draft-QA checks → persist body, manifest and run evidence → await human publication approval. Preserve published articles and do not restart a completed batch.
 
-The deployed OAuth UI is a separate access route, not a prerequisite for connector-based draft execution. Fully non-browser Stage 03 publication execution has not yet been verified; keep human approval and existing publication safeguards intact.
+The deployed OAuth UI is a separate access route, not a prerequisite for connector-based draft execution. The connector-based controlled publication procedure was verified on October 14, 2026: user approval, exact body/identity and fingerprint checks, active products, draft QA, publication audit metafields, live QA, rollback on initial QA failure, corrected title-entity parsing, republish, live QA pass and manifest lock. The deployed OAuth UI remains a separate route. Preserve these safeguards on connector runs.
 
-Current review package: `ww-stage03/data/manifests/eunorau-s1000-review-2026.json`; Shopify draft `gid://shopify/Article/595700482234`. All 18 draft checks passed: 1,722 words, 16 H2 sections, 10 FAQs, 4 inline images, seven live internal destinations, 1500 × 844 supplier lifestyle cover and exact SEO metadata. Publication has not been authorized or executed. Reciprocal links are deferred until publication.
+Current review package: `ww-stage03/data/manifests/eunorau-s1000-review-2026.json`; Shopify draft `gid://shopify/Article/595700482234`. All 18 draft checks passed: 1,722 words, 16 H2 sections, 10 FAQs, 4 inline images, seven live internal destinations, 1500 × 844 supplier lifestyle cover and exact SEO metadata. Publication was approved in conversation and executed through the connector. Live QA passed, the manifest is locked, and reciprocal links were added to the EUNORAU and heavy-rider guides.
