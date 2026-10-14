@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-14",
+  "store": "wattwheelz.com",
+  "connection": "HighTicketElites Shopify",
+  "article_id": "gid://shopify/Article/595700482234",
+  "handle": "eunorau-s1000-review-2026",
+  "status": "draft_qa_pass_awaiting_human_approval",
+  "browser_sign_in_used": false,
+  "qa": {
+    "pass": true,
+    "checks_passed": 18,
+    "words": 1722,
+    "h2": 16,
+    "faq": 10,
+    "images": 4,
+    "internal_link_http_statuses": [
+      {
+        "url": "https://wattwheelz.com/products/s1000-utility-vehicle",
+        "status": 200
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+        "status": 200
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+        "status": 200
+      },
+      {
+        "url": "https://wattwheelz.com/products/eunorau-s500-s1000-rain-cover",
+        "status": 200
+      },
+      {
+        "url": "https://wattwheelz.com/collections/electric-utility-vehicles-quads",
+        "status": 200
+      },
+      {
+        "url": "https://wattwheelz.com/collections/eunorau",
+        "status": 200
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026",
+        "status": 200
+      }
+    ],
+    "cover": {
+      "width": 1500,
+      "height": 844,
+      "visually_verified": true
+    }
+  },
+  "published": false,
+  "queue_reconciled_from_shopify": true,
+  "prior_oct12_batch_already_published": true,
+  "next_roadmap_topic": "best-electric-utility-vehicles-2026"
+}
