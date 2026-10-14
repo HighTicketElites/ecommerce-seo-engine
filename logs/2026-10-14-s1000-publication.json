@@ -1,0 +1,17 @@
+{
+  "article_id": "gid://shopify/Article/595700482234",
+  "handle": "eunorau-s1000-review-2026",
+  "approvedAt": "2026-10-14T16:42:42.378Z",
+  "approval_source": "User continue after draft ready for publication",
+  "publishedAt": "2026-10-14T16:43:58Z",
+  "fingerprint": "af173b1448052a77167057ae93309a50e02fb2febd616486e7b7c01390c62e7b",
+  "status": "published_qa_passed_locked",
+  "browser_sign_in_used": false,
+  "initial_live_qa": "Rolled back after storefront dash entity comparison failed; decoder corrected, republished and all live checks passed",
+  "live_qa_pass": true,
+  "reciprocal_links": [
+    "best-eunorau-electric-bikes-2026",
+    "best-ebikes-for-heavy-riders-2026"
+  ],
+  "live_url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-s1000-review-2026"
+}
