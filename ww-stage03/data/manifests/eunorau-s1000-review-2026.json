@@ -25,7 +25,8 @@
     "https://wattwheelz.com/products/eunorau-s500-s1000-rain-cover",
     "https://wattwheelz.com/collections/electric-utility-vehicles-quads",
     "https://wattwheelz.com/collections/eunorau",
-    "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026"
+    "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-electric-utility-vehicles-2026"
   ],
   "source_urls": [
     "https://eunorau-ebike.com/products/s1000-utility-vehicle",
@@ -80,7 +81,7 @@
     "best-eunorau-electric-bikes-2026",
     "best-ebikes-for-heavy-riders-2026"
   ],
-  "notes": "Unpublished Shopify draft created through HighTicketElites Shopify connector. Future utility pillar link deferred until target is live; existing published related guides used instead.",
+  "notes": "Published review. Deferred utility pillar link added on 2026-10-19 after the target passed live publication QA. Original publication fingerprint retained as historical record.",
   "publication": {
     "approved_at": "2026-10-14T16:42:42.378Z",
     "approval_source": "User continue following draft QA and publishing-approval request",
@@ -88,5 +89,16 @@
     "fingerprint": "af173b1448052a77167057ae93309a50e02fb2febd616486e7b7c01390c62e7b",
     "live_qa_pass": true,
     "reciprocal_links_complete": true
-  }
+  },
+  "amendments": [
+    {
+      "date": "2026-10-19",
+      "type": "reciprocal_link",
+      "target": "best-electric-utility-vehicles-2026",
+      "approval": "Explicit user approval",
+      "existing_content_preserved": true,
+      "shopify_readback_verified": true,
+      "audit_log": "logs/2026-10-19-utility-guide-publication.json"
+    }
+  ]
 }
