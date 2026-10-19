@@ -1,0 +1,82 @@
+{
+  "id": "best-electric-utility-vehicles-2026",
+  "title": "Best Electric Utility Vehicles of 2026: Compact Quads to Full-Size UTVs",
+  "handle": "best-electric-utility-vehicles-2026",
+  "blog_handle": "e-bike-buying-guides",
+  "draft_readiness": "qa_passed",
+  "publish_readiness": "awaiting_human_approval",
+  "seo_title": "Best Electric Utility Vehicles 2026: Quads & UTVs",
+  "meta_description": "Compare EUNORAU S500 and S1000 utility quads with Club Car and Polaris options. Choose by cargo capacity, terrain, charging and everyday workload.",
+  "excerpt": "Compare compact utility quads, commercial electric carts and full-size UTVs by cargo capacity, route, charging and daily workload.",
+  "tags": [
+    "Utility Vehicles",
+    "Buying Guide",
+    "EUNORAU",
+    "2026"
+  ],
+  "product_handles": [
+    "s500-utility-vehicle",
+    "s1000-utility-vehicle"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/electric-utility-vehicles-quads",
+    "https://wattwheelz.com/products/s500-utility-vehicle",
+    "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026",
+    "https://wattwheelz.com/products/s1000-utility-vehicle",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-s1000-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+    "https://wattwheelz.com/collections/cargo",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026"
+  ],
+  "source_urls": [
+    "https://eunorau-ebike.com/products/s500-utility-vehicle",
+    "https://eunorau-ebike.com/products/s1000-utility-vehicle",
+    "https://www.clubcar.com/en-us/commercial/utility-4x2/carryall-500/specifications",
+    "https://www.polaris.com/en-us/off-road/ranger/models/ranger-xp-kinetic/"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/S500.png?v=1774152884",
+      "alt": "EUNORAU S500 utility vehicle product image"
+    },
+    {
+      "id": "slot-2",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/3_726093c3-3858-4b42-8182-081a8081176b.jpg?v=1774152911",
+      "alt": "Rear three-quarter view of EUNORAU S1000 showing its cargo platform"
+    },
+    {
+      "id": "slot-3",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/s1000_5.webp?v=1791817646",
+      "alt": "EUNORAU S1000 transporting equipment on grassy property"
+    },
+    {
+      "id": "slot-4",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/eunorau-s1000-suspension-detail_2125b78c-85dd-4fc1-a89f-f71009417099.png?v=1791817787",
+      "alt": "Close-up of EUNORAU S1000 wheel and suspension components"
+    }
+  ],
+  "cover_image": {
+    "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/DSC04654_9c536ad0-7936-4cef-a42c-8c220d8f47e7.webp?v=1792429205",
+    "alt": "EUNORAU S1000 electric utility quad outdoors, illustrating compact property-use vehicles",
+    "asset_kind": "editorial_cover",
+    "provenance": "existing_supplier_lifestyle_photo_verified",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1450,
+    "minimum_h2": 15,
+    "minimum_faq": 10,
+    "minimum_images": 4
+  },
+  "roadmap_sequence": 9,
+  "content_graph_cluster": "utility-cargo-family",
+  "article_id": "gid://shopify/Article/595738230970",
+  "approval_status": "pending",
+  "incoming_link_targets": [
+    "eunorau-s1000-review-2026",
+    "best-eunorau-electric-bikes-2026"
+  ],
+  "notes": "Connector draft run; current Polaris comparison explicitly labeled model year 2027. No publication performed.",
+  "draft_fingerprint": "e2071e650b9b9018b5e6cd2391596c5cdc25602e86096b170a3b1d40121e72d2"
+}
