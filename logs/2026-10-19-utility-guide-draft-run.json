@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-19",
+  "article_id": "gid://shopify/Article/595738230970",
+  "connection_label": "HighTicketElites Shopify",
+  "verified_store": "Watt Wheelz",
+  "action": "created_unpublished_draft",
+  "publication_authorized": false,
+  "qa": {
+    "checks": {
+      "publication_state": true,
+      "correct_blog": true,
+      "correct_handle": true,
+      "no_h1": true,
+      "minimum_words": true,
+      "minimum_h2": true,
+      "minimum_faq": true,
+      "minimum_images": true,
+      "editorial_cover": true,
+      "editorial_cover_alt": true,
+      "editorial_cover_ratio": true,
+      "editorial_cover_loads": true,
+      "sources_section": true,
+      "unresolved_placeholders": true,
+      "seo_title": true,
+      "meta_description": true,
+      "required_links": true,
+      "internal_links": true
+    },
+    "required": [
+      {
+        "url": "https://wattwheelz.com/collections/electric-utility-vehicles-quads",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/products/s500-utility-vehicle",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/products/s1000-utility-vehicle",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-s1000-review-2026",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/collections/cargo",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+        "present": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://wattwheelz.com/collections/electric-utility-vehicles-quads",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/collections/electric-utility-vehicles-quads"
+      },
+      {
+        "url": "https://wattwheelz.com/products/s500-utility-vehicle",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/products/s500-utility-vehicle"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-brand-guides/best-eunorau-electric-bikes-2026"
+      },
+      {
+        "url": "https://wattwheelz.com/products/s1000-utility-vehicle",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/products/s1000-utility-vehicle"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-s1000-review-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/eunorau-s1000-review-2026"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes"
+      },
+      {
+        "url": "https://wattwheelz.com/collections/cargo",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/collections/cargo"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026"
+      }
+    ],
+    "cover": {
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/DSC04654_9c536ad0-7936-4cef-a42c-8c220d8f47e7.webp?v=1792429205",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/DSC04654_9c536ad0-7936-4cef-a42c-8c220d8f47e7.webp?v=1792429205"
+    },
+    "metrics": {
+      "words": 1774,
+      "h2": 15,
+      "faq": 10,
+      "images": 4,
+      "cover_width": 1500,
+      "cover_height": 844
+    },
+    "pass": true,
+    "fingerprint": "e2071e650b9b9018b5e6cd2391596c5cdc25602e86096b170a3b1d40121e72d2"
+  },
+  "external_source_notes": "Club Car and Polaris pages read successfully through web retrieval; direct HTTP checks returned 403. Internal links and all five images returned 200.",
+  "incoming_links_deferred_until_published": [
+    "eunorau-s1000-review-2026",
+    "best-eunorau-electric-bikes-2026"
+  ]
+}
