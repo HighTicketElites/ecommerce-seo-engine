@@ -4,7 +4,7 @@
   "handle": "best-electric-utility-vehicles-2026",
   "blog_handle": "e-bike-buying-guides",
   "draft_readiness": "qa_passed",
-  "publish_readiness": "awaiting_human_approval",
+  "publish_readiness": "locked",
   "seo_title": "Best Electric Utility Vehicles 2026: Quads & UTVs",
   "meta_description": "Compare EUNORAU S500 and S1000 utility quads with Club Car and Polaris options. Choose by cargo capacity, terrain, charging and everyday workload.",
   "excerpt": "Compare compact utility quads, commercial electric carts and full-size UTVs by cargo capacity, route, charging and daily workload.",
@@ -72,11 +72,19 @@
   "roadmap_sequence": 9,
   "content_graph_cluster": "utility-cargo-family",
   "article_id": "gid://shopify/Article/595738230970",
-  "approval_status": "pending",
+  "approval_status": "published_qa_passed",
   "incoming_link_targets": [
     "eunorau-s1000-review-2026",
     "best-eunorau-electric-bikes-2026"
   ],
-  "notes": "Connector draft run; current Polaris comparison explicitly labeled model year 2027. No publication performed.",
-  "draft_fingerprint": "e2071e650b9b9018b5e6cd2391596c5cdc25602e86096b170a3b1d40121e72d2"
+  "notes": "Published with user approval through HighTicketElites Shopify (Watt Wheelz). Live QA passed; both incoming links verified.",
+  "draft_fingerprint": "e2071e650b9b9018b5e6cd2391596c5cdc25602e86096b170a3b1d40121e72d2",
+  "publication": {
+    "approved_at": "2026-10-19T17:05:46Z",
+    "approval_source": "Explicit user approval in chat",
+    "published_at": "2026-10-19T17:06:26Z",
+    "fingerprint": "e2071e650b9b9018b5e6cd2391596c5cdc25602e86096b170a3b1d40121e72d2",
+    "live_qa_pass": true,
+    "reciprocal_links_complete": true
+  }
 }
