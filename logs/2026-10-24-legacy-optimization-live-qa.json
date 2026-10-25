@@ -1,0 +1,193 @@
+{
+  "status": "eight_posts_optimized_two_reciprocal_edits_blocked",
+  "qa": {
+    "articles": [
+      {
+        "id": "gid://shopify/Article/560521117882",
+        "url": "https://wattwheelz.com/blogs/e-bike-rider-guides/going-electric-why-switching-to-an-e-bike-is-the-smart-move-for-your-commute-and-the-planet",
+        "checks": {
+          "live": true,
+          "seo_title": true,
+          "description": true,
+          "canonical": true,
+          "indexable": true,
+          "links": true,
+          "images": true,
+          "cover": true,
+          "image_alt": true,
+          "responsive_image_markup": true
+        },
+        "links": 4,
+        "inline_images": 1,
+        "pass": true
+      },
+      {
+        "id": "gid://shopify/Article/560554115258",
+        "url": "https://wattwheelz.com/blogs/e-bike-rider-guides/the-rise-of-electric-bikes-a-sustainable-revolution-in-urban-mobility",
+        "checks": {
+          "live": true,
+          "seo_title": true,
+          "description": true,
+          "canonical": true,
+          "indexable": true,
+          "links": true,
+          "images": true,
+          "cover": true,
+          "image_alt": true,
+          "responsive_image_markup": true
+        },
+        "links": 5,
+        "inline_images": 1,
+        "pass": true
+      },
+      {
+        "id": "gid://shopify/Article/560554148026",
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/exploring-the-benefits-and-future-of-electric-bikes",
+        "checks": {
+          "live": true,
+          "seo_title": true,
+          "description": true,
+          "canonical": true,
+          "indexable": true,
+          "links": true,
+          "images": true,
+          "cover": true,
+          "image_alt": true,
+          "responsive_image_markup": true
+        },
+        "links": 5,
+        "inline_images": 1,
+        "pass": true
+      },
+      {
+        "id": "gid://shopify/Article/571711422650",
+        "url": "https://wattwheelz.com/blogs/e-bike-rider-guides/hunting-in-stealth-the-rise-of-the-electric-dirt-bike",
+        "checks": {
+          "live": true,
+          "seo_title": true,
+          "description": true,
+          "canonical": true,
+          "indexable": true,
+          "links": true,
+          "images": true,
+          "cover": true,
+          "image_alt": true,
+          "responsive_image_markup": true
+        },
+        "links": 4,
+        "inline_images": 2,
+        "pass": true
+      },
+      {
+        "id": "gid://shopify/Article/571711455418",
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/surron-alternatives-getting-more-power-for-less-money",
+        "checks": {
+          "live": true,
+          "seo_title": true,
+          "description": true,
+          "canonical": true,
+          "indexable": true,
+          "links": true,
+          "images": true,
+          "cover": true,
+          "image_alt": true,
+          "responsive_image_markup": true
+        },
+        "links": 5,
+        "inline_images": 2,
+        "pass": true
+      },
+      {
+        "id": "gid://shopify/Article/572087271610",
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/why-the-happyrun-g300-pro-electric-dirt-bike-dominates-winter-terrain",
+        "checks": {
+          "live": true,
+          "seo_title": true,
+          "description": true,
+          "canonical": true,
+          "indexable": true,
+          "links": true,
+          "images": true,
+          "cover": true,
+          "image_alt": true,
+          "responsive_image_markup": true
+        },
+        "links": 4,
+        "inline_images": 1,
+        "pass": true
+      },
+      {
+        "id": "gid://shopify/Article/572087566522",
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/why-the-happyrun-g100-pro-is-the-best-3000w-electric-motorcycle-for-everyday-commuters",
+        "checks": {
+          "live": true,
+          "seo_title": true,
+          "description": true,
+          "canonical": true,
+          "indexable": true,
+          "links": true,
+          "images": true,
+          "cover": true,
+          "image_alt": true,
+          "responsive_image_markup": true
+        },
+        "links": 4,
+        "inline_images": 1,
+        "pass": true
+      },
+      {
+        "id": "gid://shopify/Article/572087664826",
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/why-the-happyrun-g300-pro-is-the-ultimate-3000w-electric-dirt-bike-for-adventure-riders",
+        "checks": {
+          "live": true,
+          "seo_title": true,
+          "description": true,
+          "canonical": true,
+          "indexable": true,
+          "links": true,
+          "images": true,
+          "cover": true,
+          "image_alt": true,
+          "responsive_image_markup": true
+        },
+        "links": 4,
+        "inline_images": 1,
+        "pass": true
+      }
+    ],
+    "resource_count": 44,
+    "failed_resources": {}
+  },
+  "reciprocal_updates": {
+    "completed": [
+      "pros-and-cons-of-electric",
+      "e-bike-battery-care-guide-2026",
+      "happyrun-g100-pro-review-2026",
+      "happyrun-g300-pro-review-2026"
+    ],
+    "verified": [
+      {
+        "id": "gid://shopify/Article/572880715962",
+        "onlyExpectedAddition": true
+      },
+      {
+        "id": "gid://shopify/Article/572911911098",
+        "onlyExpectedAddition": true
+      },
+      {
+        "id": "gid://shopify/Article/572996649146",
+        "onlyExpectedAddition": true
+      }
+    ],
+    "blocked": [
+      "best-electric-bikes-for-hunting-2026",
+      "electric-dirt-bike-buying-guide-2026"
+    ],
+    "reason": "Automatic approval review rejected whole-body API submissions despite verified additive-only paragraphs; require explicit user approval before retry."
+  },
+  "limitations": [
+    "No rendered mobile/desktop visual QA; browser runtime download failed.",
+    "Not a complete long-form new-article engine QA pass.",
+    "Indexing not verified in Search Console."
+  ]
+}
