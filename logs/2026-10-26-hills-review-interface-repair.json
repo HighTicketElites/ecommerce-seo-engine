@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-26",
+  "status": "review_interface_restored_awaiting_user_publication",
+  "review_url": "https://wattwheelz-shopify-content-ops.vercel.app/?job=best-ebikes-for-hills-2026",
+  "article_id": "gid://shopify/Article/595795050682",
+  "article_is_published": false,
+  "code_commit": "93b6090e13f32b819c38104213fd28ebbec361e0",
+  "production_deployment": "dpl_2y4nXN8wWEDGgyVHE6UVrnMCZV5u",
+  "production_state": "READY",
+  "changes": [
+    "Registered Hills draft with valid Stage 03 manifest and exact current fingerprint",
+    "Locked five already-published engine jobs after fresh Shopify state checks",
+    "Displayed full draft preview in dashboard and final approval screen",
+    "Refused unavailable job IDs instead of selecting an unrelated job",
+    "Preserved existing authorization, product-status checks, expiring approval, fingerprint revalidation, live QA and rollback",
+    "Normalized draft cover to Shopify's 16:9 image variant and corrected manifest-only image labels"
+  ],
+  "verification": {
+    "manifest_validation": true,
+    "production_build": true,
+    "all18DraftChecks": true,
+    "exact_preview_and_approval_refusal_tests": true,
+    "three_referenced_products_active": true,
+    "production_browser_verified": true,
+    "preview_job_selected": "best-ebikes-for-hills-2026",
+    "ready_options": [
+      "best-ebikes-for-hills-2026"
+    ],
+    "completed_locked": 5
+  },
+  "draft_qa": {
+    "checks": {
+      "publication_state": true,
+      "correct_blog": true,
+      "correct_handle": true,
+      "no_h1": true,
+      "minimum_words": true,
+      "minimum_h2": true,
+      "minimum_faq": true,
+      "minimum_images": true,
+      "editorial_cover": true,
+      "editorial_cover_alt": true,
+      "editorial_cover_ratio": true,
+      "editorial_cover_loads": true,
+      "sources_section": true,
+      "unresolved_placeholders": true,
+      "seo_title": true,
+      "meta_description": true,
+      "required_links": true,
+      "internal_links": true
+    },
+    "required": [
+      {
+        "url": "https://wattwheelz.com/collections/mountain",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/products/carbon-1-pro",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/products/urtopia-carbon-fusion-gt",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/products/fat-hd-2-0",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/pages/contact",
+        "present": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://wattwheelz.com/collections/mountain",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/collections/mountain"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes"
+      },
+      {
+        "url": "https://wattwheelz.com/products/carbon-1-pro",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/products/carbon-1-pro"
+      },
+      {
+        "url": "https://wattwheelz.com/products/urtopia-carbon-fusion-gt",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/products/urtopia-carbon-fusion-gt"
+      },
+      {
+        "url": "https://wattwheelz.com/products/fat-hd-2-0",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/products/fat-hd-2-0"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026"
+      },
+      {
+        "url": "https://wattwheelz.com/pages/contact",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/pages/contact"
+      }
+    ],
+    "cover": {
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/25180_1024x576_crop_center_74c0270d-5a3b-44b5-9ed0-bd63e715b179.jpg?v=1793046379",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/25180_1024x576_crop_center_74c0270d-5a3b-44b5-9ed0-bd63e715b179.jpg?v=1793046379"
+    },
+    "metrics": {
+      "words": 2007,
+      "h2": 16,
+      "faq": 10,
+      "images": 4,
+      "cover_width": 1024,
+      "cover_height": 576
+    },
+    "pass": true,
+    "fingerprint": "b5b76fe56a322d2efa00222fef87ddf046f4e95c53d668135a6d0b9ce7efe598"
+  },
+  "remaining": "User reviews the Hills draft in the established interface and clicks final Publish when satisfied. Live publication QA and reciprocal links follow publication."
+}
