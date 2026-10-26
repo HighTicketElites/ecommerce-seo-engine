@@ -6,8 +6,8 @@ Canonical source for the HighTicketElites ecommerce SEO automation infrastructur
 - Draft Generator: Vercel project `wattwheelz-seo-draft-generator`
 - Production branch: `main`
 - Workflow: Research → Draft Generator → Shopify Draft → V4 QA → Human Approval → Publish → Live QA
-- Last completed job: EUNORAU S1000 review — published, live QA passed and locked October 14, 2026.
-- Next roadmap topic: Best Electric Utility Vehicles of 2026.
+- Last completed new-article job: Best Electric Utility Vehicles of 2026 — published and live QA passed October 19, 2026.
+- Current review job: Best E-Bikes for Hills in 2026 — Shopify draft `gid://shopify/Article/595795050682`, awaiting human publication approval.
 
 Git-backed deployment restored September 2026.
 
@@ -33,3 +33,12 @@ This connector successfully performed live article reads, unpublished article cr
 The deployed OAuth UI is a separate access route, not a prerequisite for connector-based draft execution. The connector-based controlled publication procedure was verified on October 14, 2026: user approval, exact body/identity and fingerprint checks, active products, draft QA, publication audit metafields, live QA, rollback on initial QA failure, corrected title-entity parsing, republish, live QA pass and manifest lock. The deployed OAuth UI remains a separate route. Preserve these safeguards on connector runs.
 
 Current review package: `ww-stage03/data/manifests/eunorau-s1000-review-2026.json`; Shopify draft `gid://shopify/Article/595700482234`. All 18 draft checks passed: 1,722 words, 16 H2 sections, 10 FAQs, 4 inline images, seven live internal destinations, 1500 × 844 supplier lifestyle cover and exact SEO metadata. Publication was approved in conversation and executed through the connector. Live QA passed, the manifest is locked, and reciprocal links were added to the EUNORAU and heavy-rider guides.
+
+## Review handoff — current operating procedure
+
+- Give the user the established Stage 03 review URL: https://wattwheelz-shopify-content-ops.vercel.app/?job=JOB_ID.
+- Before calling a draft ready for review, register its exact Shopify body, metadata, cover and fingerprint in Stage 03, validate its manifest, deploy the intended publishing project, and verify that this specific job is selected with its full preview visible.
+- The review-ready manifest values used by Stage 03 are `draft_readiness: approved` and `publish_readiness: pilot_approved`. These enable final checks and the human approval step; they do not publish the article.
+- Confirm published article states against Shopify and keep completed jobs locked and out of the approval selector. Unknown or completed job links must never silently select another article.
+- The final approval page displays the exact Shopify draft. It preserves OAuth, product-status checks, draft QA, content fingerprints, expiring nonce-based approval and automatic rollback after critical live-QA failure.
+- Persist source files and QA evidence in this repository. Complete the user-facing review handoff through the existing publishing interface.
