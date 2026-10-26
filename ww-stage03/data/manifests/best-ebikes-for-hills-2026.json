@@ -3,8 +3,8 @@
   "title": "Best E-Bikes for Hills in 2026: Paved Roads, AWD & Mid-Drive Picks",
   "handle": "best-ebikes-for-hills-2026",
   "blog_handle": "e-bike-buying-guides",
-  "draft_readiness": "qa_passed",
-  "publish_readiness": "awaiting_approval",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
   "seo_title": "Best E-Bikes for Hills 2026: 3 Options Compared",
   "meta_description": "Compare three e-bikes for hills by drive type, gearing, weight and battery. Find your fit for paved climbs or all-road riding, with current stock caveats.",
   "excerpt": "A route-first comparison of three e-bikes for hills, covering drive layout, gearing, battery, load and current availability.",
@@ -45,12 +45,12 @@
     },
     {
       "id": "slot-2",
-      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/00_35833ebc-97cb-4bbb-afac-eaf54137eb09.jpg?v=1762984141",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/O-03_bcb229a5-98ae-4dd4-8e3e-d83250acfd89.jpg?v=1771906435",
       "alt": "Urtopia Carbon Fusion GT electric bicycle product view"
     },
     {
       "id": "slot-3",
-      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/O-03_bcb229a5-98ae-4dd4-8e3e-d83250acfd89.jpg?v=1771906435",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/00_35833ebc-97cb-4bbb-afac-eaf54137eb09.jpg?v=1762984141",
       "alt": "Side view of the EUNORAU FAT-HD 2.0 step-through fat-tire electric bike"
     },
     {
@@ -60,11 +60,13 @@
     }
   ],
   "cover_image": {
-    "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/25180.jpg?v=1793045704",
+    "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/25180_1024x576_crop_center_74c0270d-5a3b-44b5-9ed0-bd63e715b179.jpg?v=1793046379",
     "alt": "Rider pedaling a Urtopia Carbon 1 Pro on pavement",
     "asset_kind": "editorial_cover",
-    "provenance": "existing_supplier_lifestyle_photo_verified",
-    "aspect_ratio": "1024:668"
+    "provenance": "existing_supplier_lifestyle_photo_verified_shopify_16_9_variant",
+    "aspect_ratio": "16:9",
+    "width": 1024,
+    "height": 576
   },
   "qa": {
     "minimum_words": 1450,
@@ -80,5 +82,5 @@
     "awd-vs-mid-drive-ebikes"
   ],
   "article_id": "gid://shopify/Article/595795050682",
-  "draft_fingerprint": "6a88aff59ad43af0efef306833819a6772a661cdf027088dee880e0da169a17a"
+  "draft_fingerprint": "b5b76fe56a322d2efa00222fef87ddf046f4e95c53d668135a6d0b9ce7efe598"
 }

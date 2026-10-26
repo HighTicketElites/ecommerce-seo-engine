@@ -140,7 +140,7 @@ export function renderApprovalPage(result) {
   const expires = approval.exp ? new Date(approval.exp).toISOString() : 'Not available';
   const products = result?.products || [];
   const body = `<section class="card">
-    <header class="hero"><div class="status"><span class="dot"></span>Final approval required</div><h1>${escapeHtml(article.title || 'WattWheelz article')}</h1><p><strong>No publication has occurred.</strong> Shopify authorization is already established server-to-server. Review this exact locked record before publishing.</p></header>
+    <header class="hero"><div class="status"><span class="dot"></span>Final approval required</div><h1>${escapeHtml(article.title || 'WattWheelz article')}</h1><p><strong>No publication has occurred.</strong> Shopify authorization and draft checks are complete. Review this exact draft before publishing.</p></header>
     <div class="content">
       <div class="grid">
         <div class="panel"><span class="key">Handle</span><span class="value">${escapeHtml(article.handle || 'Not available')}</span></div>
@@ -150,6 +150,9 @@ export function renderApprovalPage(result) {
         <div class="panel"><span class="key">Products revalidated</span><span class="value">${escapeHtml(products.length)}</span></div>
         <div class="panel"><span class="key">Shopify auth</span><span class="value">Server-to-server</span></div>
       </div>
+      <h2 style="margin-top:25px">Full draft preview</h2>
+      <p style="margin-bottom:14px">SEO title: ${escapeHtml(article.seoTitle)}<br>Meta description: ${escapeHtml(article.metaDescription)}</p>
+      <iframe title="Exact Shopify draft preview" sandbox="" srcdoc="${escapeHtml(`<!doctype html><html><head><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,sans-serif;line-height:1.65;color:#111827;padding:20px;max-width:800px;margin:auto}img{max-width:100%;height:auto}figure{margin:24px 0}table{border-collapse:collapse}th,td{padding:8px;border:1px solid #ddd;text-align:left}</style></head><body><h1>${escapeHtml(article.title)}</h1><img src=\"${escapeHtml(article.image?.url)}\" alt=\"${escapeHtml(article.image?.altText)}\">${article.body || ''}</body></html>`)}" style="width:100%;height:900px;border:1px solid #e5e7eb;border-radius:9px;background:white"></iframe>
       <span class="key" style="margin-top:24px">Locked content fingerprint</span><code class="fingerprint">${escapeHtml(approval.fingerprint || 'Not available')}</code>
       <div class="notice">If the article, products, links, metadata, images, or publication state changes before your click, Stage 03 will refuse publication. Critical live-QA failure triggers automatic rollback to draft.</div>
       <form method="post" action="/api/publish/execute" style="margin-top:24px">

@@ -5,7 +5,7 @@
   "blog_title": "E-Bike Buying Guides",
   "blog_handle": "e-bike-buying-guides",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
+  "publish_readiness": "locked",
   "primary_keyword": "best fat tire ebikes 2026",
   "seo_title": "Best Fat Tire E-Bikes 2026: Top All-Terrain Picks",
   "meta_description": "Compare the best fat tire e-bikes of 2026 for trails, hills, snow, sand, range and heavy-duty use, including EUNORAU, Freego and Vanpowers.",
@@ -92,5 +92,9 @@
     "minimum_h2": 15,
     "minimum_faq": 10,
     "minimum_images": 4
-  }
+  },
+  "lock_reason": "already_published",
+  "article_id": "gid://shopify/Article/595671023802",
+  "last_state_check": "2026-10-26",
+  "published_at": "2026-10-12T17:27:14Z"
 }

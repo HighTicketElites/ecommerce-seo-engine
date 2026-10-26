@@ -5,7 +5,7 @@
   "blog_title": "E-Bike Buying Guides",
   "blog_handle": "e-bike-buying-guides",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
+  "publish_readiness": "locked",
   "primary_keyword": "best ebikes for heavy riders 2026",
   "seo_title": "Best E-Bikes for Heavy Riders 2026: High-Payload Picks",
   "meta_description": "Compare the best e-bikes for heavy riders in 2026, with 330–400 lb published payloads plus fit, brakes, tires, frame and range guidance.",
@@ -88,5 +88,9 @@
     "minimum_h2": 15,
     "minimum_faq": 10,
     "minimum_images": 4
-  }
+  },
+  "lock_reason": "already_published",
+  "article_id": "gid://shopify/Article/595671089338",
+  "last_state_check": "2026-10-26",
+  "published_at": "2026-10-12T17:27:15Z"
 }

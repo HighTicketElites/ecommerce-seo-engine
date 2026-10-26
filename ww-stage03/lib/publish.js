@@ -61,6 +61,8 @@ export async function prepareApproval(auth,jobId,deps={}) {
   const articleData=await query(auth,ARTICLE_QUERY,{q:`handle:${manifest.handle}`},env);
   const article=exactArticle(articleData,manifest.handle);
   if (article.isPublished) throw new Error('Article is already published; approval preparation stopped');
+  if (manifest.article_id && article.id !== manifest.article_id) throw new Error('Draft identity does not match the review job');
+  if (manifest.draft_fingerprint && articleFingerprint(article) !== manifest.draft_fingerprint) throw new Error('Draft changed since its review package was prepared; refresh the review package first');
   const preflight=await qa({article,manifest,fetchImpl:deps.fetchImpl || fetch});
   if (!preflight.pass) throw new Error(`Draft preflight failed: ${JSON.stringify(preflight.checks)}`);
   const now=Date.now();
@@ -76,7 +78,7 @@ export async function prepareApproval(auth,jobId,deps={}) {
   };
   return {
     approval,
-    article:{id:article.id,title:article.title,handle:article.handle,blog:article.blog,isPublished:article.isPublished,publishedAt:article.publishedAt,image:article.image},
+    article:{id:article.id,title:article.title,handle:article.handle,body:article.body,summary:article.summary,blog:article.blog,isPublished:article.isPublished,publishedAt:article.publishedAt,image:article.image,seoTitle:article.titleTag?.value,metaDescription:article.descriptionTag?.value},
     products,
     preflight,
   };

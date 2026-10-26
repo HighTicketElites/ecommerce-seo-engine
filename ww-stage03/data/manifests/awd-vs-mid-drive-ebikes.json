@@ -5,7 +5,7 @@
   "blog_title": "E-Bike Reviews & Comparisons",
   "blog_handle": "e-bike-reviews-comparisons",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
+  "publish_readiness": "locked",
   "primary_keyword": "awd vs mid drive ebikes",
   "seo_title": "AWD vs Mid-Drive E-Bikes: Hills, Snow & Trails",
   "meta_description": "AWD vs mid-drive e-bikes explained for hills, snow, sand and trails. Compare traction, climbing, range, weight, maintenance and current models.",
@@ -89,5 +89,9 @@
     "minimum_h2": 15,
     "minimum_faq": 10,
     "minimum_images": 4
-  }
+  },
+  "lock_reason": "already_published",
+  "article_id": "gid://shopify/Article/595671056570",
+  "last_state_check": "2026-10-26",
+  "published_at": "2026-10-12T17:27:15Z"
 }
