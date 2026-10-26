@@ -4,7 +4,7 @@
   "handle": "best-ebikes-for-hills-2026",
   "blog_handle": "e-bike-buying-guides",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
+  "publish_readiness": "locked",
   "seo_title": "Best E-Bikes for Hills 2026: 3 Options Compared",
   "meta_description": "Compare three e-bikes for hills by drive type, gearing, weight and battery. Find your fit for paved climbs or all-road riding, with current stock caveats.",
   "excerpt": "A route-first comparison of three e-bikes for hills, covering drive layout, gearing, battery, load and current availability.",
@@ -76,11 +76,20 @@
   },
   "roadmap_sequence": 11,
   "content_graph_cluster": "fat-tire-all-terrain",
-  "approval_status": "awaiting_human_publication_approval",
+  "approval_status": "published_qa_passed",
   "incoming_link_targets": [
     "best-fat-tire-ebikes-2026",
     "awd-vs-mid-drive-ebikes"
   ],
   "article_id": "gid://shopify/Article/595795050682",
-  "draft_fingerprint": "b5b76fe56a322d2efa00222fef87ddf046f4e95c53d668135a6d0b9ce7efe598"
+  "draft_fingerprint": "b5b76fe56a322d2efa00222fef87ddf046f4e95c53d668135a6d0b9ce7efe598",
+  "lock_reason": "already_published_and_live_qa_passed",
+  "publication": {
+    "approved_at": "2026-10-26T20:56:45Z",
+    "approval_source": "User approved through Stage 03 interface",
+    "published_at": "2026-10-26T20:56:51Z",
+    "fingerprint": "b5b76fe56a322d2efa00222fef87ddf046f4e95c53d668135a6d0b9ce7efe598",
+    "live_qa_pass": true,
+    "reciprocal_links_complete": true
+  }
 }
