@@ -1,0 +1,84 @@
+{
+  "id": "best-ebikes-for-hills-2026",
+  "title": "Best E-Bikes for Hills in 2026: Paved Roads, AWD & Mid-Drive Picks",
+  "handle": "best-ebikes-for-hills-2026",
+  "blog_handle": "e-bike-buying-guides",
+  "draft_readiness": "qa_passed",
+  "publish_readiness": "awaiting_approval",
+  "seo_title": "Best E-Bikes for Hills 2026: 3 Options Compared",
+  "meta_description": "Compare three e-bikes for hills by drive type, gearing, weight and battery. Find your fit for paved climbs or all-road riding, with current stock caveats.",
+  "excerpt": "A route-first comparison of three e-bikes for hills, covering drive layout, gearing, battery, load and current availability.",
+  "tags": [
+    "Buying Guide",
+    "Hills",
+    "Urtopia",
+    "EUNORAU",
+    "2026"
+  ],
+  "product_handles": [
+    "carbon-1-pro",
+    "urtopia-carbon-fusion-gt",
+    "fat-hd-2-0"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/mountain",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+    "https://wattwheelz.com/products/carbon-1-pro",
+    "https://wattwheelz.com/products/urtopia-carbon-fusion-gt",
+    "https://wattwheelz.com/products/fat-hd-2-0",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+    "https://wattwheelz.com/pages/contact"
+  ],
+  "source_urls": [
+    "https://newurtopia.com/products/urtopia-carbon-1-pro-ebike",
+    "https://newurtopia.com/products/urtopia-carbon-fusion-gt",
+    "https://eunorau-ebike.com/products/fat-hd-2-0",
+    "https://www.bosch-ebike.com/us/everything-about-the-ebike/stories/bosch-ebikes-battery-blog"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/3-1_d5ba6460-7c35-41c0-9b48-16159d78a0c1.webp?v=1771905931",
+      "alt": "Side view of a Urtopia Carbon 1 Pro electric bicycle"
+    },
+    {
+      "id": "slot-2",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/00_35833ebc-97cb-4bbb-afac-eaf54137eb09.jpg?v=1762984141",
+      "alt": "Urtopia Carbon Fusion GT electric bicycle product view"
+    },
+    {
+      "id": "slot-3",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/O-03_bcb229a5-98ae-4dd4-8e3e-d83250acfd89.jpg?v=1771906435",
+      "alt": "Side view of the EUNORAU FAT-HD 2.0 step-through fat-tire electric bike"
+    },
+    {
+      "id": "slot-4",
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/files/DSC00386_1.jpg?v=1789146365",
+      "alt": "Urtopia Carbon 1 Pro bicycle being carried inside a workshop"
+    }
+  ],
+  "cover_image": {
+    "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/25180.jpg?v=1793045704",
+    "alt": "Rider pedaling a Urtopia Carbon 1 Pro on pavement",
+    "asset_kind": "editorial_cover",
+    "provenance": "existing_supplier_lifestyle_photo_verified",
+    "aspect_ratio": "1024:668"
+  },
+  "qa": {
+    "minimum_words": 1450,
+    "minimum_h2": 15,
+    "minimum_faq": 10,
+    "minimum_images": 4
+  },
+  "roadmap_sequence": 11,
+  "content_graph_cluster": "fat-tire-all-terrain",
+  "approval_status": "awaiting_human_publication_approval",
+  "incoming_link_targets": [
+    "best-fat-tire-ebikes-2026",
+    "awd-vs-mid-drive-ebikes"
+  ],
+  "article_id": "gid://shopify/Article/595795050682",
+  "draft_fingerprint": "6a88aff59ad43af0efef306833819a6772a661cdf027088dee880e0da169a17a"
+}

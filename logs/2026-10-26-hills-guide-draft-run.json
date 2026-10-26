@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-26",
+  "store": "Watt Wheelz",
+  "connection": "HighTicketElites Shopify",
+  "article_id": "gid://shopify/Article/595795050682",
+  "status": "draft_qa_passed_awaiting_publication_approval",
+  "topic": "Best E-Bikes for Hills in 2026: Paved Roads, AWD & Mid-Drive Picks",
+  "existing_articles_checked": 52,
+  "duplicate_found": false,
+  "qa": {
+    "checks": {
+      "publication_state": true,
+      "correct_blog": true,
+      "correct_handle": true,
+      "no_h1": true,
+      "minimum_words": true,
+      "minimum_h2": true,
+      "minimum_faq": true,
+      "minimum_images": true,
+      "editorial_cover": true,
+      "editorial_cover_alt": true,
+      "editorial_cover_ratio": true,
+      "editorial_cover_loads": true,
+      "sources_section": true,
+      "unresolved_placeholders": true,
+      "seo_title": true,
+      "meta_description": true,
+      "required_links": true,
+      "internal_links": true
+    },
+    "required": [
+      {
+        "url": "https://wattwheelz.com/collections/mountain",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/products/carbon-1-pro",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/products/urtopia-carbon-fusion-gt",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/products/fat-hd-2-0",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+        "present": true
+      },
+      {
+        "url": "https://wattwheelz.com/pages/contact",
+        "present": true
+      }
+    ],
+    "links": [
+      {
+        "url": "https://wattwheelz.com/collections/mountain",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/collections/mountain"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/awd-vs-mid-drive-ebikes"
+      },
+      {
+        "url": "https://wattwheelz.com/products/carbon-1-pro",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/products/carbon-1-pro"
+      },
+      {
+        "url": "https://wattwheelz.com/products/urtopia-carbon-fusion-gt",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/products/urtopia-carbon-fusion-gt"
+      },
+      {
+        "url": "https://wattwheelz.com/products/fat-hd-2-0",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/products/fat-hd-2-0"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-for-heavy-riders-2026"
+      },
+      {
+        "url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/blogs/e-bike-buying-guides/best-fat-tire-ebikes-2026"
+      },
+      {
+        "url": "https://wattwheelz.com/pages/contact",
+        "status": 200,
+        "ok": true,
+        "final_url": "https://wattwheelz.com/pages/contact"
+      }
+    ],
+    "cover": {
+      "url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/25180.jpg?v=1793045704",
+      "status": 200,
+      "ok": true,
+      "final_url": "https://cdn.shopify.com/s/files/1/0667/3511/2378/articles/25180.jpg?v=1793045704"
+    },
+    "metrics": {
+      "words": 2007,
+      "h2": 16,
+      "faq": 10,
+      "images": 4,
+      "cover_width": 1024,
+      "cover_height": 668
+    },
+    "pass": true,
+    "fingerprint": "6a88aff59ad43af0efef306833819a6772a661cdf027088dee880e0da169a17a"
+  },
+  "product_verification": [
+    {
+      "id": "gid://shopify/Product/8068978606266",
+      "title": "Urtopia Carbon 1 Pro Carbon Fiber Electric Bike",
+      "status": "ACTIVE",
+      "totalInventory": 60,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44565594964154",
+          "title": "Small / Matte Black",
+          "sku": "BC1P-18-BL-S-US",
+          "price": "2099.00",
+          "inventoryQuantity": 10
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44565595029690",
+          "title": "Small / Creme",
+          "sku": "BC1P-21-WH-S-US",
+          "price": "2099.00",
+          "inventoryQuantity": 10
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44565595062458",
+          "title": "Medium / Matte Black",
+          "sku": "BC1P-19-BL-M-US",
+          "price": "2099.00",
+          "inventoryQuantity": 10
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44565595127994",
+          "title": "Medium / Creme",
+          "sku": "BC1P-22-WH-M-US",
+          "price": "2099.00",
+          "inventoryQuantity": 10
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44565595160762",
+          "title": "Large / Matte Black",
+          "sku": "BC1P-20-BL-L-US",
+          "price": "2099.00",
+          "inventoryQuantity": 10
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44565595226298",
+          "title": "Large / Creme",
+          "sku": "BC1P-23-WH-L-US",
+          "price": "2099.00",
+          "inventoryQuantity": 10
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8078596112570",
+      "title": "Urtopia Carbon Fusion GT Dual-Motor All-Road Electric Bike",
+      "status": "ACTIVE",
+      "totalInventory": 30,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44612651450554",
+          "title": "One Size / Blazing Black",
+          "sku": "BCUX-03-BL-M-US",
+          "price": "2499.00",
+          "inventoryQuantity": 10
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44612651483322",
+          "title": "One Size / Vital Orange",
+          "sku": "BCUX-01-OY-M-US",
+          "price": "2499.00",
+          "inventoryQuantity": 10
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44612651516090",
+          "title": "One Size / Deep Sea Blue",
+          "sku": "BCUX-04-BU-M-US",
+          "price": "2499.00",
+          "inventoryQuantity": 10
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8261176426682",
+      "title": "Eunorau FAT-HD 2.0 / Hunter X7 Fat Tire Electric Bike 1000W",
+      "status": "ACTIVE",
+      "totalInventory": 0,
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45315556868282",
+          "title": "Step Thru / Safari",
+          "sku": "FATHD-ST17-YB",
+          "price": "2399.00",
+          "inventoryQuantity": 0
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45315556901050",
+          "title": "Step Thru / Army Green",
+          "sku": "FATHD-ST17-GR",
+          "price": "2399.00",
+          "inventoryQuantity": 0
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45315556933818",
+          "title": "Step Thru / Mamba",
+          "sku": "FATHD-ST17-CM",
+          "price": "2499.00",
+          "inventoryQuantity": 0
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No controlled hill-climb testing; recommendations are specification-based.",
+    "FAT-HD 2.0 has zero recorded inventory and is explicitly marked availability-unconfirmed.",
+    "Publication, live storefront QA, and reciprocal links pending publication approval.",
+    "Legacy optimization's two previously blocked reciprocal edits are outside this new draft run and remain pending."
+  ]
+}
