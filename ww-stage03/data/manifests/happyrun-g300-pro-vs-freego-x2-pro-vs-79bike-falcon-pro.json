@@ -1,0 +1,89 @@
+{
+  "id": "happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro",
+  "title": "HappyRun G300 Pro vs Freego X2 Pro vs 79Bike Falcon Pro: Which Dirt Bike Is Best?",
+  "handle": "happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro",
+  "blog_title": "E-Bike Reviews & Comparisons",
+  "blog_handle": "e-bike-reviews-comparisons",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "approval_status": "stage02_draft_qa_passed_stage03_pending",
+  "seo_title": "G300 Pro vs Freego X2 Pro vs Falcon Pro: Which?",
+  "meta_description": "Compare the HappyRun G300 Pro, Freego X2 Pro and 79Bike Falcon Pro by power, battery size, terrain, real-world range, legal use and buyer fit.",
+  "excerpt": "The 72V value pick, the pedal-equipped 60V option and the premium e-moto compared for adult riders.",
+  "tags": [
+    "2026",
+    "Electric Dirt Bikes",
+    "HappyRun G300 Pro",
+    "Freego X2 Pro",
+    "79Bike Falcon Pro",
+    "Buyer Comparison"
+  ],
+  "product_handles": [
+    "happyrun-electric-dirt-bike-g300-pro",
+    "freego-x2-pro-all-terrain-off-road-motorcycle-electric-dirt-bike-with-pedals",
+    "79bike-falcon-pro"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/adult-electric-dirt-bike-picks",
+    "https://wattwheelz.com/collections/79bike",
+    "https://wattwheelz.com/products/happyrun-electric-dirt-bike-g300-pro",
+    "https://wattwheelz.com/products/freego-x2-pro-all-terrain-off-road-motorcycle-electric-dirt-bike-with-pedals",
+    "https://wattwheelz.com/products/79bike-falcon-pro",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/electric-dirt-bike-buying-guide-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/60v-vs-72v-electric-dirt-bikes",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/happyrun-g300-pro-review-2026"
+  ],
+  "source_urls": [
+    "https://happyrunbike.com/products/happyrun-g300-pro-6500w-electric-dirt-bike",
+    "https://freegobikes.com/products/freego-x2-pro-all-terrain-off-road-motorcycle-electric-dirt-bike-with-pedals",
+    "https://blog.freegobikes.com/product/High-Performance-All-Terrain-Electric-Dirt-Bike.html",
+    "https://wattwheelz.com/products/79bike-falcon-pro",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/electric-dirt-bike-buying-guide-2026"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "product_handle": "happyrun-electric-dirt-bike-g300-pro",
+      "media_index": 0,
+      "alt": "HappyRun G300 Pro off-road electric dirt bike product photo",
+      "caption": "HappyRun G300 Pro 72V model."
+    },
+    {
+      "id": "slot-2",
+      "product_handle": "happyrun-electric-dirt-bike-g300-pro",
+      "media_index": 1,
+      "alt": "HappyRun G300 Pro product detail from current catalog",
+      "caption": "Additional G300 Pro manufacturer product view."
+    },
+    {
+      "id": "slot-3",
+      "product_handle": "freego-x2-pro-all-terrain-off-road-motorcycle-electric-dirt-bike-with-pedals",
+      "media_index": 0,
+      "alt": "Freego X2 Pro 60V electric dirt bike catalog photo",
+      "caption": "Freego X2 Pro 60V pedal-equipped electric dirt bike."
+    },
+    {
+      "id": "slot-4",
+      "product_handle": "79bike-falcon-pro",
+      "media_index": 0,
+      "alt": "79Bike Falcon Pro electric off-road motorcycle catalog view",
+      "caption": "79Bike Falcon Pro 72V electric dirt bike."
+    }
+  ],
+  "cover_image": {
+    "url": "",
+    "alt": "HappyRun G300 Pro electric dirt bike compared against Freego X2 Pro and 79Bike Falcon Pro",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_current_article_cover",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1200,
+    "minimum_h2": 12,
+    "minimum_faq": 9,
+    "minimum_images": 4
+  },
+  "stage02_log_verified_at": "2026-11-04T16:02:41.954Z",
+  "stage02_batch": "nov-04-pmax-dirt-folding-buyer-education",
+  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass."
+}
