@@ -32,12 +32,12 @@ export default async function Home({ searchParams }) {
       <h2>Publishing jobs</h2>
       {requestedUnavailable ? <p role="status" style={{padding:14,background:'#fffbeb'}}>This job is completed or unavailable for approval. Select a current draft below. No other article has been selected in its place.</p> : null}
       {eligibleJobs.length ? <form method="post" action="/api/shopify/start">
-          <label htmlFor="job"><strong>Ready for approval</strong></label><br/>
+          <label htmlFor="job"><strong>New drafts awaiting Stage 03 QA and publication approval</strong></label><br/>
           <select id="job" name="job" defaultValue={selectedJob} required style={{width:'100%',padding:10,margin:'6px 0 14px'}}>
             {!selectedJob ? <option value="" disabled>Select a current draft</option> : null}
             {eligibleJobs.map(job => <option key={job.id} value={job.id}>{job.title}</option>)}
           </select>
-          <p style={{margin:'0 0 14px'}}>Review the draft below, then continue to the final publishing checks. This step does not publish.</p>
+          <p style={{margin:'0 0 14px'}}>Choose an article, review its editorial source preview, and authorize Shopify for read-only pre-publish QA. The exact saved Shopify draft is displayed after successful QA. If a cover or other gate fails, publication is blocked until corrected. This step does not publish.</p>
           <button type="submit" style={{padding:'12px 18px',background:'#111827',color:'#fff',border:0,borderRadius:7,fontWeight:700}}>Authorize Shopify &amp; prepare final approval</button>
         </form>
         : <p style={{margin:0,padding:'12px 14px',background:'#f8fafc',borderRadius:7}}><strong>No jobs are ready for publishing approval.</strong></p>}
@@ -50,11 +50,11 @@ export default async function Home({ searchParams }) {
 
 
     {selected ? <section style={{border:'1px solid #d1d5db',borderRadius:10,padding:20,margin:'22px 0'}}>
-      <h2>Review draft: {selected.title}</h2>
-      <p><strong>Draft saved in Shopify. Publication requires your final approval.</strong></p>
-      <img src={selected.cover_image.url} alt={selected.cover_image.alt} style={{width:'100%',maxWidth:800,aspectRatio:'16/9',objectFit:'cover',borderRadius:8}} />
+      <h2>Editorial source preview: {selected.title}</h2>
+      <p><strong>Source preview only.</strong> Stage 02 confirmed this Shopify draft passed its own QA. The exact current Shopify article, product status, 16:9 cover, and content fingerprint will be verified after OAuth; nothing below independently verifies current saved Shopify state.</p>
+      {selected.cover_image.url ? <img src={selected.cover_image.url} alt={selected.cover_image.alt} style={{width:'100%',maxWidth:800,aspectRatio:'16/9',objectFit:'cover',borderRadius:8}}/> : <p style={{padding:12,background:'#fffbeb',border:'1px solid #fcd34d',borderRadius:8,color:'#92400e'}}>Cover image is loaded from the authenticated Shopify draft during final QA. A 16:9 editorial cover must be verified; Stage 02 image-presence QA alone is insufficient.</p>}
       <dl><dt><strong>SEO title</strong></dt><dd>{selected.seo_title}</dd><dt><strong>Meta description</strong></dt><dd>{selected.meta_description}</dd></dl>
-      <iframe title={`Full draft preview: ${selected.title}`} sandbox="" srcDoc={preview} style={{width:'100%',height:1100,border:'1px solid #d1d5db',borderRadius:8,background:'#fff'}} />
+      <iframe title={`Editorial source preview: ${selected.title}`} sandbox="" srcDoc={preview} style={{width:'100%',height:1100,border:'1px solid #d1d5db',borderRadius:8,background:'#fff'}} />
     </section> : null}
 
     <section style={{marginTop:22,border:'1px solid #d1d5db',borderRadius:10,padding:20,background:'#f8fafc'}}>

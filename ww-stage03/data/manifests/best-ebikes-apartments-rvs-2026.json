@@ -1,0 +1,99 @@
+{
+  "id": "best-ebikes-apartments-rvs-2026",
+  "title": "Best E-Bikes for Apartments & RVs (2026): Folding, Weight & Storage Guide",
+  "handle": "best-ebikes-apartments-rvs-2026",
+  "blog_title": "E-Bike Buying Guides",
+  "blog_handle": "e-bike-buying-guides",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "approval_status": "stage02_draft_qa_passed_stage03_pending",
+  "seo_title": "Best E-Bikes for Apartments & RVs in 2026",
+  "meta_description": "Compare folding e-bikes for apartments and RVs by real bike weight, folded dimensions, battery, lift effort and fit. See Urtopia and Mooncool picks.",
+  "excerpt": "A buying guide for people who have real storage, staircase and RV space constraints—not just a preference for a smaller bike.",
+  "tags": [
+    "2026",
+    "Folding E-Bikes",
+    "RV E-Bikes",
+    "Apartment E-Bikes",
+    "Portable E-Bikes",
+    "Urtopia",
+    "Mooncool"
+  ],
+  "product_handles": [
+    "carbon-fold",
+    "urtopia-carbon-fold-step-thru-ebike",
+    "urtopia-carbon-fold-2-e-bike",
+    "mooncool-pop-folding-electric-bike"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/folding-e-bike-shortlist-for-apartments-rvs",
+    "https://wattwheelz.com/collections/folding-e-bikes",
+    "https://wattwheelz.com/products/carbon-fold",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-2-e-bike",
+    "https://wattwheelz.com/products/mooncool-pop-folding-electric-bike",
+    "https://wattwheelz.com/blogs/e-bike-brand-guides/best-urtopia-electric-bikes-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-vs-carbon-fold-step-thru",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026"
+  ],
+  "source_urls": [
+    "https://newurtopia.com/products/urtopia-carbon-fold",
+    "https://newurtopia.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://newurtopia.com/products/urtopia-carbon-fold-2-ebike",
+    "https://wattwheelz.com/products/mooncool-pop-folding-electric-bike",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "product_handle": "carbon-fold",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold 1 folding electric bicycle",
+      "caption": "Urtopia's lightweight carbon folding e-bike."
+    },
+    {
+      "id": "slot-2",
+      "product_handle": "urtopia-carbon-fold-2-e-bike",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold 2 folding e-bike",
+      "caption": "Fold 2 offers an optional external battery."
+    },
+    {
+      "id": "slot-3",
+      "product_handle": "carbon-fold",
+      "media_index": 1,
+      "alt": "Urtopia Carbon Fold 1 alternate manufacturer product image",
+      "caption": "Carbon Fold 1 space-saving frame."
+    },
+    {
+      "id": "slot-4",
+      "product_handle": "urtopia-carbon-fold-step-thru-ebike",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold Step-Thru folding e-bike",
+      "caption": "Lower step-through access for compact storage."
+    },
+    {
+      "id": "slot-5",
+      "product_handle": "mooncool-pop-folding-electric-bike",
+      "media_index": 0,
+      "alt": "Mooncool POP folding e-bike",
+      "caption": "Mooncool POP is a heavier, utility-focused folding bike."
+    }
+  ],
+  "cover_image": {
+    "url": "",
+    "alt": "Urtopia Carbon Fold 1 folding e-bike for apartments and RV trips",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_current_article_cover",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1200,
+    "minimum_h2": 12,
+    "minimum_faq": 9,
+    "minimum_images": 4
+  },
+  "stage02_log_verified_at": "2026-11-04T16:02:41.954Z",
+  "stage02_batch": "nov-04-pmax-dirt-folding-buyer-education",
+  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass."
+}
