@@ -15,9 +15,9 @@ const contentGraph={
       id:"electric-dirt-performance",
       title:"Electric Dirt Bikes & High-Power Performance",
       root:"electric-dirt-bike-buying-guide-2026",
-        "happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro",
       roadmap_nodes:[
         "electric-dirt-bike-buying-guide-2026",
+        "happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro",
         "60v-vs-72v-electric-dirt-bikes",
         "79bike-falcon-pro-vs-talaria-sting-r-mx4",
         "y-volt-surge-v-review-2026",
