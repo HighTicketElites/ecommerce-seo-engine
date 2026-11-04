@@ -128,9 +128,56 @@ export function renderPublicationResult(result, shop) {
 }
 
 export function renderPublicationErrorPage(error) {
-  const message = error?.message || 'An unexpected publishing error occurred.';
-  const body = `<section class="card"><header class="hero"><div class="status"><span class="dot"></span>Publishing stopped</div><h1>The publishing operation was not completed</h1><p>${escapeHtml(message)}</p></header><div class="content"><div class="notice">Publication was refused or the article was returned to draft. Confirm its current Shopify state before retrying.</div><div class="actions"><a class="button primary" href="/">Return to publishing control</a></div></div></section>`;
-  return documentShell({title: 'Publishing stopped', tone: 'error', body});
+  const isPreflight=error?.code==='DRAFT_PREFLIGHT_FAILED';
+  const checks=isPreflight ? (error.preflight?.checks||{}) : {};
+  const failed=Object.entries(checks).filter(([,ok])=>ok===false).map(([name])=>name);
+  const coverIssue=failed.some(name=>name.startsWith('editorial_cover'));
+  const metrics=error?.preflight?.metrics||{};
+  const width=Number(metrics.cover_width||0),height=Number(metrics.cover_height||0);
+  const ratio=width>0&&height>0?(width/height).toFixed(3):'unknown';
+  const descriptions={
+    editorial_cover_ratio:'Cover aspect ratio must be between 1.5:1 and 2:1, preferably 16:9.',
+    editorial_cover_alt:'Cover ALT text must match the approved editorial description.',
+    editorial_cover:'A real current product editorial cover must exist.',
+    editorial_cover_loads:'Cover image must load from its source.',
+    required_links:'All required article links must be present.',
+    internal_links:'All on-site links must resolve before publication.',
+    unresolved_placeholders:'No unfilled draft markers are allowed.',
+    seo_title:'SEO title must match the approved SEO draft.',
+    meta_description:'Meta description must match the approved SEO draft.'
+  };
+  const failuresHtml=failed.map(name=>
+    '<div class="check" style="display:block;border:1px solid #fecaca;background:#fff7f7">'+
+    '<strong class="check-fail">&#10005; '+escapeHtml(label(name))+'</strong>'+
+    (descriptions[name]?'<div style="font-size:13px;color:#475569;margin-top:6px">'+escapeHtml(descriptions[name])+'</div>':'')+
+    '</div>'
+  ).join('');
+  const coverHtml=coverIssue?
+    '<div class="panel" style="margin-top:18px"><span class="key">Current cover from Shopify</span>'+
+    '<strong>'+escapeHtml(width||'unknown')+' × '+escapeHtml(height||'unknown')+' px (ratio '+escapeHtml(ratio)+')</strong>'+
+    '<p style="margin-top:7px;font-size:13px">Use an authentic 16:9 product cover. The repair operation preserves article text, handles, and unpublished status.</p></div>':'';
+  const badLinks=(error?.preflight?.links||[]).filter(item=>item.ok===false);
+  const badLinksHtml=badLinks.length?
+    '<div class="panel" style="margin-top:18px"><strong>Broken on-site links</strong>'+
+    badLinks.map(item=>'<p style="overflow-wrap:anywhere;font-size:13px;margin-top:8px">'+escapeHtml(item.url)+' (HTTP '+escapeHtml(item.status||0)+')</p>').join('')+
+    '</div>':'';
+  const title=isPreflight?'The draft did not pass the final publishing checks':'The publishing operation was not completed';
+  const message=isPreflight?
+    'Nothing was published. Fix the checks shown below before submitting the article again.':
+    (error?.message||'An unexpected publishing error occurred.');
+  const repairButton=coverIssue?
+    '<a class="button secondary" href="https://wattwheelz-seo-draft-generator-info-19821198.vercel.app/api/shopify/install?mode=repair_covers">Repair draft cover only</a>':'';
+  const body='<section class="card"><header class="hero">'+
+    '<div class="status"><span class="dot"></span>Publishing stopped</div>'+
+    '<h1>'+escapeHtml(title)+'</h1><p style="overflow-wrap:anywhere">'+escapeHtml(message)+'</p></header>'+
+    '<div class="content">'+
+    (isPreflight?
+      '<div class="panel"><span class="key">Article</span><strong>'+escapeHtml(error?.article?.title||error?.jobId||'WattWheelz draft')+'</strong></div>'+
+      '<h2 style="margin-top:24px">Failed checks ('+failed.length+')</h2><div class="checks">'+failuresHtml+'</div>'+coverHtml+badLinksHtml:
+      '<div class="notice">Publication was refused or the article was returned to draft. Confirm its current Shopify state before retrying.</div>')+
+    '<div class="notice">'+(isPreflight?'Stage 03 remains fail-closed; a draft repair cannot publish an article.':'Confirm current Shopify status before retrying.')+'</div>'+
+    '<div class="actions">'+repairButton+'<a class="button primary" href="/">Return to publishing control</a></div></div></section>';
+  return documentShell({title:'Publishing stopped',tone:'error',body});
 }
 
 
