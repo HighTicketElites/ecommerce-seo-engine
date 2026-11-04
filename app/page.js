@@ -1,10 +1,6 @@
 const envStatus={SHOPIFY_SHOP:Boolean(process.env.SHOPIFY_SHOP),SHOPIFY_CLIENT_ID:Boolean(process.env.SHOPIFY_CLIENT_ID),SHOPIFY_CLIENT_SECRET:Boolean(process.env.SHOPIFY_CLIENT_SECRET)};
 
-const stage03Jobs=[
- {id:'best-fat-tire-ebikes-2026',title:'Best Fat Tire E-Bikes of 2026'},
- {id:'awd-vs-mid-drive-ebikes',title:'AWD vs Mid-Drive E-Bikes: Which Is Better for Hills, Snow & Trails?'},
- {id:'best-ebikes-for-heavy-riders-2026',title:'Best E-Bikes for Heavy Riders in 2026'},
-];
+const stage03Jobs=[]; // The November 4 jobs enter Stage 03 only after verified Shopify draft creation and QA.
 
 const approvalBase='https://wattwheelz-shopify-content-ops.vercel.app/';
 
@@ -13,7 +9,7 @@ export default function Home(){
  return <main style={{fontFamily:'system-ui',maxWidth:900,margin:'50px auto',padding:24,lineHeight:1.55}}>
   <h1>WattWheelz SEO Draft Generator v2.0</h1>
   <p><b>Controlled workflow.</b> Stage 02 creates and QA-checks unpublished Shopify drafts. Stage 03 handles final human approval, publication, live QA, and locking.</p>
-  <p><strong>Current job:</strong> October 12 category + rider-intent batch.</p>
+  <p><strong>Current job:</strong> November 4 dirt-bike + folding collection buying guide batch.</p>
   <ol>
    <li>Best Fat Tire E-Bikes of 2026</li>
    <li>AWD vs Mid-Drive E-Bikes: Which Is Better for Hills, Snow & Trails?</li>
@@ -21,7 +17,7 @@ export default function Home(){
   </ol>
   <p><strong>Stage 02 QA:</strong> roadmap + content graph assignment, word depth, headings, FAQ depth, imagery, SEO metadata, commercial links, blog-to-blog relationships, and live internal-link checks.</p>
   <pre>{JSON.stringify(envStatus,null,2)}</pre>
-  {ready?<p><a href="/api/shopify/install" style={{display:'inline-block',padding:'14px 20px',background:'#111827',color:'#fff',textDecoration:'none',borderRadius:8,fontWeight:700}}>Authorize & Create / Update 3 WattWheelz Drafts</a></p>:<p><strong>NOT READY</strong></p>}
+  {ready?<p><a href="/api/shopify/install" style={{display:'inline-block',padding:'14px 20px',background:'#111827',color:'#fff',textDecoration:'none',borderRadius:8,fontWeight:700}}>Authorize & Create / Update 4 WattWheelz Drafts</a></p>:<p><strong>NOT READY</strong></p>}
 
   <section style={{marginTop:30,padding:22,border:'2px solid #111827',borderRadius:12,background:'#f8fafc'}}>
     <h2 style={{marginTop:0}}>Stage 03 — Approval & Publishing Control</h2>
