@@ -1,0 +1,102 @@
+{
+  "id": "happyrun-g300-pro-vs-freego-nova5-electric-dirt-bike",
+  "title": "HappyRun G300 Pro vs Freego Nova 5: Which 72V Electric Dirt Bike Should You Buy?",
+  "handle": "happyrun-g300-pro-vs-freego-nova5-electric-dirt-bike",
+  "blog_title": "E-Bike Reviews & Comparisons",
+  "blog_handle": "e-bike-reviews-comparisons",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "approval_status": "stage02_draft_qa_and_cover_qa_passed",
+  "seo_title": "HappyRun G300 Pro vs Freego Nova 5: 72V Guide",
+  "meta_description": "HappyRun G300 Pro vs Freego Nova 5: compare 72V battery energy, hub vs mid-drive, weight, brakes, range claims and off-road buyer fit before buying.",
+  "excerpt": "A 72V adult electric dirt bike comparison focused on value, drivetrain layout, battery energy, weight and actual rider priorities.",
+  "tags": [
+    "2026",
+    "HappyRun G300 Pro",
+    "Freego Nova 5",
+    "72V Electric Dirt Bikes",
+    "Electric Dirt Bike Comparison"
+  ],
+  "product_handles": [
+    "happyrun-electric-dirt-bike-g300-pro",
+    "freego-nova5-electric-dirt-bike",
+    "79bike-falcon-pro"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/adult-electric-dirt-bike-picks",
+    "https://wattwheelz.com/collections/best-electric-dirt-bikes-for-adults",
+    "https://wattwheelz.com/products/happyrun-electric-dirt-bike-g300-pro",
+    "https://wattwheelz.com/products/freego-nova5-electric-dirt-bike",
+    "https://wattwheelz.com/products/79bike-falcon-pro",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/electric-dirt-bike-buying-guide-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/60v-vs-72v-electric-dirt-bikes",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/happyrun-g300-pro-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro"
+  ],
+  "source_urls": [
+    "https://wattwheelz.com/products/happyrun-electric-dirt-bike-g300-pro",
+    "https://wattwheelz.com/products/freego-nova5-electric-dirt-bike",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/60v-vs-72v-electric-dirt-bikes",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/happyrun-g300-pro-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/electric-dirt-bike-buying-guide-2026",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026",
+    "https://wattwheelz.com/products/79bike-falcon-pro",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro",
+    "https://wattwheelz.com/collections/adult-electric-dirt-bike-picks",
+    "https://wattwheelz.com/collections/best-electric-dirt-bikes-for-adults",
+    "https://happyrunbike.com/products/happyrun-g300-pro-6500w-electric-dirt-bike"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "product_handle": "happyrun-electric-dirt-bike-g300-pro",
+      "media_index": 0,
+      "alt": "HappyRun G300 Pro high-output electric dirt bike current product image",
+      "caption": "HappyRun G300 Pro 72V hub-drive adult dirt bike."
+    },
+    {
+      "id": "slot-2",
+      "product_handle": "happyrun-electric-dirt-bike-g300-pro",
+      "media_index": 1,
+      "alt": "HappyRun G300 Pro alternative current product photo",
+      "caption": "Additional official G300 Pro product view."
+    },
+    {
+      "id": "slot-3",
+      "product_handle": "freego-nova5-electric-dirt-bike",
+      "media_index": 0,
+      "alt": "Freego Nova 5 mid-drive off-road electric bike official current product photo",
+      "caption": "Freego Nova 5 72V 40Ah mid-drive electric dirt bike."
+    },
+    {
+      "id": "slot-4",
+      "product_handle": "freego-nova5-electric-dirt-bike",
+      "media_index": 1,
+      "alt": "Freego Nova 5 alternative current product photograph",
+      "caption": "Additional current Nova 5 catalog model view."
+    }
+  ],
+  "cover_image": {
+    "url": "",
+    "alt": "HappyRun G300 Pro 72V electric dirt bike compared against the Freego Nova 5 mid-drive model",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_current_article_cover",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1400,
+    "minimum_h2": 12,
+    "minimum_faq": 9,
+    "minimum_images": 4
+  },
+  "batch": "nov-04-pmax-phase2-buyer-education",
+  "stage02_verification": {
+    "draft_qa": true,
+    "failed_qa": [],
+    "bad_links": [],
+    "cover_qa": true,
+    "cover_ratio": 1.7778
+  },
+  "handoff": "Require authenticated Stage03 re-fetch of existing unpublished Shopify article and all prepublish gates before human approval."
+}
