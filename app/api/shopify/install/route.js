@@ -14,6 +14,8 @@ const OAUTH_CALLBACK = `${OAUTH_ORIGIN}/api/shopify/callback`;
 
 export async function GET(request) {
   const requestUrl = new URL(request.url);
+  // Cover-only repair keeps all article bodies, handles, and publication state untouched.
+  const mode = requestUrl.searchParams.get('mode') === 'repair_covers' ? 'repair_covers' : 'draft';
 
   // Shopify only accepts the callback URL already registered on the app.
   // Force all Vercel aliases onto that same hostname BEFORE setting the
@@ -22,7 +24,7 @@ export async function GET(request) {
     return new Response(null, {
       status: 307,
       headers: {
-        Location: `${OAUTH_ORIGIN}/api/shopify/install`,
+        Location: `${OAUTH_ORIGIN}/api/shopify/install${mode === 'repair_covers' ? '?mode=repair_covers' : ''}`,
         'Cache-Control': 'no-store'
       }
     });
@@ -41,5 +43,6 @@ export async function GET(request) {
 
   const headers = new Headers({ Location: authUrl.toString(), 'Cache-Control': 'no-store' });
   headers.append('Set-Cookie', `ww_oauth_state=${state}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`);
+  headers.append('Set-Cookie', `ww_oauth_mode=${mode}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`);
   return new Response(null, { status: 307, headers });
 }
