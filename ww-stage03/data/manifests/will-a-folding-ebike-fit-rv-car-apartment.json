@@ -5,8 +5,8 @@
   "blog_title": "E-Bike Rider Guides",
   "blog_handle": "e-bike-rider-guides",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
-  "approval_status": "stage02_draft_qa_passed_stage03_pending",
+  "publish_readiness": "locked",
+  "approval_status": "published_qa_passed",
   "seo_title": "Will a Folding E-Bike Fit in Your RV or Car?",
   "meta_description": "Will a folding e-bike fit in your RV, car trunk or apartment? Compare real folded dimensions, lift weights and safe storage requirements before buying.",
   "excerpt": "A measurement-first guide to folding e-bike fit for car trunks, RV storage bays, elevators and apartment closets.",
@@ -87,5 +87,14 @@
   },
   "stage02_log_verified_at": "2026-11-04T16:02:41.954Z",
   "stage02_batch": "nov-04-pmax-dirt-folding-buyer-education",
-  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass."
+  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass.",
+  "article_id": "gid://shopify/Article/595878183098",
+  "publication": {
+    "verified_at": "2026-11-04T17:03:09.293Z",
+    "verification_source": "WattWheelz Stage03 production runtime publication_succeeded event",
+    "fingerprint": "1f57701747fe79dcf3efbc70deb7d0f5ef711b3e2b4dabff7253910b0b93d889",
+    "live_qa_pass": true,
+    "live_url": "https://wattwheelz.com/blogs/e-bike-rider-guides/will-a-folding-ebike-fit-rv-car-apartment"
+  },
+  "lock_reason": "published_qa_passed"
 }
