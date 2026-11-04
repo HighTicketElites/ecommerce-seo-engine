@@ -18,6 +18,7 @@ const contentGraph={
       roadmap_nodes:[
         "electric-dirt-bike-buying-guide-2026",
         "happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro",
+        "happyrun-g300-pro-vs-freego-nova5-electric-dirt-bike",
         "60v-vs-72v-electric-dirt-bikes",
         "79bike-falcon-pro-vs-talaria-sting-r-mx4",
         "y-volt-surge-v-review-2026",
@@ -102,6 +103,7 @@ const contentGraph={
         "best-ebikes-apartments-rvs-2026",
         "urtopia-carbon-fold-1-vs-step-thru-vs-fold-2",
         "will-a-folding-ebike-fit-rv-car-apartment",
+        "rattan-lm-ultra-vs-mooncool-pop-folding-ebike",
         "best-commuter-ebikes-2026",
         "carbon-fiber-ebikes-worth-it"
       ],
