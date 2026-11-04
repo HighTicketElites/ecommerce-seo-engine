@@ -5,8 +5,8 @@
   "blog_title": "E-Bike Reviews & Comparisons",
   "blog_handle": "e-bike-reviews-comparisons",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
-  "approval_status": "stage02_draft_qa_passed_stage03_pending",
+  "publish_readiness": "locked",
+  "approval_status": "published_qa_passed",
   "seo_title": "Urtopia Fold 1 vs Step-Thru vs Fold 2 Compared",
   "meta_description": "Urtopia Carbon Fold 1 vs Step-Thru vs Fold 2: compare real weight, folded size, rider access, battery range and options to choose the right folding e-bike.",
   "excerpt": "Three premium carbon folding bikes, three different strengths: carry weight, easy mounting and optional battery range.",
@@ -85,5 +85,14 @@
   },
   "stage02_log_verified_at": "2026-11-04T16:02:41.954Z",
   "stage02_batch": "nov-04-pmax-dirt-folding-buyer-education",
-  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass."
+  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass.",
+  "article_id": "gid://shopify/Article/595878150330",
+  "publication": {
+    "verified_at": "2026-11-04T17:02:34.622Z",
+    "verification_source": "WattWheelz Stage03 production runtime publication_succeeded event",
+    "fingerprint": "3eadf3b38c4865f8565b666e91c1fbf053ed38c21c2dfba43ab0d408fb14c2c8",
+    "live_qa_pass": true,
+    "live_url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-fold-1-vs-step-thru-vs-fold-2"
+  },
+  "lock_reason": "published_qa_passed"
 }
