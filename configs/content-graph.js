@@ -15,6 +15,7 @@ const contentGraph={
       id:"electric-dirt-performance",
       title:"Electric Dirt Bikes & High-Power Performance",
       root:"electric-dirt-bike-buying-guide-2026",
+        "happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro",
       roadmap_nodes:[
         "electric-dirt-bike-buying-guide-2026",
         "60v-vs-72v-electric-dirt-bikes",
@@ -99,6 +100,8 @@ const contentGraph={
         "best-lightweight-ebikes-2026",
         "best-folding-ebikes-2026",
         "best-ebikes-apartments-rvs-2026",
+        "urtopia-carbon-fold-1-vs-step-thru-vs-fold-2",
+        "will-a-folding-ebike-fit-rv-car-apartment",
         "best-commuter-ebikes-2026",
         "carbon-fiber-ebikes-worth-it"
       ],
