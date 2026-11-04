@@ -1,0 +1,91 @@
+{
+  "id": "will-a-folding-ebike-fit-rv-car-apartment",
+  "title": "Will a Folding E-Bike Fit in Your RV, Car or Apartment? Measure Before You Buy",
+  "handle": "will-a-folding-ebike-fit-rv-car-apartment",
+  "blog_title": "E-Bike Rider Guides",
+  "blog_handle": "e-bike-rider-guides",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "approval_status": "stage02_draft_qa_passed_stage03_pending",
+  "seo_title": "Will a Folding E-Bike Fit in Your RV or Car?",
+  "meta_description": "Will a folding e-bike fit in your RV, car trunk or apartment? Compare real folded dimensions, lift weights and safe storage requirements before buying.",
+  "excerpt": "A measurement-first guide to folding e-bike fit for car trunks, RV storage bays, elevators and apartment closets.",
+  "tags": [
+    "2026",
+    "Folding E-Bikes",
+    "RV Storage",
+    "Car Trunk",
+    "Apartment Storage",
+    "Buying Guide"
+  ],
+  "product_handles": [
+    "carbon-fold",
+    "urtopia-carbon-fold-step-thru-ebike",
+    "urtopia-carbon-fold-2-e-bike",
+    "mooncool-pop-folding-electric-bike"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/folding-e-bike-shortlist-for-apartments-rvs",
+    "https://wattwheelz.com/collections/folding-e-bikes",
+    "https://wattwheelz.com/products/carbon-fold",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-2-e-bike",
+    "https://wattwheelz.com/products/mooncool-pop-folding-electric-bike",
+    "https://wattwheelz.com/blogs/e-bike-brand-guides/best-urtopia-electric-bikes-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-vs-carbon-fold-step-thru",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026"
+  ],
+  "source_urls": [
+    "https://newurtopia.com/products/urtopia-carbon-fold",
+    "https://newurtopia.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://newurtopia.com/products/urtopia-carbon-fold-2-ebike",
+    "https://wattwheelz.com/products/mooncool-pop-folding-electric-bike",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "product_handle": "carbon-fold",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold 1 folding electric bicycle for compact spaces",
+      "caption": "Published folded dimensions should be checked against the actual opening."
+    },
+    {
+      "id": "slot-2",
+      "product_handle": "mooncool-pop-folding-electric-bike",
+      "media_index": 0,
+      "alt": "Mooncool POP folding electric bicycle product photo",
+      "caption": "Folding does not always mean lightweight."
+    },
+    {
+      "id": "slot-3",
+      "product_handle": "urtopia-carbon-fold-step-thru-ebike",
+      "media_index": 0,
+      "alt": "Urtopia Fold Step-Thru electric bicycle product photo",
+      "caption": "Step-through model requires its own clearance and weight check."
+    },
+    {
+      "id": "slot-4",
+      "product_handle": "urtopia-carbon-fold-2-e-bike",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold 2 compact folding bicycle",
+      "caption": "Fold 2 provides an optional extender battery."
+    }
+  ],
+  "cover_image": {
+    "url": "",
+    "alt": "Folded Urtopia Carbon Fold 1 e-bike for RV car and apartment storage fit guidance",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_current_article_cover",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1200,
+    "minimum_h2": 12,
+    "minimum_faq": 9,
+    "minimum_images": 4
+  },
+  "stage02_log_verified_at": "2026-11-04T16:02:41.954Z",
+  "stage02_batch": "nov-04-pmax-dirt-folding-buyer-education",
+  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass."
+}
