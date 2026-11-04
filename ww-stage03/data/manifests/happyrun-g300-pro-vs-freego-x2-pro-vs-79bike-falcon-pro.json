@@ -5,8 +5,8 @@
   "blog_title": "E-Bike Reviews & Comparisons",
   "blog_handle": "e-bike-reviews-comparisons",
   "draft_readiness": "approved",
-  "publish_readiness": "pilot_approved",
-  "approval_status": "stage02_draft_qa_passed_stage03_pending",
+  "publish_readiness": "locked",
+  "approval_status": "published_qa_passed",
   "seo_title": "G300 Pro vs Freego X2 Pro vs Falcon Pro: Which?",
   "meta_description": "Compare the HappyRun G300 Pro, Freego X2 Pro and 79Bike Falcon Pro by power, battery size, terrain, real-world range, legal use and buyer fit.",
   "excerpt": "The 72V value pick, the pedal-equipped 60V option and the premium e-moto compared for adult riders.",
@@ -85,5 +85,14 @@
   },
   "stage02_log_verified_at": "2026-11-04T16:02:41.954Z",
   "stage02_batch": "nov-04-pmax-dirt-folding-buyer-education",
-  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass."
+  "handoff_note": "Draft created and QA passed through Stage 02 OAuth. Stage 03 must re-verify live draft, 16:9 cover, correct blog, active models, source, links and exact fingerprint. Final human approval required. A product-featured cover may fail 16:9 check; no bypass.",
+  "article_id": "gid://shopify/Article/595878084794",
+  "publication": {
+    "verified_at": "2026-11-04T17:02:13.888Z",
+    "verification_source": "WattWheelz Stage03 production runtime publication_succeeded event",
+    "fingerprint": "14729936c4f5b7e67eccd139b00e4f8c681e5b7496083569248108ae4c995d3a",
+    "live_qa_pass": true,
+    "live_url": "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/happyrun-g300-pro-vs-freego-x2-pro-vs-79bike-falcon-pro"
+  },
+  "lock_reason": "published_qa_passed"
 }
