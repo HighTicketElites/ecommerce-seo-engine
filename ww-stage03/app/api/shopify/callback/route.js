@@ -48,7 +48,7 @@ export async function GET(request) {
     });
   } catch(error) {
     response=new NextResponse(renderPublicationErrorPage(error),{
-      status:500,
+      status:error?.code==='DRAFT_PREFLIGHT_FAILED'?409:500,
       headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'}
     });
   }

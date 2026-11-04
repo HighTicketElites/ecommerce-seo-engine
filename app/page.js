@@ -19,7 +19,12 @@ export default function Home(){
   <p><a href="/pmax-review" style={{display:'inline-block',padding:'11px 16px',border:'1px solid #aab9c8',borderRadius:8,color:'#153654',fontWeight:700,textDecoration:'none'}}>Review all 4 article source drafts</a></p>
   <p><strong>Stage 02 QA:</strong> roadmap + content graph assignment, word depth, headings, FAQ depth, imagery, SEO metadata, commercial links, blog-to-blog relationships, and live internal-link checks.</p>
   <pre>{JSON.stringify(envStatus,null,2)}</pre>
-  {ready?<p><a href="/api/shopify/install" style={{display:'inline-block',padding:'14px 20px',background:'#111827',color:'#fff',textDecoration:'none',borderRadius:8,fontWeight:700}}>Authorize & Create / Update 4 WattWheelz Drafts</a></p>:<p><strong>NOT READY</strong></p>}
+  {ready?<p><a href="/api/shopify/install" style={{display:'inline-block',padding:'14px 20px',background:'#111827',color:'#fff',textDecoration:'none',borderRadius:8,fontWeight:700}}>Authorize & Create / Update 4 WattWheelz Drafts</a></p>:<p><strong>NOT READY</strong></p>}<section style={{background:'#f1f6fb',border:'1px solid #d4e1eb',padding:'18px 20px',borderRadius:12,margin:'12px 0 24px'}}>
+ <h2 style={{fontSize:18,margin:'0 0 8px'}}>Repair article cover images only</h2>
+ <p style={{fontSize:14,margin:'0 0 14px'}}>Use this after Stage 03 reports an editorial cover failure. It safely updates only the featured images of the four existing unpublished articles using authentic Shopify catalog photos with 16:9 padding where necessary. No article text, titles, handles, or publication states are changed.</p>
+ <a href="/api/shopify/install?mode=repair_covers" style={{display:'inline-block',padding:'13px 16px',borderRadius:8,border:'1px solid #264664',color:'#1a3854',textDecoration:'none',fontWeight:700,background:'#fff'}}>Authorize &amp; Repair 4 Draft Covers</a>
+ <p style={{fontSize:12,margin:'10px 0 0',color:'#516377'}}>Repair QA verifies the Shopify image dimensions and reports any failure. After a pass, use the existing Stage 03 publishing dashboard; only that system can publish.</p>
+</section>
 
   <section style={{marginTop:30,padding:22,border:'2px solid #111827',borderRadius:12,background:'#f8fafc'}}>
     <h2 style={{marginTop:0}}>Stage 03 — Approval & Publishing Control</h2>
