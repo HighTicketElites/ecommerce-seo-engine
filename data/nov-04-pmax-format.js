@@ -2,8 +2,10 @@
 // Publisher remains locked behind Stage 03 human approval.
 export const WW="https://wattwheelz.com";
 export const C={
- dirt:WW+"/collections/best-electric-dirt-bikes-for-adults",
- folding:WW+"/collections/best-e-bikes-for-apartments-rvs",
+ dirt:WW+"/collections/adult-electric-dirt-bike-picks",
+ dirtCanonical:WW+"/collections/best-electric-dirt-bikes-for-adults",
+ folding:WW+"/collections/folding-e-bike-shortlist-for-apartments-rvs",
+ foldingCanonical:WW+"/collections/best-e-bikes-for-apartments-rvs",
  foldingAll:WW+"/collections/folding-e-bikes",
  urtopia:WW+"/collections/urtopia",
  brands79:WW+"/collections/79bike"
