@@ -1,6 +1,6 @@
 import crypto from 'node:crypto';
 import { exchangeOAuthCode, normalizedShop } from '../../../../lib/shopify.js';
-import { runDraftJob } from '../../../../lib/job.js';
+import { runDraftJob, runCoverRepair } from '../../../../lib/job.js';
 
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
@@ -28,17 +28,17 @@ export async function GET(request){
   const expectedState=cookieValue(cookies,'ww_oauth_state');
   const mode=cookieValue(cookies,'ww_oauth_mode')||'draft';
   const secret=process.env.SHOPIFY_CLIENT_SECRET;
-  if(mode==='publish') throw new Error('Direct publication from the draft generator is disabled. Use WattWheelz Stage 03 Controlled Publishing.');
+  if(!['draft','repair_covers'].includes(mode)) throw new Error('Only draft generation and draft cover-only repair are allowed here. Publication must use Stage 03.');
   if(!code||!shop||!state)throw new Error('OAuth callback is missing required parameters');
   if(shop!==normalizedShop())throw new Error(`Unexpected Shopify shop: ${shop}`);
   if(!expectedState||state!==expectedState)throw new Error('OAuth state validation failed');
   if(!secret||!validHmac(url,secret))throw new Error('OAuth HMAC validation failed');
   const auth=await exchangeOAuthCode({shop,code});
-  const result=await runDraftJob(auth);
+  const result=mode==='repair_covers'?await runCoverRepair(auth):await runDraftJob(auth);
   const headers=new Headers({'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'});
   headers.append('Set-Cookie','ww_oauth_state=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
   headers.append('Set-Cookie','ww_oauth_mode=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
-  return new Response(resultPage('WattWheelz SEO Draft Batch',result,result.pass),{status:result.pass?200:409,headers});
+  return new Response(resultPage(mode==='repair_covers'?'WattWheelz Draft Cover Repair':'WattWheelz SEO Draft Batch',result,result.pass),{status:result.pass?200:409,headers});
  }catch(error){
   const payload={error:error?.message||String(error),safety:'No publication action was executed.'};
   return new Response(resultPage('WattWheelz SEO Draft Batch - Stopped Safely',payload,false),{status:500,headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'}});
