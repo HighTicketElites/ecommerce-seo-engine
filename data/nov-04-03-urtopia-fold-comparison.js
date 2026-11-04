@@ -1,0 +1,74 @@
+import {C,P,B,a,render,makeManifest} from './nov-04-pmax-format.js';
+const F1="carbon-fold",ST="urtopia-carbon-fold-step-thru-ebike",F2="urtopia-carbon-fold-2-e-bike";
+const sections=[
+{title:"The short answer: Fold 1 vs Step-Thru vs Fold 2",paragraphs:[
+"The "+a(P.fold1,"Carbon Fold 1")+" is the lightest of these three in Urtopia's published full-bike specifications and makes the strongest case for frequent carrying. The "+a(P.foldst,"Carbon Fold Step-Thru")+" is the access-first choice: a lower step-over, 20-inch wheels and a broad published rider-height range. The "+a(P.fold2,"Carbon Fold 2")+" is for a rider who still wants a compact high-step folder but may buy its optional extender battery for longer trips.",
+"All three are carbon folding e-bikes with torque-sensing pedal assist and hydraulic disc brakes. Their design goals overlap, but the differences in mounting, wheel size, battery expansion and true carrying weight should drive the purchase."],image:[F1,0]},
+{title:"Side-by-side: key manufacturer specifications",paragraphs:[
+"Specifications reflect Urtopia's published model pages and can change by production revision and configuration. The listed bike weights are the full-bike figures in each manufacturer's spec panel, not the lighter 'net without battery and accessories' figures often repeated in ads. The Fold 2 has a different base battery from the other two.",
+"Each manufacturer's range is a maximum under specified favorable pedal-assist test conditions. Do not compare a Fold 2 with an optional external battery against a base single-battery Fold 1 as though both ship with the same equipment."],
+table:'<table><thead><tr><th>Specification</th><th>Fold 1</th><th>Fold Step-Thru</th><th>Fold 2</th></tr></thead><tbody><tr><td>Published bike weight</td><td>34.2 lb</td><td>37.1 lb</td><td>36.3 lb</td></tr><tr><td>Frame access</td><td>High-step</td><td>Step-through</td><td>High-step</td></tr><tr><td>Folded size</td><td>31 × 19 × 27 in</td><td>32 × 19 × 28 in</td><td>32 × 19 × 27 in</td></tr><tr><td>Wheel size</td><td>18 × 2.0 in</td><td>20 × 1.95 in</td><td>18 × 2.0 in</td></tr><tr><td>Base battery</td><td>252Wh</td><td>252Wh</td><td>244.8Wh</td></tr><tr><td>Claimed base range</td><td>Up to 37 mi</td><td>Up to 44.4 mi</td><td>Up to 39 mi</td></tr><tr><td>Optional extender</td><td>No listed external battery</td><td>No listed external battery</td><td>352.8Wh external pack</td></tr></tbody></table>'},
+{title:"The hidden weight issue: full-bike versus battery-out net weight",paragraphs:[
+"Urtopia's own spec panels distinguish full bike weight, net weight with battery and net weight without battery. For example, Fold 1 is shown at 34.2 pounds bike weight, 33 pounds net with battery, and 28.9 pounds net without battery. Step-Thru lists 37.1, 35.9 and 31.7 pounds respectively. Fold 2 lists 36.3, 35.2 and 30.8 pounds.",
+"The manufacturer explains that net weight excludes accessories such as rack, kickstand, fenders and pedals. Removing a battery for carrying may be useful, but a buyer should not mistake that unloaded configuration for the complete bike they will roll into a parking space. If you have stairs, plan for the highest relevant real-world loaded weight." ]},
+{title:"Fold 1: best for the rider who carries frequently",paragraphs:[
+"The Fold 1 uses a high-step carbon frame and fork, 18-inch wheels, a 250W rated rear hub system advertised at 440W peak, and a 36V 7Ah seatpost battery. Its approximate folded envelope is 31 inches long, 19 wide and 27 high. Those dimensions make it appealing for compact urban storage, but they must still be checked against your actual door and trunk.",
+"This is the model to assess when you regularly lift the bike up short flights or into a vehicle, and you accept the frame geometry. The smaller battery is intentional: portability and very high battery capacity are usually competing priorities in this category."],image:[F1,1]},
+{title:"Fold Step-Thru: easiest mounting of the three",paragraphs:[
+"The Step-Thru exchanges the high top tube for a lower-access frame, which can be much easier for some riders to mount. Urtopia lists a broad 4-foot-11-inch to 6-foot-5-inch rider-height fit, a 20-inch wheel package, 252Wh main battery and 470W published peak motor output. Check physical fit; rider height alone does not guarantee comfort.",
+"For apartment residents who dislike swinging a leg over a bike, mounting comfort can matter more than a few pounds of weight. Its fold is still compact, at approximately 32 by 19 by 28 inches, but that extra height and its 37.1-pound full-bike spec are meaningful if a hatch is tight."],image:[ST,0]},
+{title:"Fold 2: optional range without giving up folding",paragraphs:[
+"The Fold 2 retains a high-step carbon design with approximately 32-by-19-by-27-inch published folded dimensions. Its 36V 6.8Ah seatpost pack is approximately 244.8Wh, and the standard-range claim is up to 39 miles. The manufacturer's optional 36V 9.8Ah external battery adds 352.8Wh of nominal energy and raises the claimed maximum to up to 84 miles under favorable test conditions.",
+"That 84-mile claim is not available from the standard base setup, and the accessory adds cost, weight and charging considerations. Buy the extender because your actual routes require it; for occasional shorter rides it might reduce some of the portability advantage you wanted in the first place."],image:[F2,0]},
+{title:"How the ride changes with 18-inch versus 20-inch wheels",paragraphs:[
+"Both Fold 1 and Fold 2 use 18-inch tire sizing in the manufacturer specification. The Step-Thru uses 20-by-1.95-inch tires. Larger wheels can change obstacle rollover and steering feel, but tire construction, pressure, geometry and rider fit also matter. None of these is automatically a rough-trail machine just because a larger wheel looks more substantial.",
+"If the route involves broken pavement, railroad crossings or a long daily commute, try to prioritize comfortable fit, a predictable riding position, brakes and appropriate tires rather than treating wheel diameter alone as a quality score." ]},
+{title:"Comparing battery energy, not marketing range alone",paragraphs:[
+"The base pack capacity differences are modest: 252Wh for Fold 1 and Step-Thru, and 244.8Wh for Fold 2. Yet the advertised maximum ranges differ because test conditions and efficiency vary. Range is not an independently standardized across-brand promise; wind, grade, temperature, load, tire pressure and assist level can change the distance you see.",
+"Fold 2's extender is the major difference when choosing by energy capacity. Confirm the accessory price, compatibility and available mounting configuration before calculating the total ownership cost. See our "+a(B.battery,"battery care guide")+" for safe charging and storage habits." ]},
+{title:"Does the Step-Thru make more sense for seniors?",paragraphs:[
+"An easier step-over can help riders with limited hip mobility or those who frequently stop and restart. However, the ability to mount the bike is only one aspect of safe riding. You still need comfortable reach, balance, suitable brakes and a weight you can maneuver.",
+"The Step-Thru is worth comparing if frame access is your biggest obstacle, but assess each rider's comfort and mobility individually. A low-entry model is not a substitute for a professional fitting or for practicing in a safe, controlled area." ]},
+{title:"Which folder works best for an apartment with stairs?",paragraphs:[
+"For a walk-up, first determine whether you can physically carry the bike plus accessories. On Urtopia's published full-bike figures, Fold 1 is lightest at approximately 34.2 pounds. That makes it the logical first candidate when carrying is non-negotiable, provided its high-step frame fits you.",
+"The Step-Thru is a reasonable alternative when mounting ease takes priority over a few pounds. Fold 2 is worth considering if your daily commute requires more range flexibility. For apartment logistics across additional brands, the "+a(C.folding,"apartment and RV shortlist")+" provides more choices." ]},
+{title:"Which model is best for RV and car travel?",paragraphs:[
+"Fold 1 has the shortest published folded length of these three at approximately 31 inches; Step-Thru and Fold 2 are about 32 inches. Yet a one-inch difference may matter less than where the trunk opening curves, the height of the cargo floor and whether you can secure the bike during transit.",
+"Use the dimensions as a measurement guide, not a guaranteed fit claim. All three are excellent candidates for a real tape-measure check. For detailed measuring instructions and safe handling, see our "+a(C.foldingAll,"folding e-bike catalog")+" and the selected product manuals." ]},
+{title:"What about the standard Carbon 1 Pro?",paragraphs:[
+"The Urtopia Carbon 1 Pro is a full-size, non-folding commuter. It can be a better choice when you have a bike room or garage and want normal 700C wheel feel rather than folded storage. This is why comparing by brand name alone can lead you to the wrong bike format.",
+"We already maintain a dedicated "+a(B.versus,"Carbon 1 Pro versus Carbon Fold Step-Thru comparison")+" for that decision. The current article stays focused on the three models that actually fold, to avoid duplicating the other comparison's search intent." ]},
+{title:"How to choose without overpaying for features you won't use",paragraphs:[
+"Start with a fixed budget and three actual constraints: how often you lift the bike, how easily you can mount it and how far your longest regular route is. If carrying dominates, prioritize Fold 1. If accessibility dominates, start with Step-Thru. If long rides dominate, price Fold 2 with the correct battery configuration rather than comparing base prices against extender benefits.",
+"For a broader lineup-level decision, review our "+a(B.urtopia,"Urtopia brand buying guide")+". Then open the current "+a(P.fold1,"Fold 1")+", "+a(P.foldst,"Fold Step-Thru")+" and "+a(P.fold2,"Fold 2")+" listings for stock and options. Avoid choosing on headline discounts alone; confirm the complete shipped configuration and the manufacturer's warranty terms. The "+a(C.urtopia,"Urtopia collection")+" also shows alternatives." ]}];
+const faqs=[
+["Which Urtopia Carbon Fold is lightest?","Using published complete-bike weight, Fold 1 is about 34.2 pounds, Step-Thru 37.1 pounds and Fold 2 36.3 pounds. Net weight without battery is lower and not directly equivalent."],
+["Which one folds smallest?","Fold 1's published folded dimensions are roughly 31 × 19 × 27 inches versus 32 × 19 × 28 for Step-Thru and 32 × 19 × 27 for Fold 2."],
+["Which one has the lowest step-over?","The Carbon Fold Step-Thru is designed with a lower-entry frame. Confirm fit and mounting comfort for the individual rider."],
+["Does Fold 2 include two batteries?","Normally no. The removable main battery is included; the external extender is optional unless your selected purchase bundle explicitly includes it."],
+["Is Urtopia's claimed 84-mile Fold 2 range realistic?","It is a manufacturer maximum with the optional extender in favorable pedal-assist tests, not a guarantee for any route, weather or riding style."],
+["Are all three full carbon-fiber bikes?","Manufacturer listings describe carbon frame and fork construction across this Carbon Fold family. Other parts and configurations vary."],
+["Can I fit a Fold 1 into any car trunk?","No. The published size is a starting point; the narrowest opening, seat arrangement and bike handling angle determine actual fit."],
+["Is the Fold Step-Thru the best for taller riders?","Urtopia publishes a broader height range for the Step-Thru, but actual comfort depends on inseam, reach and fit adjustments."],
+["Should I remove the battery before carrying upstairs?","Only follow manufacturer handling instructions. Battery removal can reduce weight, but you must still safely lift the frame and account for accessories."],
+["What if I want the biggest battery without adding a second pack?","Look beyond the lightweight carbon folders to larger folding models with more base capacity, accepting their greater carry weight." ]];
+export default {
+ manifest:makeManifest({title:"Urtopia Carbon Fold 1 vs Step-Thru vs Fold 2: Which Should You Buy?",
+ handle:"urtopia-carbon-fold-1-vs-step-thru-vs-fold-2",blog:"e-bike-reviews-comparisons",
+ titleTag:"Urtopia Fold 1 vs Step-Thru vs Fold 2 Compared",
+ description:"Urtopia Carbon Fold 1 vs Step-Thru vs Fold 2: compare real weight, folded size, rider access, battery range and options to choose the right folding e-bike.",
+ excerpt:"Three premium carbon folding bikes, three different strengths: carry weight, easy mounting and optional battery range.",
+ tags:["2026","Urtopia","Carbon Fold 1","Carbon Fold Step-Thru","Carbon Fold 2","Folding E-Bikes","Comparison"],
+ links:[C.folding,C.urtopia,P.fold1,P.foldst,P.fold2,B.urtopia,B.versus,B.battery],
+ graph:{parent:[B.urtopia],siblings:[B.versus],supporting:[B.battery]},
+ destinations:[C.folding,C.urtopia],incoming:[B.urtopia,B.versus],minimumWords:1200}),
+ product_handles:[F1,ST,F2],featured_handle:F1,featured_alt:"Three Urtopia carbon folding e-bikes compared by weight, range and frame style",
+ image_plan:[[F1,0,"Urtopia Carbon Fold 1 lightweight folding electric bike","Carbon Fold 1 high-step frame."],[F1,1,"Urtopia Carbon Fold 1 manufacturer alternate product photograph","Carbon Fold 1 product detail."],[ST,0,"Urtopia Carbon Fold Step-Thru model photo","Step-Thru low-entry folding frame."],[F2,0,"Urtopia Carbon Fold 2 model photo","Carbon Fold 2 optional battery extender platform."]],
+ body:render({intro:"Trying to choose between Urtopia's Carbon Fold 1, Carbon Fold Step-Thru and Carbon Fold 2? These bikes look related because they share carbon construction, a folding format and pedal-first design, but the right one depends on what you need most: the lightest practical carry, easier mounting or extra battery flexibility. This comparison uses published manufacturer specifications and makes the often-overlooked distinction between complete bike weight and net weight without accessories or battery.",
+ sections,faqs,sources:[
+ ["https://newurtopia.com/products/urtopia-carbon-fold","Urtopia official Carbon Fold 1 specifications"],
+ ["https://newurtopia.com/products/urtopia-carbon-fold-step-thru-ebike","Urtopia official Carbon Fold Step-Thru specifications"],
+ ["https://newurtopia.com/products/urtopia-carbon-fold-2-ebike","Urtopia official Carbon Fold 2 specifications"],
+ [B.versus,"WattWheelz Carbon 1 Pro versus Fold Step-Thru comparison"]
+ ]})
+};

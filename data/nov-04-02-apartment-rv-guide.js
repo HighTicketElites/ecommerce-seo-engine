@@ -1,0 +1,75 @@
+import {C,P,B,a,render,makeManifest} from './nov-04-pmax-format.js';
+const F1="carbon-fold",FS="urtopia-carbon-fold-step-thru-ebike",F2="urtopia-carbon-fold-2-e-bike",POP="mooncool-pop-folding-electric-bike";
+const sections=[
+{title:"Quick answer: the best apartment or RV e-bike depends on what must fit",paragraphs:[
+"If you need to carry a bicycle upstairs regularly, a lightweight carbon folding model deserves an early look. If you have a dedicated ground-floor storage closet or RV cargo bay, a larger folding bike with a bigger battery or wider tires may make more sense. The right purchase is the model that fits the measured storage opening and is manageable to lift and ride—not simply the e-bike with the most reviews.",
+"For a compact, lighter folder, start with the "+a(P.fold1,"Urtopia Carbon Fold 1")+". For easier mounting, see the "+a(P.foldst,"Carbon Fold Step-Thru")+". For optional extended range, compare the "+a(P.fold2,"Carbon Fold 2")+". If you value comfort and more motor output and can manage substantial weight, look at the "+a(P.pop,"Mooncool POP")+"." ] ,image:[F1,0]},
+{title:"Before you shop: measure your real storage space",paragraphs:[
+"Use a tape measure on the narrowest door, elevator, hallway turn, RV basement hatch or car trunk opening. Record usable height, width and depth—not just the cargo compartment's outside dimensions. A bike that technically folds to a small rectangle can still be difficult to angle through a hatch or around a seat.",
+"Leave clearance for protruding pedals, brake levers, cables and your hands. Also measure where you would unfold the bike; an RV storage compartment that holds it does not automatically provide a safe place to assemble or charge it. For cars, account for seats, cargo-floor height and whether the bike must lie on a particular side." ]},
+{title:"Four relevant models: compact folding choices",paragraphs:[
+"The three Urtopia models share carbon-fiber folding frames but serve different riders. Their published ready-bike weights are approximately 34.2 lb for Fold 1, 37.1 lb for Step-Thru and 36.3 lb for Fold 2. Manufacturer pages also publish lower net weights after excluding accessories and, sometimes, removing the battery. These numbers are not interchangeable.",
+"The Mooncool POP is a more substantial 67-pound folding option. Its bigger 652.8Wh pack, 20 × 3-inch tires, suspension and rear rack add everyday capability but also make lifting and storage a different proposition. The correct choice comes from measuring your route from doorway to riding location." ],
+table:'<table><thead><tr><th>Model</th><th>Published folded size</th><th>Published bike weight</th><th>Buying priority</th></tr></thead><tbody><tr><td>Urtopia Fold 1</td><td>Approx. 31 × 19 × 27 in</td><td>34.2 lb</td><td>Light carry / compact</td></tr><tr><td>Urtopia Fold Step-Thru</td><td>Approx. 32 × 19 × 28 in</td><td>37.1 lb</td><td>Easy mounting</td></tr><tr><td>Urtopia Fold 2</td><td>Approx. 32 × 19 × 27 in</td><td>36.3 lb</td><td>Optional range extender</td></tr><tr><td>Mooncool POP</td><td>Approx. 34.7 × 16.9 × 29.5 in</td><td>67 lb</td><td>Comfort and utility</td></tr></tbody></table>'},
+{title:"What folding size tells you—and what it does not",paragraphs:[
+"A folded dimension is usually a manufacturer-specified snapshot of the bike in a standard folded position. It does not include your vehicle's latch clearance, tie-downs or how easily the bike can be rotated into a difficult opening. The Fold 1's published approximate 31-by-19-by-27-inch package is only a starting point for a physical fit test.",
+"Folded width also matters when sharing a storage closet with other gear. On an RV, look for a safe support and restraint arrangement so the bike cannot strike sensitive systems while traveling. On a train, check operator restrictions even if the bicycle folds smaller than a traditional full-size frame." ],image:[F2,0]},
+{title:"Lightweight e-bike versus full-size compact commuter",paragraphs:[
+"Some bikes included in apartment-friendly collections have smaller wheels or a compact frame but do not physically fold. That may still be an excellent choice for ground-floor or bike-room storage, yet it does not provide the same car-trunk or closet convenience as a folding frame. Never assume 'compact' means a hinged folding bicycle.",
+"The "+a(C.folding,"apartments and RVs collection")+" intentionally helps shoppers compare space-efficient options, including bikes with different frame formats. If folding is non-negotiable, use the "+a(C.foldingAll,"dedicated folding e-bike collection")+" and verify the fold mechanism on the individual product detail page." ]},
+{title:"How much bike can you safely lift?",paragraphs:[
+"Weight usually matters more than folded size to a fourth-floor apartment resident. Ask whether you can lift the bike from floor level to the height of a car trunk, carry it up the actual stair flight or hoist it into an RV compartment. A roughly 35-pound bike and a 67-pound bike can be very different experiences even when both technically fit in the same footprint.",
+"Also ask what weight is included in the listed figure. Urtopia provides net weights with and without battery in addition to a more complete bike-weight number. Accessories, racks, baskets and range-extender batteries increase the load. Do not present the lowest 'without battery' figure as what the rider normally carries." ]},
+{title:"Battery capacity and expected daily range",paragraphs:[
+"Weight savings usually come with a smaller battery. The Fold 1 and Step-Thru use approximately 252Wh removable seatpost packs, while Fold 2 has a 244.8Wh main pack and can accept a separately purchased 352.8Wh external extender. Mooncool POP's listed pack is 652.8Wh. The larger pack can support longer rides, but generally adds weight to the ownership package.",
+"Manufacturer published ranges on the Urtopia family are approximately up to 37 miles for Fold 1, 44.4 for Step-Thru and 39 for the base Fold 2, with up to 84 claimed when the Fold 2's optional extender is installed. These are test-condition claims, not guarantees for hills, wind, loaded RV trips or high assist. Plan reserve for your route." ]},
+{title:"Urtopia Carbon Fold 1 for frequent carrying",paragraphs:[
+"The Fold 1 prioritizes a compact high-step carbon design with an 18-inch wheel package, torque-sensor assist and hydraulic brakes. The manufacturer's current technical page lists 34.2 pounds bike weight, 33 pounds net with battery, and 28.9 pounds net without battery. The last figure excludes the battery and accessories; it should not headline a 'ready to ride' comparison.",
+"If you are choosing primarily for stairs, storage and short-to-medium urban trips, the "+a(P.fold1,"Carbon Fold 1")+" is worth investigating first. The high-step frame and smaller wheel format still need to suit your height and preferences." ],image:[F1,1]},
+{title:"Urtopia Fold Step-Thru for accessible mounting",paragraphs:[
+"The Step-Thru's lower access is especially relevant for riders who have difficulty stepping over a high tube, or who regularly get on and off while carrying a bag. Manufacturer dimensions are approximately 32-by-19-by-28 inches folded and 37.1 pounds bike weight; its 20-inch tires also change the feel relative to the 18-inch Urtopia folders.",
+"It is not necessarily the lightest to lift, but that may be an acceptable tradeoff if comfortable mounting matters more. Compare the "+a(P.foldst,"Fold Step-Thru")+" directly with the high-step options and confirm its current rider-height range and selected throttle configuration." ],image:[FS,0]},
+{title:"Urtopia Fold 2 for range flexibility",paragraphs:[
+"The Fold 2 is the option to consider if compact folding remains essential but you occasionally need a longer ride. Its 244.8Wh seatpost battery gives a manufacturer claim of up to 39 miles, and an optional external 352.8Wh pack increases the claimed maximum to 84 miles. The extender is not automatically included with the base model.",
+"Before buying, ask whether the extra battery fits your actual storage setup, whether you need its added weight, and how it will be charged using approved equipment. The "+a(P.fold2,"Carbon Fold 2")+" remains a light portable bike, not an unlimited-range touring platform." ]},
+{title:"Mooncool POP when comfort outweighs lift weight",paragraphs:[
+"The POP illustrates why 'folding' is not a synonym for 'ultralight.' Its approximate 67-pound published weight supports a different package: 20-by-3-inch tires, a 750W rated rear hub motor, suspension, rack and 652.8Wh removable battery. It can be attractive for ground-level storage and recreational use but cumbersome to carry up several flights.",
+"If you use an RV with a proper vehicle-rated carrier or an easy-access storage bay and do not need frequent lifting, the "+a(P.pop,"Mooncool POP")+" may be worth the tradeoff. For a third-floor walk-up, the lighter carbon folders are likelier to solve the core problem." ],image:[POP,0]},
+{title:"Charging and battery safety in a small living space",paragraphs:[
+"Small apartments and RVs demand a careful charging routine. Use the manufacturer's approved charger and a dry, ventilated, appropriate location away from exits and combustible clutter. The U.S. Consumer Product Safety Commission advises not charging micromobility products while sleeping or when no one is home.",
+"Follow each battery maker's storage and temperature guidance; avoid leaving lithium-ion packs in a hot parked vehicle. Check "+a(B.battery,"WattWheelz's battery care guide")+" for more on safe charging, replacement compatibility and long-term storage." ]},
+{title:"The purchase checklist: six questions that prevent returns",paragraphs:[
+"Measure your narrowest opening; confirm the folded size; verify whole-bike lifting weight; check rider height and payload; estimate route range with reserve; and confirm charger, shipping and assembly requirements. These checks reveal fit issues earlier than comparing a product price alone.",
+"Then browse the "+a(C.folding,"Best E-Bikes for Apartments & RVs collection")+" and the "+a(C.foldingAll,"Folding Electric Bikes collection")+". If you are comparing across the wider Urtopia lineup, our "+a(B.urtopia,"Urtopia guide")+" and "+a(B.versus,"Carbon 1 Pro versus Fold Step-Thru comparison")+" offer complementary decision frameworks." ]}];
+const faqs=[
+["What is the lightest folding e-bike in this shortlist?","Among these four reviewed models, the published complete-bike weight of Urtopia Fold 1 is lowest at about 34.2 pounds; net weight without accessories or battery is a different measure."],
+["Does a folding bike automatically fit inside an RV?","No. Compare actual folded measurements against the narrowest hatch or door, and account for required handling, tie-downs and access clearance."],
+["Is the Urtopia Fold 2's 84-mile range included in the base bike?","No. That manufacturer-published maximum assumes the optional extender battery and favorable test conditions. Confirm whether your selected configuration includes it."],
+["Is a compact e-bike always foldable?","No. Compact frame geometry and a folding frame are different properties. Confirm that the exact model has a folding hinge and intended folding procedure."],
+["How heavy is the Mooncool POP?","Its dealer listing describes approximately 67 pounds. That may be manageable at ground level but materially different from a carbon folder for stairs."],
+["Can I charge an e-bike in my apartment?","Follow building and local rules plus the manufacturer's safety instructions; use only the approved charger and never charge while sleeping or unattended."],
+["Can I take a folding e-bike on a train?","Policies vary by transport operator and battery size. Check the specific operator's rules before buying for multimodal transport."],
+["Do I need to remove the battery when folding?","Follow the exact owner's manual. Battery removal may reduce lift weight but does not necessarily change all folded dimensions or make every carry safe."],
+["Which model is best for someone who struggles to step over a frame?","The Urtopia Fold Step-Thru is designed for lower mounting height. Confirm rider fit, handlebar position and weight before deciding."],
+["Which is best for a daily commute?","Choose based on route distance, storage access, assist behavior and fit. Fold 1 prioritizes lighter carrying, Step-Thru accessibility, Fold 2 optional range, and POP utility." ]];
+export default {
+ manifest:makeManifest({title:"Best E-Bikes for Apartments & RVs (2026): Folding, Weight & Storage Guide",
+ handle:"best-ebikes-apartments-rvs-2026",blog:"e-bike-buying-guides",
+ titleTag:"Best E-Bikes for Apartments & RVs in 2026",
+ description:"Compare folding e-bikes for apartments and RVs by real bike weight, folded dimensions, battery, lift effort and fit. See Urtopia and Mooncool picks.",
+ excerpt:"A buying guide for people who have real storage, staircase and RV space constraints—not just a preference for a smaller bike.",
+ tags:["2026","Folding E-Bikes","RV E-Bikes","Apartment E-Bikes","Portable E-Bikes","Urtopia","Mooncool"],
+ links:[C.folding,C.foldingAll,P.fold1,P.foldst,P.fold2,P.pop,B.urtopia,B.versus,B.battery],
+ graph:{parent:[B.urtopia],siblings:[B.versus],supporting:[B.battery]},
+ destinations:[C.folding,C.foldingAll],incoming:[B.urtopia,B.versus],minimumWords:1200}),
+ product_handles:[F1,FS,F2,POP],featured_handle:F1,featured_alt:"Urtopia Carbon Fold 1 folding e-bike for apartments and RV trips",
+ image_plan:[[F1,0,"Urtopia Carbon Fold 1 folding electric bicycle","Urtopia's lightweight carbon folding e-bike."],[F2,0,"Urtopia Carbon Fold 2 folding e-bike","Fold 2 offers an optional external battery."],[F1,1,"Urtopia Carbon Fold 1 alternate manufacturer product image","Carbon Fold 1 space-saving frame."],[FS,0,"Urtopia Carbon Fold Step-Thru folding e-bike","Lower step-through access for compact storage."],[POP,0,"Mooncool POP folding e-bike","Mooncool POP is a heavier, utility-focused folding bike."]],
+ body:render({intro:"The best e-bike for an apartment, small condo, RV or car trunk is not simply the smallest-looking bicycle. You need a model that clears a real doorway, folds to fit the usable compartment, can be lifted comfortably and still suits your daily ride. This guide compares actual published weights, folding dimensions and battery configurations across WattWheelz models. It distinguishes compact non-folding bikes from true folders so the buying advice matches the equipment.",
+ sections,faqs,sources:[
+ ["https://newurtopia.com/products/urtopia-carbon-fold","Urtopia Fold 1 specifications and folded dimensions"],
+ ["https://newurtopia.com/products/urtopia-carbon-fold-step-thru-ebike","Urtopia Fold Step-Thru specifications"],
+ ["https://newurtopia.com/products/urtopia-carbon-fold-2-ebike","Urtopia Fold 2 battery and folded-size specifications"],
+ [P.pop,"Mooncool POP product specifications at WattWheelz"],
+ [B.battery,"WattWheelz battery charging and care guide"]
+ ]})
+};

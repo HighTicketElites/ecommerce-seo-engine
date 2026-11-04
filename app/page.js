@@ -1,10 +1,6 @@
 const envStatus={SHOPIFY_SHOP:Boolean(process.env.SHOPIFY_SHOP),SHOPIFY_CLIENT_ID:Boolean(process.env.SHOPIFY_CLIENT_ID),SHOPIFY_CLIENT_SECRET:Boolean(process.env.SHOPIFY_CLIENT_SECRET)};
 
-const stage03Jobs=[
- {id:'best-fat-tire-ebikes-2026',title:'Best Fat Tire E-Bikes of 2026'},
- {id:'awd-vs-mid-drive-ebikes',title:'AWD vs Mid-Drive E-Bikes: Which Is Better for Hills, Snow & Trails?'},
- {id:'best-ebikes-for-heavy-riders-2026',title:'Best E-Bikes for Heavy Riders in 2026'},
-];
+const stage03Jobs=[]; // The November 4 jobs enter Stage 03 only after verified Shopify draft creation and QA.
 
 const approvalBase='https://wattwheelz-shopify-content-ops.vercel.app/';
 
@@ -13,19 +9,22 @@ export default function Home(){
  return <main style={{fontFamily:'system-ui',maxWidth:900,margin:'50px auto',padding:24,lineHeight:1.55}}>
   <h1>WattWheelz SEO Draft Generator v2.0</h1>
   <p><b>Controlled workflow.</b> Stage 02 creates and QA-checks unpublished Shopify drafts. Stage 03 handles final human approval, publication, live QA, and locking.</p>
-  <p><strong>Current job:</strong> October 12 category + rider-intent batch.</p>
+  <p><strong>Current job:</strong> November 4 dirt-bike + folding collection buying guide batch.</p>
   <ol>
-   <li>Best Fat Tire E-Bikes of 2026</li>
-   <li>AWD vs Mid-Drive E-Bikes: Which Is Better for Hills, Snow & Trails?</li>
-   <li>Best E-Bikes for Heavy Riders in 2026</li>
+   <li>HappyRun G300 Pro vs Freego X2 Pro vs 79Bike Falcon Pro</li>
+   <li>Best E-Bikes for Apartments &amp; RVs 2026</li>
+   <li>Urtopia Carbon Fold 1 vs Step-Thru vs Fold 2</li>
+   <li>Will a Folding E-Bike Fit in Your RV, Car or Apartment?</li>
   </ol>
+  <p><a href="/pmax-review" style={{display:'inline-block',padding:'11px 16px',border:'1px solid #aab9c8',borderRadius:8,color:'#153654',fontWeight:700,textDecoration:'none'}}>Review all 4 article source drafts</a></p>
   <p><strong>Stage 02 QA:</strong> roadmap + content graph assignment, word depth, headings, FAQ depth, imagery, SEO metadata, commercial links, blog-to-blog relationships, and live internal-link checks.</p>
   <pre>{JSON.stringify(envStatus,null,2)}</pre>
-  {ready?<p><a href="/api/shopify/install" style={{display:'inline-block',padding:'14px 20px',background:'#111827',color:'#fff',textDecoration:'none',borderRadius:8,fontWeight:700}}>Authorize & Create / Update 3 WattWheelz Drafts</a></p>:<p><strong>NOT READY</strong></p>}
+  {ready?<p><a href="/api/shopify/install" style={{display:'inline-block',padding:'14px 20px',background:'#111827',color:'#fff',textDecoration:'none',borderRadius:8,fontWeight:700}}>Authorize & Create / Update 4 WattWheelz Drafts</a></p>:<p><strong>NOT READY</strong></p>}
 
   <section style={{marginTop:30,padding:22,border:'2px solid #111827',borderRadius:12,background:'#f8fafc'}}>
     <h2 style={{marginTop:0}}>Stage 03 — Approval & Publishing Control</h2>
     <p><strong>Nothing publishes from Stage 02.</strong> Once a draft passes QA, open it below. Stage 03 checks the live Shopify article state, active products, links, metadata, editorial cover, and exact content fingerprint before it will show the final Publish button.</p>
+    <p style={{background:'#eff6fc',borderRadius:8,padding:12}}>The November 4 articles must first be created in Shopify and pass Draft QA. The Stage 03 publishing list is deliberately empty until that handoff is verified; nothing is published automatically.</p>
     <div style={{display:'grid',gap:10,margin:'16px 0'}}>
       {stage03Jobs.map(job=><a key={job.id} href={approvalBase+`?job=${encodeURIComponent(job.id)}`} style={{display:'block',padding:'12px 14px',border:'1px solid #cbd5e1',borderRadius:8,background:'#fff',color:'#0f172a',textDecoration:'none',fontWeight:700}}>
         Review in Stage 03 → {job.title}
