@@ -1,0 +1,102 @@
+{
+  "id": "rattan-lm-ultra-vs-mooncool-pop-folding-ebike",
+  "title": "Rattan LM Ultra vs Mooncool POP: Which Folding E-Bike Is Better for You?",
+  "handle": "rattan-lm-ultra-vs-mooncool-pop-folding-ebike",
+  "blog_title": "E-Bike Reviews & Comparisons",
+  "blog_handle": "e-bike-reviews-comparisons",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "approval_status": "stage02_draft_qa_and_cover_qa_passed",
+  "seo_title": "Rattan LM Ultra vs Mooncool POP: Weight & Range",
+  "meta_description": "Compare Rattan LM Ultra vs Mooncool POP folding e-bikes by battery energy, full-bike weight, folded dimensions, speed, load capacity and RV storage fit.",
+  "excerpt": "A specification-first comparison of two utility folding e-bikes with very different battery capacity and loaded weight.",
+  "tags": [
+    "2026",
+    "Rattan LM Ultra",
+    "Mooncool POP",
+    "Folding E-Bike Comparison",
+    "RV E-Bikes"
+  ],
+  "product_handles": [
+    "rattan-lm-ultra",
+    "mooncool-pop-folding-electric-bike",
+    "urtopia-carbon-fold-step-thru-ebike"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/products/rattan-lm-ultra",
+    "https://wattwheelz.com/products/mooncool-pop-folding-electric-bike",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://wattwheelz.com/collections/folding-e-bike-shortlist-for-apartments-rvs",
+    "https://wattwheelz.com/collections/folding-e-bikes",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-apartments-rvs-2026",
+    "https://wattwheelz.com/blogs/e-bike-rider-guides/will-a-folding-ebike-fit-rv-car-apartment",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/mooncool-pop-folding-electric-bike-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026"
+  ],
+  "source_urls": [
+    "https://rattanebike.com/pages/lf-ultra-technical-specifications",
+    "https://www.mooncool.com/pages/pop-specification",
+    "https://wattwheelz.com/products/rattan-lm-ultra",
+    "https://wattwheelz.com/products/mooncool-pop-folding-electric-bike",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://wattwheelz.com/blogs/e-bike-rider-guides/will-a-folding-ebike-fit-rv-car-apartment",
+    "https://wattwheelz.com/blogs/e-bike-tech-ownership/e-bike-battery-care-guide-2026",
+    "https://wattwheelz.com/collections/folding-e-bike-shortlist-for-apartments-rvs",
+    "https://wattwheelz.com/collections/folding-e-bikes",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-apartments-rvs-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/mooncool-pop-folding-electric-bike-review-2026"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "product_handle": "rattan-lm-ultra",
+      "media_index": 0,
+      "alt": "Rattan LM Ultra folding electric bike authentic catalog photo",
+      "caption": "Rattan LM Ultra long-range utility folding bike."
+    },
+    {
+      "id": "slot-2",
+      "product_handle": "rattan-lm-ultra",
+      "media_index": 1,
+      "alt": "Rattan LM Ultra alternative product image",
+      "caption": "Rattan LM Ultra folding frame details."
+    },
+    {
+      "id": "slot-3",
+      "product_handle": "mooncool-pop-folding-electric-bike",
+      "media_index": 0,
+      "alt": "Mooncool POP folding electric bike official photo",
+      "caption": "Mooncool POP comfort-oriented folding e-bike."
+    },
+    {
+      "id": "slot-4",
+      "product_handle": "urtopia-carbon-fold-step-thru-ebike",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold Step-Thru product photo",
+      "caption": "Lightweight carbon folding alternative."
+    }
+  ],
+  "cover_image": {
+    "url": "",
+    "alt": "Rattan LM Ultra high-capacity folding electric bike compared with Mooncool POP",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_current_article_cover",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1400,
+    "minimum_h2": 12,
+    "minimum_faq": 9,
+    "minimum_images": 4
+  },
+  "batch": "nov-04-pmax-phase2-buyer-education",
+  "stage02_verification": {
+    "created_at": "2026-11-04T17:28:17.649Z",
+    "draft_qa": true,
+    "failed_qa": [],
+    "bad_links": [],
+    "cover_verified_at": "2026-11-04T17:28:30.234Z",
+    "cover_aspect_pass": true
+  },
+  "handoff": "Exact Shopify draft must be fetched and passed through Stage03 OAuth final prepublish QA, fingerprint, active product, links, and editorial cover image checks. Final human approval mandatory. Do not publish from Draft Generator."
+}
