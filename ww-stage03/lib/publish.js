@@ -64,7 +64,24 @@ export async function prepareApproval(auth,jobId,deps={}) {
   if (manifest.article_id && article.id !== manifest.article_id) throw new Error('Draft identity does not match the review job');
   if (manifest.draft_fingerprint && articleFingerprint(article) !== manifest.draft_fingerprint) throw new Error('Draft changed since its review package was prepared; refresh the review package first');
   const preflight=await qa({article,manifest,fetchImpl:deps.fetchImpl || fetch});
-  if (!preflight.pass) throw new Error(`Draft preflight failed: ${JSON.stringify(preflight.checks)}`);
+  if (!preflight.pass) {
+    const failed=Object.entries(preflight.checks).filter(([,ok])=>ok===false).map(([key])=>key);
+    // Keep all QA gates intact, but expose just the actionable failures in the UI.
+    // Do not include auth credentials, access tokens, or customer data.
+    const error=new Error(`Draft preflight failed: ${failed.join(', ')||'unidentified QA failure'}`);
+    error.code='DRAFT_PREFLIGHT_FAILED';
+    error.preflight={checks:preflight.checks,metrics:preflight.metrics,
+      required:preflight.required,links:preflight.links,cover:preflight.cover};
+    error.article={id:article.id,title:article.title,handle:article.handle,image:article.image};
+    error.jobId=jobId;
+    console.warn('WW_STAGE03_PREFLIGHT_BLOCK',JSON.stringify({
+      handle:article.handle,failed,coverDimensions:{
+        width:article.image?.width||0,height:article.image?.height||0
+      },brokenLinks:(preflight.links||[]).filter(x=>!x.ok).map(x=>({url:x.url,status:x.status})),
+      articlePublished:article.isPublished===true
+    }));
+    throw error;
+  }
   const now=Date.now();
   const approval={
     purpose:'publish_exact_article',
