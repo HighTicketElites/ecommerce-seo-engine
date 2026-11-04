@@ -1,0 +1,127 @@
+{
+  "id": "best-folding-ebikes-2026",
+  "title": "Best Folding E-Bikes in 2026: Five Picks for Weight, Range & Storage",
+  "handle": "best-folding-ebikes-2026",
+  "blog_title": "E-Bike Buying Guides",
+  "blog_handle": "e-bike-buying-guides",
+  "draft_readiness": "approved",
+  "publish_readiness": "pilot_approved",
+  "approval_status": "stage02_draft_qa_and_cover_qa_passed",
+  "seo_title": "Best Folding E-Bikes 2026: Weight & Range Picks",
+  "meta_description": "Compare five folding e-bikes for 2026 by complete weight, battery capacity, folded size and rider fit. Urtopia, Mooncool and Rattan buying guide.",
+  "excerpt": "A specification-based five-model folding e-bike guide for riders comparing carry weight, stored size, battery and daily use.",
+  "tags": [
+    "2026",
+    "Best Folding E-Bikes",
+    "Urtopia",
+    "Mooncool",
+    "Rattan",
+    "Apartment Storage",
+    "RV Travel"
+  ],
+  "product_handles": [
+    "carbon-fold",
+    "urtopia-carbon-fold-step-thru-ebike",
+    "urtopia-carbon-fold-2-e-bike",
+    "mooncool-pop-folding-electric-bike",
+    "rattan-lm-ultra"
+  ],
+  "required_internal_links": [
+    "https://wattwheelz.com/collections/folding-e-bike-shortlist-for-apartments-rvs",
+    "https://wattwheelz.com/collections/folding-e-bikes",
+    "https://wattwheelz.com/products/carbon-fold",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-2-e-bike",
+    "https://wattwheelz.com/products/mooncool-pop-folding-electric-bike",
+    "https://wattwheelz.com/products/rattan-lm-ultra",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-apartments-rvs-2026",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-fold-1-vs-step-thru-vs-fold-2",
+    "https://wattwheelz.com/blogs/e-bike-rider-guides/will-a-folding-ebike-fit-rv-car-apartment",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/mooncool-pop-folding-electric-bike-review-2026"
+  ],
+  "source_urls": [
+    "https://newurtopia.com/products/urtopia-carbon-fold",
+    "https://newurtopia.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://newurtopia.com/products/urtopia-carbon-fold-2-ebike",
+    "https://www.mooncool.com/pages/pop-specification",
+    "https://wattwheelz.com/products/carbon-fold",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-step-thru-ebike",
+    "https://wattwheelz.com/products/urtopia-carbon-fold-2-e-bike",
+    "https://wattwheelz.com/products/mooncool-pop-folding-electric-bike",
+    "https://wattwheelz.com/products/rattan-lm-ultra",
+    "https://wattwheelz.com/collections/folding-e-bikes",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-1-pro-vs-carbon-fold-step-thru",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/mooncool-pop-folding-electric-bike-review-2026",
+    "https://wattwheelz.com/blogs/e-bike-rider-guides/will-a-folding-ebike-fit-rv-car-apartment",
+    "https://wattwheelz.com/blogs/e-bike-reviews-comparisons/urtopia-carbon-fold-1-vs-step-thru-vs-fold-2",
+    "https://wattwheelz.com/blogs/e-bike-buying-guides/best-ebikes-apartments-rvs-2026",
+    "https://wattwheelz.com/collections/folding-e-bike-shortlist-for-apartments-rvs"
+  ],
+  "image_slots": [
+    {
+      "id": "slot-1",
+      "product_handle": "carbon-fold",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold 1 folding electric bike authentic product photograph",
+      "caption": "Compact lightweight Urtopia carbon folding frame."
+    },
+    {
+      "id": "slot-2",
+      "product_handle": "carbon-fold",
+      "media_index": 1,
+      "alt": "Urtopia Carbon Fold 1 alternate product photo",
+      "caption": "Fold 1 frame and storage details."
+    },
+    {
+      "id": "slot-3",
+      "product_handle": "urtopia-carbon-fold-step-thru-ebike",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold Step-Thru folding electric bicycle",
+      "caption": "Step-through frame with compact folding design."
+    },
+    {
+      "id": "slot-4",
+      "product_handle": "urtopia-carbon-fold-2-e-bike",
+      "media_index": 0,
+      "alt": "Urtopia Carbon Fold 2 electric folding bike",
+      "caption": "Fold 2 optional battery-compatible platform."
+    },
+    {
+      "id": "slot-5",
+      "product_handle": "mooncool-pop-folding-electric-bike",
+      "media_index": 0,
+      "alt": "Mooncool POP folding electric bike",
+      "caption": "Mooncool POP folding utility-oriented e-bike."
+    },
+    {
+      "id": "slot-6",
+      "product_handle": "rattan-lm-ultra",
+      "media_index": 0,
+      "alt": "Rattan LM Ultra folding electric bike",
+      "caption": "Rattan LM Ultra large-battery folding e-bike."
+    }
+  ],
+  "cover_image": {
+    "url": "",
+    "alt": "Urtopia carbon folding e-bike model featured in 2026 folding-bike buyer guide",
+    "asset_kind": "editorial_cover",
+    "provenance": "shopify_current_article_cover",
+    "aspect_ratio": "16:9"
+  },
+  "qa": {
+    "minimum_words": 1450,
+    "minimum_h2": 12,
+    "minimum_faq": 9,
+    "minimum_images": 4
+  },
+  "batch": "nov-04-pmax-phase2-buyer-education",
+  "stage02_verification": {
+    "created_at": "2026-11-04T17:28:17.649Z",
+    "draft_qa": true,
+    "failed_qa": [],
+    "bad_links": [],
+    "cover_verified_at": "2026-11-04T17:28:30.234Z",
+    "cover_aspect_pass": true
+  },
+  "handoff": "Exact Shopify draft must be fetched and passed through Stage03 OAuth final prepublish QA, fingerprint, active product, links, and editorial cover image checks. Final human approval mandatory. Do not publish from Draft Generator."
+}
