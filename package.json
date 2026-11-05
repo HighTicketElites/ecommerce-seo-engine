@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "npm run test:cover-uniqueness && next build",
+    "start": "next start",
+    "test:cover-uniqueness": "node scripts/test-cover-uniqueness.mjs"
   },
   "dependencies": {
     "next": "15.5.21",
