@@ -4,6 +4,7 @@ import { loadManifest } from './manifest.js';
 import { evaluateDraft, evaluatePublished } from './qa.js';
 import { gql } from './shopify.js';
 import { randomToken } from './security.js';
+import { assertUniqueArticleCover } from './cover-uniqueness.js';
 
 export const PRODUCT_QUERY = `query ProductForPublication($handle: String!) { productByHandle(handle: $handle) { id handle title status } }`;
 export const ARTICLE_QUERY = `query ArticleForPublication($q: String!) { articles(first: 20, query: $q) { nodes { id title handle body summary tags isPublished publishedAt blog { id title handle } image { url altText width height } titleTag: metafield(namespace:"global", key:"title_tag") { id value } descriptionTag: metafield(namespace:"global", key:"description_tag") { id value } } } }`;
@@ -11,7 +12,7 @@ export const PUBLISH_ARTICLE = `mutation PublishArticle($id: ID!, $article: Arti
 
 function requiredScopes(scope) {
   const set = new Set(String(scope || '').split(',').map(value=>value.trim()).filter(Boolean));
-  for (const required of ['write_content','read_products']) if (!set.has(required)) throw new Error(`Token missing ${required}`);
+  for (const required of ['write_content','read_products','read_content']) if (!set.has(required)) throw new Error(`Token missing ${required}`);
 }
 
 function exactArticle(data, handle) {
@@ -82,6 +83,7 @@ export async function prepareApproval(auth,jobId,deps={}) {
     }));
     throw error;
   }
+  await (deps.assertUniqueArticleCover || assertUniqueArticleCover)(auth,article,query,env);
   const now=Date.now();
   const approval={
     purpose:'publish_exact_article',
@@ -122,6 +124,7 @@ export async function executePublication(auth,approval,deps={}) {
   if (currentFingerprint !== approval.fingerprint) throw new Error('Article changed after approval; a new approval is required');
   const preflight=await preflightQa({article,manifest,fetchImpl:deps.fetchImpl || fetch});
   if (!preflight.pass) throw new Error(`Final prepublish QA failed: ${JSON.stringify(preflight.checks)}`);
+  await (deps.assertUniqueArticleCover || assertUniqueArticleCover)(auth,article,query,env);
 
   let publicationApplied=false;
   try {
