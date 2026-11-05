@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "npm run validate && next build",
     "start": "next start",
-    "validate": "node scripts/validate-package.mjs && node scripts/validate-manifests.mjs"
+    "validate": "node scripts/validate-package.mjs && node scripts/validate-manifests.mjs && npm run test:cover-uniqueness",
+    "test:cover-uniqueness": "node scripts/test-cover-uniqueness.mjs"
   },
   "dependencies": {
     "next": "15.5.21",
