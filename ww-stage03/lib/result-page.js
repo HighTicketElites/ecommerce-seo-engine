@@ -127,8 +127,9 @@ export function renderPublicationResult(result, shop) {
   return documentShell({title: heading, tone: success ? 'success' : 'warning', body});
 }
 
-export function renderPublicationErrorPage(error) {
+export function renderPublicationErrorPage(error, {publicationAttempted} = {}) {
   const isPreflight=error?.code==='DRAFT_PREFLIGHT_FAILED';
+  const authorizationOnly=publicationAttempted===false && !isPreflight;
   const checks=isPreflight ? (error.preflight?.checks||{}) : {};
   const failed=Object.entries(checks).filter(([,ok])=>ok===false).map(([name])=>name);
   const coverIssue=failed.some(name=>name.startsWith('editorial_cover'));
@@ -161,7 +162,7 @@ export function renderPublicationErrorPage(error) {
     '<div class="panel" style="margin-top:18px"><strong>Broken on-site links</strong>'+
     badLinks.map(item=>'<p style="overflow-wrap:anywhere;font-size:13px;margin-top:8px">'+escapeHtml(item.url)+' (HTTP '+escapeHtml(item.status||0)+')</p>').join('')+
     '</div>':'';
-  const title=isPreflight?'The draft did not pass the final publishing checks':'The publishing operation was not completed';
+  const title=isPreflight?'The draft did not pass the final publishing checks':authorizationOnly?'Shopify authorization was not completed':'The publishing operation was not completed';
   const message=isPreflight?
     'Nothing was published. Fix the checks shown below before submitting the article again.':
     (error?.message||'An unexpected publishing error occurred.');
@@ -174,8 +175,8 @@ export function renderPublicationErrorPage(error) {
     (isPreflight?
       '<div class="panel"><span class="key">Article</span><strong>'+escapeHtml(error?.article?.title||error?.jobId||'WattWheelz draft')+'</strong></div>'+
       '<h2 style="margin-top:24px">Failed checks ('+failed.length+')</h2><div class="checks">'+failuresHtml+'</div>'+coverHtml+badLinksHtml:
-      '<div class="notice">Publication was refused or the article was returned to draft. Confirm its current Shopify state before retrying.</div>')+
-    '<div class="notice">'+(isPreflight?'Stage 03 remains fail-closed; a draft repair cannot publish an article.':'Confirm current Shopify status before retrying.')+'</div>'+
+      '<div class="notice">'+(authorizationOnly?'No publish or rollback request was made by this authorization attempt. This page does not confirm the article’s current Shopify state.':'Publication was refused or the article was returned to draft. Confirm its current Shopify state before retrying.')+'</div>')+
+    '<div class="notice">'+(isPreflight?'Stage 03 remains fail-closed; a draft repair cannot publish an article.':authorizationOnly?'Return to publishing control. Authorize again to check the exact current Shopify article before any publishing approval.':'Confirm current Shopify status before retrying.')+'</div>'+
     '<div class="actions">'+repairButton+'<a class="button primary" href="/">Return to publishing control</a></div></div></section>';
   return documentShell({title:'Publishing stopped',tone:'error',body});
 }
@@ -211,3 +212,4 @@ export function renderApprovalPage(result) {
   </section>`;
   return documentShell({title:'Final publishing approval',tone:'warning',body});
 }
+
