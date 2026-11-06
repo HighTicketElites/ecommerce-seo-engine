@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "npm run validate && next build",
     "start": "next start",
-    "validate": "node scripts/validate-package.mjs && node scripts/validate-manifests.mjs && npm run test:cover-uniqueness",
+    "validate": "node scripts/validate-package.mjs && node scripts/validate-manifests.mjs && npm run test:cover-uniqueness && npm run test:oauth-origin",
+    "test:oauth-origin": "node --experimental-test-module-mocks --test scripts/test-oauth-origin.mjs",
     "test:cover-uniqueness": "node scripts/test-cover-uniqueness.mjs"
   },
   "dependencies": {
@@ -16,3 +17,4 @@
     "react-dom": "19.1.0"
   }
 }
+

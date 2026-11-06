@@ -15,12 +15,21 @@ export async function POST(request) {
     const manifest=loadManifest(job);
     if(manifest.publish_readiness!=='pilot_approved') throw new Error(`${job} is locked for publication`);
 
+    // OAuth context cookies are host-only. Never start on a deployment alias
+    // when Shopify's registered callback will return to the canonical host.
+    const canonicalOrigin=appUrl();
+    if(new URL(request.url).origin!==canonicalOrigin) {
+      const reviewUrl=new URL('/',canonicalOrigin);
+      reviewUrl.searchParams.set('job',job);
+      return NextResponse.redirect(reviewUrl,{status:303});
+    }
+
     const shop=normalizedShop();
     const clientId=process.env.SHOPIFY_CLIENT_ID;
     if(!clientId) throw new Error('SHOPIFY_CLIENT_ID missing');
 
     const state=randomToken();
-    const callback=`${appUrl()}/api/shopify/callback`;
+    const callback=`${canonicalOrigin}/api/shopify/callback`;
     const authUrl=new URL(`https://${shop}/admin/oauth/authorize`);
     authUrl.searchParams.set('client_id',clientId);
     authUrl.searchParams.set('scope',SCOPES);
@@ -37,3 +46,4 @@ export async function POST(request) {
     });
   }
 }
+

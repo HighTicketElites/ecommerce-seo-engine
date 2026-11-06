@@ -1,5 +1,5 @@
 import { listManifests, loadBody } from '../lib/manifest.js';
-import { publicConfigStatus } from '../lib/config.js';
+import { appUrl, publicConfigStatus } from '../lib/config.js';
 
 export const dynamic = 'force-dynamic';
 
@@ -31,7 +31,7 @@ export default async function Home({ searchParams }) {
     <section style={{border:'1px solid #d1d5db',borderRadius:10,padding:20}}>
       <h2>Publishing jobs</h2>
       {requestedUnavailable ? <p role="status" style={{padding:14,background:'#fffbeb'}}>This job is completed or unavailable for approval. Select a current draft below. No other article has been selected in its place.</p> : null}
-      {eligibleJobs.length ? <form method="post" action="/api/shopify/start">
+      {eligibleJobs.length ? <form method="post" action={`${appUrl()}/api/shopify/start`}>
           <label htmlFor="job"><strong>New drafts awaiting Stage 03 QA and publication approval</strong></label><br/>
           <select id="job" name="job" defaultValue={selectedJob} required style={{width:'100%',padding:10,margin:'6px 0 14px'}}>
             {!selectedJob ? <option value="" disabled>Select a current draft</option> : null}
@@ -78,3 +78,4 @@ export default async function Home({ searchParams }) {
     <p style={{fontSize:14,color:'#4b5563'}}>Stage 03 is fail-closed. Already-live articles, changed drafts, inactive products, broken links, invalid metadata, failed cover checks, and expired approvals are refused before publication.</p>
   </main>;
 }
+

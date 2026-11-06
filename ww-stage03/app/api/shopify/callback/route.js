@@ -22,7 +22,7 @@ export async function GET(request) {
     const job=cookieValue(cookies,'ww_pub_oauth_job');
     const secret=process.env.SHOPIFY_CLIENT_SECRET;
 
-    if(!code||!shop||!state||!job) throw new Error('OAuth callback is missing required publishing context');
+    if(!code||!shop||!state||!job) throw new Error('Shopify authorization context is missing or expired. Return to publishing control and authorize the selected article again in the same browser.');
     if(shop!==normalizedShop()) throw new Error(`Unexpected Shopify shop: ${shop}`);
     if(!expectedState||!safeEqual(state,expectedState)) throw new Error('OAuth state validation failed');
     if(!secret||!validShopifyHmac(url,secret)) throw new Error('OAuth HMAC validation failed');
@@ -47,7 +47,9 @@ export async function GET(request) {
       httpOnly:true,secure:true,sameSite:'strict',path:'/',maxAge:Math.floor(approvalTtlMs()/1000)
     });
   } catch(error) {
-    response=new NextResponse(renderPublicationErrorPage(error),{
+    // This callback only authenticates and reads. Publication is a separate,
+    // human-approved POST, so an OAuth error must not imply a rollback happened.
+    response=new NextResponse(renderPublicationErrorPage(error,{publicationAttempted:false}),{
       status:error?.code==='DRAFT_PREFLIGHT_FAILED'?409:500,
       headers:{'content-type':'text/html; charset=utf-8','cache-control':'no-store','x-robots-tag':'noindex'}
     });
@@ -56,3 +58,4 @@ export async function GET(request) {
   response.cookies.set('ww_pub_oauth_job','',{httpOnly:true,secure:true,sameSite:'lax',path:'/',maxAge:0});
   return response;
 }
+
